@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MindGen AI - Previous Reports</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito:wght@300;400;600&family=Righteous&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --dark-bg: #0f0f0f;
+      --darker-bg: #080808;
+      --primary: #ff6b6b;
+      --secondary: #4ecdc4;
+      --accent: #ffd166;
+      --text: #f5f5f5;
+      --text-secondary: #b0b0b0;
+      --card-bg: #1a1a1a;
+      --navbar-height: 80px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: var(--dark-bg);
+      color: var(--text);
+      overflow-x: hidden;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    h1, h2, h3, h4, h5 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+    }
+
+    .logo-text {
+      font-family: 'Righteous', cursive;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Navigation */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(15, 15, 15, 0.95);
+      backdrop-filter: blur(10px);
+      height: var(--navbar-height);
+      display: flex;
+      align-items: center;
+      z-index: 1000;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.8rem;
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .logo img {
+      height: 50px;
+      filter: drop-shadow(0 0 5px rgba(255, 107, 107, 0.5));
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav-links a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      position: relative;
+      padding: 5px 0;
+      transition: color 0.3s;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--primary);
+      transition: width 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: var(--primary);
+    }
+
+    .nav-links a:hover::after,
+    .nav-links a.active::after {
+      width: 100%;
+    }
+
+    main {
+      padding-top: calc(var(--navbar-height) + 50px);
+      min-height: 100vh;
+    }
+
+    .reports-container {
+      text-align: center;
+      padding: 50px 0;
+    }
+
+    .reports-container h1 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      color: var(--accent);
+      position: relative;
+      padding-bottom: 10px;
+    }
+
+    .reports-container h1::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 4px;
+      background: var(--secondary);
+      border-radius: 2px;
+    }
+
+    .reports-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 50px;
+    }
+
+    .report-card {
+      background: var(--card-bg);
+      border-radius: 20px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-align: left;
+    }
+
+    .report-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .report-card h3 {
+      color: var(--primary);
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    .report-date {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .report-summary {
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+      font-size: 0.95rem;
+    }
+
+    .btn {
+      background: linear-gradient(to right, var(--primary), var(--secondary));
+      color: white;
+      padding: 0.6rem 1.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: all 0.3s;
+      display: inline-block;
+      font-size: 0.9rem;
+      font-weight: 600;
+      box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+    }
+
+    .empty-state {
+      background: var(--card-bg);
+      border-radius: 20px;
+      padding: 3rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .empty-state h2 {
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    .empty-state p {
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+    }
+
+    footer {
+      background: var(--darker-bg);
+      color: var(--text);
+      text-align: center;
+      padding: 2rem 0;
+      margin-top: 3rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .paw-prints {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: -1;
+      opacity: 0.05;
+    }
+
+    .paw-print {
+      position: absolute;
+      font-size: 2rem;
+      color: var(--accent);
+      animation: pawFloat 8s ease-in-out infinite;
+    }
+
+    @keyframes pawFloat {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-20px) rotate(10deg); }
+    }
+
+    @media (max-width: 600px) {
+      .reports-container h1 {
+        font-size: 2rem;
+      }
+      
+      .report-card {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="{{ url_for('dashboard') }}" class="logo">
+        <i class="fas fa-brain"></i>
+        <span class="logo-text">MindGen AI</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+        <li><a href="{{ url_for('analyze') }}">New Analysis</a></li>
+        <li><a href="{{ url_for('previous_reports') }}" class="active">Reports</a></li>
+        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+      </ul>
+      <a href="{{ url_for('logout') }}" class="cta-button">Logout</a>
+    </div>
+  </nav>
+  
+  <div class="paw-prints">
+    <!-- Paw prints will be added with JavaScript -->
+  </div>
+  
+  <main>
+    <div class="container reports-container">
+      <h1>Your Previous Reports</h1>
+      
+      {% if reports|length > 0 %}
+        <div class="reports-list">
+          {% for report in reports %}
+          <div class="report-card">
+            <div style="width: 60px; height: 60px; background: linear-gradient(to right, var(--primary), var(--secondary)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; color: white; font-size: 1.5rem;">
+              <i class="fas fa-file-medical-alt"></i>
+            </div>
+            <h3>Mental Health Analysis</h3>
+            <div class="report-date">
+              {{ report.timestamp.strftime('%B %d, %Y at %I:%M %p') }}
+            </div>
+            <div class="report-summary">
+              <p><strong>Depression:</strong> {{ report.Depression }}</p>
+              <p><strong>Bipolar Disorder:</strong> {{ report.BipolarDisorder }}</p>
+              <p><strong>Anxiety:</strong> {{ report.Anxiety }}</p>
+            </div>
+            <a href="{{ url_for('view_report', report_id=report._id) }}" class="btn">
+              View Full Report
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        <div class="empty-state">
+          <div style="width: 100px; height: 100px; background: linear-gradient(to right, var(--primary), var(--secondary)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; color: white; font-size: 2.5rem;">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <h2>No Reports Available</h2>
+          <p>You haven't completed any mental health analyses yet.</p>
+          <a href="{{ url_for('analyze') }}" class="btn">Start New Analysis</a>
+        </div>
+      {% endif %}
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 MindGen AI. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const pawPrints = document.querySelector('.paw-prints');
+      const pawIcons = ['🐾', '🐾', '🐾', '🐾', '🐾', '🐾', '🐾', '🐾', '🐾', '🐾'];
+      
+      pawIcons.forEach((icon, index) => {
+        const paw = document.createElement('div');
+        paw.classList.add('paw-print');
+        paw.innerHTML = icon;
+        paw.style.left = `${Math.random() * 100}%`;
+        paw.style.top = `${Math.random() * 100}%`;
+        paw.style.animationDelay = `${index * 0.5}s`;
+        paw.style.fontSize = `${Math.random() * 2 + 1}rem`;
+        paw.style.opacity = Math.random() * 0.5 + 0.2;
+        pawPrints.appendChild(paw);
+      });
+    });
+  </script>
+</body>
+</html>

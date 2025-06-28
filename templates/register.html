@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MindGen AI - Register</title>
+  <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --background-color: rgba(255, 255, 255, 0.9);
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+            background: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+            background-size: cover;
+        }
+    #video-background {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1000;
+      background-size: cover;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(44, 62, 80, 0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .register-container {
+      background: var(--background-color);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+      animation: slideIn 0.8s ease-out;
+      position: relative;
+      overflow: hidden;
+      font-size: 14px;
+    }
+    @keyframes slideIn {
+      from { transform: translateY(-50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    .brand {
+      font-size: 24px;
+      margin-bottom: 15px;
+      font-weight: bold;
+      color: var(--text-color);
+    }
+    h2 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      color: var(--text-color);
+    }
+    h2::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50px;
+      height: 3px;
+      background-color: var(--primary-color);
+      transition: width 0.3s ease;
+    }
+    .register-container:hover h2::after {
+      width: 100px;
+    }
+    .input-group {
+      margin-bottom: 15px;
+      text-align: left;
+    }
+    label, input, select, button, .message {
+      font-size: 12px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--text-color);
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      border: 2px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+      transition: all 0.3s ease;
+      box-sizing: border-box;
+    }
+    input:focus, select:focus {
+      border-color: var(--primary-color);
+      box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+      outline: none;
+    }
+    button, input[type="button"] {
+      width: 100%;
+      padding: 10px;
+      background-color: var(--primary-color);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 10px;
+    }
+    button:hover, input[type="button"]:hover {
+      background-color: #2980b9;
+    }
+    a {
+      display: block;
+      margin: 15px 0;
+      color: var(--primary-color);
+      text-decoration: none;
+      font-size: 12px;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: var(--accent-color);
+    }
+    .message {
+      font-size: 12px;
+      color: var(--text-color);
+      margin-bottom: 15px;
+      background-color: rgba(233, 236, 239, 0.7);
+      padding: 10px;
+      border-radius: 4px;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+  <video autoplay muted loop id="video-background">
+    <source src="videos/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="overlay">
+  <div class="register-container">
+    <div class="brand">MindGen AI</div>
+    <h2>Register</h2>
+    <div class="message">
+      Welcome to MindGen AI! Please complete the form below to create your account. All fields are required.
+    </div>
+<form method="POST" action="{{ url_for('register') }}">
+    <div class="input-group">
+        <input type="text" id="name" name="name" placeholder="Full Name" required>
+    </div>
+    <div class="input-group">
+        <input type="text" id="username" name="username" placeholder="Username" required>
+    </div>
+    <div class="input-group">
+        <label for="security_question">Security Question:</label>
+        <select id="security_question" name="security_question" required>
+          <option value="What city were you born in?">In what city were you born?</option>
+          <option value="What was your first pet's name?">What was your first pet's name?</option>
+          <option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
+        </select>
+    </div>
+    <div class="input-group">
+        <input type="text" id="security_answer" name="security_answer" placeholder="Security Answer" required>
+    </div>
+    <div class="input-group">
+        <input type="password" id="password" name="password" placeholder="Password" required>
+    </div>
+    <div class="input-group">
+        <input type="password" id="confirmPassword" name="confirm_password" placeholder="Confirm Password" required>
+    </div>
+    <input type="button" value="Generate Password" onClick="generatePass()">
+    <button type="submit">Register</button>
+</form>
+    <a href="{{ url_for('login') }}">Go to Login</a>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script>
+    function generatePass() {
+        const capitalLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        const smallLetters = "abcdefghijklmnopqrstuvwxyz";
+        const numbers = "0123456789";
+        const symbols = "!@#$%&";
+        let password = "";
+        for (let i = 0; i < 2; i++) {
+            password += capitalLetters[Math.floor(Math.random() * capitalLetters.length)];
+            password += smallLetters[Math.floor(Math.random() * smallLetters.length)];
+            password += numbers[Math.floor(Math.random() * numbers.length)];
+            password += symbols[Math.floor(Math.random() * symbols.length)];
+        }
+        password = password.split('').sort(() => Math.random() - 0.5).join('');
+        document.getElementById("password").value = password;
+        document.getElementById("confirmPassword").value = password;
+        alert("Generated Password is " + password);
+    }
+  </script>
+</body>
+</html>

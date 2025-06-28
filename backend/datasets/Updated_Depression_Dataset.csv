@@ -1,0 +1,1001 @@
+Age,SleepDuration,Genotype_5HTTLPR,Genotype_COMT,Genotype_MAOA,Cortisol,BDNF_Level,CRP,Vitamin_D,Tryptophan,Omega3_Index,MTHFR_Genotype,Neuroinflammation_Score,Monoamine_Oxidase_Level,Serotonin_Level,HPA_Axis_Dysregulation,DepressionScore_PHQ9,DepressionDiagnosis
+23,6.9,Short/Short,Val/Val,Low Activity,9.6,13.04,1.87,-0.3,56.8,3.19,TT,0.1,2.73,117.4,0.3,4,Persistent Depressive Disorder
+39,6.0,Long/Long,Met/Met,Low Activity,10.3,14.13,1.17,19.9,32.9,5.65,CC,0.79,2.8,106.4,0.01,20,False
+28,6.3,Short/Short,Val/Val,High Activity,16.1,10.84,2.91,30.9,59.9,5.09,CT,0.53,2.19,133.0,0.83,0,Persistent Depressive Disorder
+65,8.7,Long/Long,Val/Val,Low Activity,9.0,14.45,1.71,29.8,32.1,7.71,CT,0.29,1.64,123.1,0.09,16,Atypical Depression
+33,4.8,Short/Short,Val/Val,Low Activity,10.9,9.53,2.35,22.6,51.7,2.56,TT,0.66,2.49,188.9,0.63,23,False
+50,6.9,Long/Long,Val/Val,Low Activity,9.7,18.78,2.84,16.2,40.4,9.78,CT,0.64,2.49,105.5,0.5,20,False
+26,6.5,Short/Short,Val/Met,High Activity,24.0,19.74,2.23,23.4,53.5,2.11,CT,0.21,2.02,117.7,0.53,7,False
+23,7.1,Short/Short,Met/Met,High Activity,23.9,11.48,4.93,18.1,40.5,6.81,CT,0.03,2.96,154.9,0.93,9,False
+33,4.1,Long/Long,Met/Met,Low Activity,17.2,11.2,5.83,16.4,69.4,6.5,TT,0.43,2.47,148.1,0.03,17,False
+46,8.4,Short/Short,Met/Met,High Activity,23.5,15.89,4.73,27.4,42.4,3.08,TT,0.57,2.1,104.6,0.77,14,False
+20,8.7,Short/Short,Val/Val,High Activity,20.7,21.33,-0.54,16.3,39.7,3.21,TT,0.88,2.79,100.7,0.05,19,False
+37,6.8,Short/Short,Val/Met,Low Activity,16.8,22.43,1.72,27.9,41.1,8.34,CC,0.93,2.81,198.8,0.04,12,Seasonal Affective Disorder
+53,7.5,Long/Long,Met/Met,Low Activity,5.1,7.99,2.64,15.9,65.9,9.1,CT,0.53,2.14,165.9,0.43,26,False
+36,8.6,Long/Long,Val/Met,High Activity,20.5,20.03,-0.69,34.4,55.4,4.26,CC,0.75,3.12,136.5,0.06,9,Major Depressive Disorder
+43,7.5,Short/Short,Val/Val,Low Activity,19.0,14.69,1.25,8.5,59.2,5.5,TT,0.44,3.62,147.0,0.79,8,False
+20,4.8,Short/Short,Met/Met,High Activity,17.3,14.79,2.62,13.3,66.7,4.84,CC,0.75,1.95,126.7,0.53,12,Atypical Depression
+36,6.9,Long/Long,Val/Met,High Activity,20.2,17.52,2.1,18.9,66.5,2.58,CT,0.2,2.41,134.5,0.03,2,Psychotic Depression
+37,7.0,Long/Long,Val/Val,Low Activity,15.3,12.6,3.02,6.1,59.6,7.39,CT,0.37,2.67,164.9,0.04,21,Psychotic Depression
+49,6.1,Short/Short,Val/Met,High Activity,19.1,20.48,0.24,2.0,37.9,8.6,TT,0.63,3.64,188.3,0.61,26,Seasonal Affective Disorder
+24,7.7,Short/Short,Met/Met,High Activity,23.7,22.12,2.08,6.2,63.7,4.44,TT,0.02,2.13,118.4,0.81,22,False
+69,8.7,Short/Short,Met/Met,Low Activity,12.5,22.31,3.3,18.0,38.2,9.92,CC,0.72,2.03,184.0,0.44,2,False
+58,8.6,Short/Long,Val/Val,Low Activity,19.2,5.78,3.02,18.1,59.7,2.61,TT,0.84,2.03,112.2,0.55,0,Seasonal Affective Disorder
+50,6.3,Long/Long,Val/Val,Low Activity,14.5,13.85,3.89,22.3,57.4,7.29,CC,0.4,3.11,121.5,0.8,1,False
+57,4.6,Short/Long,Val/Val,High Activity,18.5,5.32,3.78,18.6,60.4,5.59,CT,0.45,2.15,103.7,0.61,10,Seasonal Affective Disorder
+56,8.9,Long/Long,Val/Met,Low Activity,20.3,11.17,2.19,22.1,51.3,5.57,CT,0.85,2.07,114.1,0.22,13,Persistent Depressive Disorder
+35,8.2,Long/Long,Val/Met,Low Activity,5.9,3.01,3.24,16.8,55.5,5.66,CT,0.78,2.62,191.7,0.61,9,False
+57,4.6,Long/Long,Val/Met,Low Activity,17.9,17.25,1.4,25.0,68.1,4.07,CT,0.29,2.65,145.9,0.63,6,Psychotic Depression
+18,8.6,Long/Long,Val/Val,Low Activity,9.5,16.1,2.46,24.2,34.0,7.72,CT,0.32,3.04,107.8,0.73,22,Major Depressive Disorder
+28,8.3,Long/Long,Met/Met,High Activity,18.4,12.84,0.89,17.7,42.4,7.77,CC,0.68,2.55,196.0,0.62,0,False
+45,6.6,Long/Long,Met/Met,High Activity,14.4,11.04,5.13,23.7,54.5,4.26,CT,0.56,2.62,187.9,0.97,25,Major Depressive Disorder
+42,7.0,Long/Long,Val/Met,Low Activity,20.5,16.57,2.45,18.7,68.6,8.68,CC,0.16,2.45,175.5,0.2,6,Persistent Depressive Disorder
+67,6.0,Short/Long,Val/Met,High Activity,7.5,9.94,5.13,9.3,33.8,4.53,CT,0.31,1.85,193.3,0.95,14,False
+40,4.3,Short/Short,Met/Met,Low Activity,17.5,9.6,3.62,26.3,30.9,7.8,CC,0.9,2.4,122.0,0.54,25,Persistent Depressive Disorder
+48,5.7,Short/Short,Met/Met,Low Activity,10.6,8.99,1.23,13.7,32.2,2.97,CC,0.69,2.53,183.6,0.67,10,False
+47,8.0,Short/Long,Val/Met,High Activity,22.1,13.98,3.5,26.3,32.1,3.35,CC,0.99,2.28,169.0,0.1,5,False
+59,4.0,Short/Long,Val/Met,High Activity,23.6,12.09,4.62,22.3,66.3,4.53,TT,0.77,1.72,187.0,0.38,26,Persistent Depressive Disorder
+52,5.7,Short/Long,Met/Met,Low Activity,24.9,13.08,2.84,19.4,58.9,6.75,CC,0.94,1.93,179.7,0.77,21,False
+24,6.0,Short/Long,Val/Val,Low Activity,20.9,17.61,3.15,6.9,57.1,7.16,CC,0.22,2.48,134.6,0.71,6,Persistent Depressive Disorder
+33,6.7,Long/Long,Val/Met,High Activity,20.1,19.82,1.9,30.8,50.9,5.17,CT,0.77,2.97,177.4,0.04,6,Psychotic Depression
+43,8.6,Short/Short,Met/Met,Low Activity,9.3,22.25,3.05,17.5,61.3,2.62,CC,0.02,3.34,126.2,0.55,0,Major Depressive Disorder
+65,5.7,Long/Long,Met/Met,High Activity,11.7,15.3,3.48,24.4,36.2,4.99,CC,0.67,2.41,132.9,0.09,9,Persistent Depressive Disorder
+69,5.7,Short/Short,Met/Met,Low Activity,14.3,16.74,1.84,19.2,45.7,7.51,TT,0.47,2.14,110.8,1.0,20,False
+66,7.7,Short/Short,Met/Met,Low Activity,20.5,15.94,0.84,18.1,49.6,7.37,CT,0.35,2.31,193.5,0.9,14,Persistent Depressive Disorder
+19,6.3,Short/Long,Val/Val,High Activity,23.3,6.63,5.58,21.3,34.4,3.28,TT,0.86,1.98,129.1,0.02,7,False
+18,5.1,Long/Long,Met/Met,High Activity,8.8,13.15,4.21,20.2,46.8,2.06,TT,0.85,2.89,152.1,0.86,23,False
+65,6.3,Short/Long,Val/Met,High Activity,23.4,13.17,1.9,18.1,42.7,8.02,TT,0.02,3.57,139.1,0.92,18,False
+29,4.7,Long/Long,Val/Val,High Activity,18.9,12.45,3.44,19.6,31.4,2.85,CC,0.61,2.15,196.0,0.35,2,False
+22,4.9,Short/Short,Met/Met,High Activity,17.2,14.8,0.04,23.0,35.5,2.66,TT,0.37,1.9,133.5,0.72,22,Seasonal Affective Disorder
+54,6.5,Short/Long,Val/Val,High Activity,9.0,13.9,-0.95,23.5,60.6,2.02,TT,0.42,3.0,177.9,0.44,14,Seasonal Affective Disorder
+49,6.1,Short/Long,Val/Met,High Activity,6.1,10.07,5.17,20.3,30.7,5.46,CT,0.83,2.66,185.5,0.66,3,Seasonal Affective Disorder
+26,8.6,Short/Short,Met/Met,Low Activity,16.4,14.24,3.46,24.3,67.4,6.03,CT,0.31,2.67,143.6,0.34,5,False
+58,5.8,Short/Short,Val/Met,Low Activity,18.0,11.8,2.9,17.0,33.5,7.1,CT,0.94,3.29,137.8,0.32,24,Major Depressive Disorder
+52,6.9,Short/Short,Met/Met,Low Activity,9.2,1.9,3.47,35.6,62.0,4.37,CT,0.18,1.82,174.8,0.42,9,False
+36,7.2,Short/Long,Met/Met,High Activity,16.1,8.01,9.45,30.4,65.9,7.68,TT,0.66,1.8,191.3,0.15,17,False
+65,4.1,Long/Long,Met/Met,High Activity,22.1,15.44,4.74,25.3,67.6,3.35,CT,0.67,2.42,175.5,0.83,15,False
+33,7.3,Short/Long,Met/Met,High Activity,21.7,20.46,0.91,6.4,64.7,8.66,CC,0.25,2.53,122.7,0.35,17,False
+20,4.9,Long/Long,Met/Met,Low Activity,23.5,2.86,-0.36,24.2,41.5,6.57,TT,0.32,2.32,188.8,0.4,5,Psychotic Depression
+37,8.8,Short/Long,Val/Val,High Activity,12.3,10.65,5.11,17.6,43.3,6.67,CT,0.83,3.73,138.8,0.89,18,False
+41,4.7,Short/Long,Met/Met,High Activity,11.4,17.16,4.71,13.1,47.1,3.68,TT,0.76,2.34,157.6,0.5,16,False
+50,6.1,Short/Short,Met/Met,Low Activity,20.0,19.39,4.15,17.5,35.6,2.59,CT,0.33,2.22,183.1,0.54,17,False
+41,4.4,Long/Long,Val/Val,High Activity,13.6,12.9,1.37,13.9,30.9,5.72,TT,0.53,2.56,118.8,0.96,12,False
+69,9.0,Short/Long,Val/Val,Low Activity,6.8,11.59,3.73,23.5,64.8,6.92,CT,0.06,2.99,178.5,0.89,6,Psychotic Depression
+28,6.5,Short/Long,Val/Val,Low Activity,10.7,21.1,1.55,31.3,52.2,2.76,CC,0.21,2.14,159.6,0.17,19,Major Depressive Disorder
+66,7.0,Short/Short,Val/Val,High Activity,13.4,18.98,4.33,25.8,54.3,9.6,CT,0.49,2.43,189.3,0.47,11,False
+25,4.3,Short/Short,Val/Val,High Activity,10.9,19.29,4.97,39.3,67.1,9.84,TT,0.09,3.0,117.2,0.97,1,Atypical Depression
+53,7.7,Long/Long,Val/Val,High Activity,11.6,12.66,1.91,9.1,56.6,6.36,TT,0.84,3.03,142.1,0.37,26,Major Depressive Disorder
+55,5.0,Short/Long,Met/Met,Low Activity,10.9,20.57,5.26,16.5,57.6,9.6,CC,0.72,2.61,183.3,0.37,11,False
+57,8.5,Long/Long,Met/Met,Low Activity,5.8,5.27,3.23,13.4,61.5,3.44,TT,0.94,3.71,101.9,0.2,11,False
+37,5.0,Short/Long,Val/Met,Low Activity,17.7,20.66,3.98,28.6,34.7,2.2,CC,0.69,3.49,111.2,0.11,23,False
+52,5.0,Long/Long,Met/Met,High Activity,16.9,14.67,0.38,18.5,44.4,2.32,TT,0.94,1.8,199.1,0.74,3,Seasonal Affective Disorder
+65,4.2,Short/Short,Met/Met,High Activity,18.1,15.64,3.46,21.3,68.7,6.7,TT,0.55,1.65,128.0,0.77,3,False
+42,6.4,Short/Long,Val/Val,High Activity,8.8,10.27,1.65,24.4,66.9,2.49,CC,0.6,2.9,197.6,0.97,17,Persistent Depressive Disorder
+52,6.8,Long/Long,Val/Val,High Activity,10.9,5.93,3.95,9.8,65.4,9.67,TT,0.98,3.18,118.3,0.77,15,False
+42,4.3,Short/Short,Met/Met,Low Activity,17.4,15.54,5.93,15.7,48.1,3.14,TT,0.64,2.39,136.1,0.24,13,Seasonal Affective Disorder
+46,7.9,Short/Short,Val/Met,Low Activity,17.0,17.76,3.58,27.0,64.3,4.44,CC,0.03,2.25,175.3,0.04,16,Major Depressive Disorder
+35,6.3,Long/Long,Val/Val,Low Activity,15.1,18.51,1.2,16.2,31.9,8.58,CT,0.72,2.09,165.8,0.99,16,False
+63,6.6,Short/Long,Met/Met,Low Activity,12.0,17.97,4.25,8.0,35.9,3.75,CC,0.91,1.92,158.1,0.34,2,Atypical Depression
+35,6.2,Short/Long,Met/Met,High Activity,23.3,16.84,3.8,13.7,46.6,3.94,TT,0.8,3.07,153.0,0.31,5,Atypical Depression
+19,6.0,Short/Short,Val/Met,High Activity,11.8,10.38,7.12,18.0,49.3,7.14,CT,0.58,2.31,184.3,0.91,22,False
+52,6.8,Short/Long,Val/Met,High Activity,14.1,18.84,3.51,21.2,40.5,4.21,CT,0.67,2.65,123.5,0.59,12,Atypical Depression
+33,4.8,Short/Long,Val/Val,Low Activity,18.6,9.82,1.83,19.5,44.3,3.74,CT,0.99,1.59,144.2,0.21,8,Seasonal Affective Disorder
+58,4.9,Short/Long,Val/Met,Low Activity,15.9,20.54,4.54,15.7,36.5,4.03,CC,0.09,3.0,115.5,0.89,20,False
+53,8.3,Short/Short,Met/Met,High Activity,11.9,14.58,2.74,26.6,49.6,5.93,CT,0.67,2.79,159.6,0.99,8,False
+50,8.7,Long/Long,Met/Met,High Activity,13.7,14.75,3.16,19.1,61.8,9.73,CT,0.28,1.83,125.1,0.09,7,Major Depressive Disorder
+21,5.9,Short/Long,Val/Met,Low Activity,20.9,19.33,1.14,21.5,56.5,8.66,CT,0.64,2.63,133.4,0.86,16,Persistent Depressive Disorder
+50,5.4,Short/Short,Val/Met,High Activity,10.6,20.01,2.76,16.1,34.3,4.28,TT,0.61,2.5,147.1,0.39,15,False
+31,7.2,Short/Short,Val/Met,Low Activity,7.8,18.85,3.06,30.6,49.5,4.91,CC,0.15,2.27,102.7,0.52,15,False
+38,6.0,Long/Long,Val/Met,Low Activity,11.3,10.9,2.74,17.3,57.9,5.72,CC,0.21,1.05,109.2,0.91,26,False
+65,4.1,Short/Long,Val/Val,Low Activity,22.0,18.81,1.82,20.5,51.2,9.83,TT,0.62,2.17,168.6,0.97,18,Atypical Depression
+37,4.8,Short/Long,Val/Met,High Activity,6.8,10.93,3.58,27.2,45.7,3.38,CT,0.13,2.65,142.9,0.26,23,Psychotic Depression
+25,7.6,Long/Long,Val/Val,High Activity,24.8,18.94,1.15,22.0,54.9,4.86,TT,0.27,2.23,186.5,0.21,15,False
+24,7.3,Long/Long,Met/Met,Low Activity,15.8,7.87,0.68,21.8,68.7,7.84,TT,0.84,2.39,169.5,0.08,24,False
+20,4.1,Short/Short,Val/Met,High Activity,24.7,14.53,4.42,6.2,33.8,9.71,CT,0.33,3.25,100.8,0.56,13,False
+34,5.1,Short/Short,Val/Val,Low Activity,23.8,10.9,4.24,24.8,45.6,3.25,CT,0.49,2.46,161.7,0.01,19,Persistent Depressive Disorder
+50,5.2,Long/Long,Val/Met,Low Activity,14.1,19.35,0.38,20.4,46.3,3.82,CC,0.94,1.45,109.4,0.41,13,Persistent Depressive Disorder
+65,7.4,Short/Long,Met/Met,Low Activity,9.0,20.58,-0.66,23.8,53.1,3.81,CT,0.23,2.41,178.1,0.07,13,Seasonal Affective Disorder
+29,4.1,Short/Short,Met/Met,Low Activity,8.3,15.99,0.98,21.3,36.1,2.17,TT,0.39,2.55,199.2,0.41,13,Seasonal Affective Disorder
+68,4.5,Short/Short,Met/Met,High Activity,9.8,15.83,2.74,16.1,37.1,6.83,TT,0.61,2.09,153.1,0.04,11,Persistent Depressive Disorder
+39,8.0,Short/Long,Val/Met,Low Activity,19.2,18.52,5.31,26.3,41.4,7.37,CT,0.76,2.87,168.3,0.84,5,False
+39,4.9,Short/Short,Val/Met,Low Activity,10.5,20.61,2.69,21.4,68.2,6.82,CC,0.9,1.77,123.7,0.21,19,Seasonal Affective Disorder
+63,7.3,Short/Long,Val/Val,High Activity,11.8,15.19,1.46,11.0,59.4,2.57,TT,0.92,2.43,143.8,0.33,12,False
+47,5.2,Short/Long,Met/Met,Low Activity,14.0,12.5,3.3,29.2,56.5,2.55,CT,0.78,1.76,185.6,0.87,15,Persistent Depressive Disorder
+55,4.5,Short/Long,Val/Met,Low Activity,23.3,18.24,2.77,10.0,62.7,3.68,CC,0.23,2.35,116.7,0.75,8,False
+55,5.2,Long/Long,Met/Met,High Activity,8.8,5.71,0.24,26.3,35.1,4.32,CC,0.02,2.85,126.6,0.22,1,False
+62,7.6,Long/Long,Met/Met,High Activity,5.1,19.55,0.25,30.4,64.4,8.29,TT,0.38,2.42,144.5,0.07,21,Psychotic Depression
+68,8.3,Long/Long,Val/Val,High Activity,6.2,11.45,0.3,12.3,53.8,3.28,TT,0.14,2.39,171.2,0.72,26,False
+25,8.2,Short/Long,Val/Val,Low Activity,23.1,13.8,7.96,19.1,43.4,2.35,CC,0.71,2.51,137.6,0.39,2,False
+44,6.0,Short/Long,Val/Val,High Activity,18.0,19.58,4.72,18.5,62.6,5.15,CC,0.66,2.54,192.8,0.77,9,Persistent Depressive Disorder
+44,7.3,Long/Long,Val/Val,High Activity,10.5,12.92,1.81,18.8,62.1,5.33,CC,0.04,2.85,109.4,0.45,19,False
+51,5.0,Short/Short,Met/Met,Low Activity,8.5,18.24,5.22,32.8,63.8,5.61,CT,0.84,2.85,137.1,0.35,1,False
+38,5.5,Short/Long,Val/Val,Low Activity,10.9,20.69,1.86,12.3,34.6,8.62,TT,0.25,3.21,170.9,0.45,26,Major Depressive Disorder
+47,8.5,Short/Short,Val/Val,Low Activity,7.3,15.55,5.15,17.9,68.8,2.78,CC,0.43,2.58,122.6,0.75,23,False
+50,4.1,Short/Short,Val/Val,Low Activity,23.8,16.56,3.16,30.5,68.4,7.63,TT,0.67,1.67,165.6,0.9,9,False
+45,4.4,Short/Long,Val/Val,Low Activity,20.7,14.4,1.68,17.7,44.3,4.7,TT,0.43,2.93,116.4,0.05,7,Major Depressive Disorder
+64,5.0,Short/Long,Met/Met,High Activity,14.2,15.58,4.36,13.4,32.6,4.48,TT,0.44,3.17,105.6,0.52,16,False
+50,4.1,Short/Short,Val/Val,High Activity,22.3,9.42,3.28,21.8,36.7,9.46,CC,0.07,3.73,112.1,0.03,25,False
+22,4.9,Short/Short,Met/Met,High Activity,10.0,13.53,3.8,25.6,69.7,3.99,CT,0.4,3.23,193.0,0.47,21,Persistent Depressive Disorder
+65,6.9,Long/Long,Val/Met,Low Activity,19.3,8.56,3.43,17.3,52.5,7.14,CC,0.76,2.25,155.2,0.89,0,Persistent Depressive Disorder
+36,6.1,Long/Long,Met/Met,Low Activity,22.1,10.51,3.41,23.9,44.3,4.2,TT,0.92,2.59,179.6,0.36,5,False
+21,8.5,Short/Long,Met/Met,Low Activity,12.1,4.99,4.6,10.4,41.5,6.06,CC,0.41,2.36,133.3,0.93,6,Persistent Depressive Disorder
+52,8.1,Long/Long,Val/Val,High Activity,20.1,16.32,8.17,10.8,40.3,8.29,CC,0.42,2.3,159.3,0.63,14,Psychotic Depression
+66,5.7,Long/Long,Val/Met,High Activity,10.9,23.46,5.5,16.9,56.6,9.05,TT,0.7,2.44,149.5,0.93,17,Atypical Depression
+34,5.3,Long/Long,Val/Met,Low Activity,11.0,12.72,3.44,24.1,46.8,8.71,TT,0.94,3.14,194.6,0.76,8,False
+61,5.9,Long/Long,Val/Met,High Activity,7.1,19.83,2.38,25.3,68.6,6.66,CC,0.27,1.71,174.8,0.1,7,Major Depressive Disorder
+45,7.0,Short/Short,Val/Met,Low Activity,13.8,20.63,2.6,11.7,57.4,3.99,CC,0.44,2.0,173.1,0.23,24,Atypical Depression
+47,5.3,Short/Long,Met/Met,High Activity,19.6,9.0,0.49,25.1,61.7,7.29,CC,0.8,3.11,104.6,0.39,9,Atypical Depression
+46,7.1,Long/Long,Val/Met,High Activity,23.8,10.08,4.33,21.2,41.7,7.68,CC,0.61,3.23,155.0,0.17,3,False
+63,6.0,Short/Short,Met/Met,High Activity,17.1,19.95,0.97,13.8,33.2,2.09,CT,0.11,2.17,146.7,0.49,19,Atypical Depression
+23,6.8,Short/Short,Met/Met,Low Activity,22.3,14.54,2.26,10.7,49.5,5.51,CC,0.63,3.33,192.8,0.47,7,Persistent Depressive Disorder
+52,6.2,Short/Short,Met/Met,High Activity,21.4,8.55,4.34,21.6,42.6,8.75,CT,0.19,2.99,125.7,0.96,0,False
+58,5.5,Long/Long,Val/Met,High Activity,8.5,11.82,2.53,29.0,38.1,5.92,TT,0.51,2.37,127.0,0.43,7,False
+54,8.7,Long/Long,Val/Val,Low Activity,14.7,17.1,2.02,20.2,68.1,4.49,CT,0.53,1.28,141.1,0.79,22,Atypical Depression
+41,7.8,Short/Long,Val/Val,High Activity,7.3,11.03,0.61,13.5,47.8,8.97,TT,0.88,1.67,124.3,0.94,11,False
+46,4.7,Long/Long,Val/Met,Low Activity,18.6,1.13,5.41,6.9,37.0,3.25,CT,0.46,2.17,112.9,0.88,22,Psychotic Depression
+66,8.3,Long/Long,Val/Val,Low Activity,24.0,13.39,1.33,30.7,37.9,3.65,TT,0.28,2.88,185.7,0.21,24,False
+63,6.4,Short/Short,Val/Val,Low Activity,7.7,13.8,1.83,27.3,41.2,7.5,CC,0.23,2.88,155.8,0.5,14,False
+48,8.5,Short/Long,Met/Met,Low Activity,19.7,15.05,-0.58,22.1,70.0,4.82,CT,0.87,2.27,186.1,0.35,12,Seasonal Affective Disorder
+52,8.0,Long/Long,Met/Met,Low Activity,17.6,21.29,2.96,30.3,40.7,7.7,CT,0.17,2.38,183.1,0.4,15,Atypical Depression
+50,6.1,Long/Long,Val/Met,High Activity,16.7,15.27,2.33,21.6,43.2,3.26,TT,0.43,2.48,128.2,0.36,25,False
+69,4.1,Short/Short,Val/Met,Low Activity,12.8,16.21,3.36,16.3,56.4,4.02,TT,0.19,2.39,154.8,0.83,22,False
+38,5.3,Short/Short,Val/Val,Low Activity,12.1,20.28,0.65,23.9,41.8,3.25,CT,0.77,2.58,108.3,0.45,17,False
+49,6.7,Long/Long,Met/Met,Low Activity,5.9,15.05,4.47,14.2,38.6,9.62,TT,0.47,2.48,191.5,0.52,0,False
+40,7.2,Short/Long,Val/Met,Low Activity,9.4,25.68,-0.68,13.0,36.3,5.24,CC,0.35,1.66,140.4,0.98,16,False
+50,5.3,Short/Long,Val/Met,High Activity,5.3,8.68,2.82,25.4,42.5,4.7,CT,0.36,2.4,139.4,0.06,15,False
+20,4.7,Short/Short,Val/Met,Low Activity,16.6,10.33,3.23,26.0,34.2,2.11,CC,0.85,2.49,130.3,0.49,22,Psychotic Depression
+35,8.2,Short/Short,Val/Met,High Activity,7.1,18.07,3.12,11.1,30.7,3.23,CT,0.55,2.99,146.1,0.77,4,Major Depressive Disorder
+42,8.9,Long/Long,Val/Met,Low Activity,22.5,21.27,3.32,11.3,62.2,5.37,CC,0.72,2.08,125.2,0.15,19,Major Depressive Disorder
+59,6.6,Short/Short,Val/Met,High Activity,15.5,14.0,4.58,16.9,35.5,2.55,CT,0.9,2.6,137.5,0.61,20,Psychotic Depression
+48,4.9,Long/Long,Val/Val,Low Activity,19.0,9.95,5.65,15.0,61.0,6.09,TT,0.9,2.78,180.0,0.24,9,False
+20,5.4,Short/Long,Met/Met,Low Activity,13.2,23.8,2.69,23.3,61.9,5.64,CT,0.33,2.43,183.4,0.87,25,False
+57,4.1,Short/Long,Met/Met,High Activity,16.2,11.04,1.06,20.3,51.5,8.14,CC,0.95,1.62,130.4,0.33,5,False
+63,8.6,Long/Long,Val/Met,Low Activity,23.9,16.7,4.12,28.2,42.4,7.28,CT,0.02,3.01,146.9,0.33,11,Seasonal Affective Disorder
+41,4.6,Short/Short,Met/Met,High Activity,6.7,21.57,2.44,22.2,35.8,5.57,CC,0.38,2.87,187.4,0.6,9,False
+67,6.9,Short/Long,Met/Met,Low Activity,10.1,12.79,5.53,15.5,59.5,3.8,CC,0.9,2.61,105.3,0.18,21,Psychotic Depression
+49,5.4,Short/Short,Met/Met,High Activity,20.6,11.89,1.8,6.8,54.1,7.81,CC,0.27,2.52,188.9,0.28,16,Major Depressive Disorder
+64,6.8,Short/Long,Val/Met,Low Activity,7.0,12.23,1.28,21.3,56.2,7.66,TT,0.27,1.61,121.9,0.42,1,False
+39,7.3,Long/Long,Val/Met,Low Activity,6.5,19.51,3.29,8.0,30.3,3.23,CT,0.3,2.89,167.9,0.35,18,Atypical Depression
+40,8.1,Long/Long,Met/Met,High Activity,12.2,20.3,-0.48,15.4,67.1,9.32,CC,0.61,3.24,158.3,0.52,19,False
+19,5.0,Long/Long,Met/Met,Low Activity,6.8,15.17,2.07,14.9,32.7,2.52,TT,0.44,1.94,155.3,0.6,5,Major Depressive Disorder
+44,4.1,Short/Long,Val/Met,Low Activity,16.7,24.42,2.34,16.4,44.7,2.44,CC,0.73,3.17,185.9,0.57,26,Atypical Depression
+59,4.7,Short/Short,Val/Val,Low Activity,9.5,15.16,3.44,10.8,46.1,3.5,CT,0.89,3.07,110.2,0.65,12,False
+19,8.5,Short/Short,Met/Met,Low Activity,22.9,21.46,1.01,14.9,30.1,9.28,TT,0.67,1.93,134.7,0.31,8,False
+43,8.4,Short/Short,Val/Val,Low Activity,20.7,12.84,1.24,28.0,49.9,6.16,CC,0.2,2.3,153.8,0.13,11,Psychotic Depression
+34,7.0,Short/Long,Met/Met,Low Activity,19.0,26.67,5.31,28.0,60.1,8.3,CC,0.93,1.8,181.1,0.76,17,False
+57,7.0,Short/Long,Val/Val,High Activity,17.3,22.85,2.97,30.7,62.9,3.82,CC,0.26,2.47,121.6,0.85,7,False
+50,7.3,Short/Long,Val/Val,High Activity,22.3,14.36,4.73,20.1,65.2,5.92,CT,0.15,2.72,180.3,0.26,24,Atypical Depression
+26,4.9,Short/Long,Val/Val,High Activity,9.5,22.17,1.92,21.9,49.5,4.87,TT,0.09,1.84,140.0,0.41,17,Psychotic Depression
+60,8.6,Short/Long,Val/Met,Low Activity,22.5,21.92,2.89,28.1,55.2,8.62,TT,0.56,2.69,118.9,0.5,24,Atypical Depression
+65,6.1,Short/Short,Val/Val,High Activity,20.8,22.77,3.43,9.7,33.2,2.18,TT,0.11,2.82,175.9,0.53,22,Major Depressive Disorder
+56,5.9,Short/Long,Val/Val,Low Activity,20.0,2.59,6.5,25.6,49.5,3.95,CC,0.14,2.83,109.1,0.66,24,Seasonal Affective Disorder
+46,6.6,Short/Long,Val/Val,Low Activity,16.2,18.6,2.56,29.1,36.2,3.22,TT,0.3,2.73,151.5,0.04,21,False
+59,4.2,Short/Short,Met/Met,Low Activity,9.9,17.71,2.67,13.8,44.8,8.87,CC,0.28,1.89,106.4,0.72,1,Persistent Depressive Disorder
+43,4.8,Short/Long,Val/Val,Low Activity,13.5,17.36,5.2,29.7,43.2,5.74,CT,0.6,2.44,135.6,0.06,7,False
+52,7.7,Short/Short,Met/Met,High Activity,20.9,16.09,2.24,34.4,46.9,5.23,TT,0.82,2.68,160.1,0.47,9,Atypical Depression
+67,4.4,Short/Short,Val/Val,Low Activity,5.6,16.24,3.57,25.4,52.9,5.6,CC,0.76,3.23,155.6,0.83,8,Major Depressive Disorder
+42,7.0,Long/Long,Val/Val,High Activity,20.6,21.42,5.02,24.2,66.1,9.78,TT,0.26,2.5,140.5,0.45,23,Seasonal Affective Disorder
+41,5.2,Long/Long,Val/Met,Low Activity,9.8,17.7,1.85,12.2,45.8,8.8,TT,0.25,2.71,142.9,0.15,17,Atypical Depression
+30,5.9,Long/Long,Met/Met,High Activity,7.9,16.08,3.68,27.5,69.2,7.65,CT,0.97,2.03,122.7,0.99,7,False
+24,5.4,Long/Long,Val/Val,High Activity,7.3,20.7,6.49,12.8,60.4,4.32,TT,0.01,1.92,145.6,0.89,18,False
+53,5.8,Short/Long,Met/Met,High Activity,5.5,17.09,4.84,22.6,50.5,3.32,CT,0.88,1.86,195.3,0.77,2,False
+62,7.6,Long/Long,Met/Met,High Activity,15.5,17.57,3.57,23.3,55.8,9.37,TT,0.2,2.29,185.0,0.41,8,False
+37,5.5,Short/Short,Val/Met,High Activity,9.4,24.34,2.55,-3.1,34.1,5.38,TT,0.95,3.53,114.5,0.18,12,False
+18,6.8,Short/Long,Val/Met,High Activity,24.8,12.83,1.79,22.8,63.8,4.23,TT,0.34,2.3,103.0,0.94,8,False
+25,6.4,Long/Long,Val/Met,Low Activity,16.5,7.42,1.02,38.4,53.3,5.77,TT,0.44,2.68,193.4,0.53,24,Psychotic Depression
+63,7.3,Short/Short,Val/Met,High Activity,7.8,15.36,6.02,5.4,69.4,9.34,TT,0.71,2.78,152.7,0.85,19,False
+33,8.7,Short/Long,Val/Met,Low Activity,18.8,16.07,5.63,19.6,55.5,5.1,TT,0.59,1.95,153.8,0.34,11,Atypical Depression
+31,7.7,Short/Long,Val/Met,High Activity,23.0,18.61,1.69,6.4,63.4,6.5,CT,0.32,2.28,178.1,0.34,22,False
+29,5.1,Long/Long,Val/Met,Low Activity,19.9,15.54,3.68,13.7,62.0,8.42,CT,0.55,2.81,131.5,0.99,12,False
+68,4.2,Short/Long,Val/Met,High Activity,6.5,18.78,3.22,6.5,43.8,5.42,CC,0.73,2.71,148.2,0.52,7,False
+40,5.3,Short/Short,Val/Val,High Activity,22.9,27.52,5.37,21.1,40.4,3.87,TT,0.04,1.5,196.9,0.14,14,Psychotic Depression
+32,7.0,Short/Long,Met/Met,Low Activity,20.9,19.01,3.77,25.6,47.2,9.96,CT,0.01,2.8,167.2,0.22,12,False
+45,4.3,Short/Short,Val/Met,High Activity,8.2,19.89,2.95,22.9,48.7,9.65,TT,0.46,2.22,115.4,0.48,20,False
+51,6.5,Short/Long,Val/Met,High Activity,6.0,14.35,1.92,13.5,39.6,8.75,TT,0.13,2.24,113.3,0.04,12,Major Depressive Disorder
+19,7.0,Long/Long,Met/Met,High Activity,16.1,8.07,3.68,15.7,65.8,7.51,CT,0.66,2.7,120.4,0.46,16,False
+49,5.7,Short/Short,Val/Val,Low Activity,8.1,3.51,2.3,21.9,51.7,4.36,TT,0.21,3.26,176.7,0.42,14,Major Depressive Disorder
+40,7.9,Short/Long,Met/Met,High Activity,21.7,12.41,3.44,13.7,69.1,9.31,CT,0.43,2.4,129.5,0.78,24,False
+39,4.5,Short/Long,Met/Met,Low Activity,12.2,2.1,2.85,10.7,62.4,4.2,CT,0.2,3.09,102.1,0.35,21,Seasonal Affective Disorder
+68,4.4,Short/Long,Val/Met,High Activity,23.3,17.57,2.26,18.3,52.2,8.41,CC,0.55,1.78,194.4,0.98,18,Persistent Depressive Disorder
+42,7.6,Short/Short,Met/Met,High Activity,16.3,13.09,1.05,13.4,67.9,9.35,CC,0.12,2.57,117.0,0.18,2,Psychotic Depression
+39,6.5,Short/Short,Met/Met,Low Activity,8.7,8.43,4.03,22.9,50.2,6.82,CC,0.02,2.23,101.0,0.59,13,False
+39,7.4,Short/Short,Val/Met,High Activity,7.8,15.65,3.09,29.1,65.5,8.42,CC,0.05,2.64,123.7,0.09,9,Psychotic Depression
+66,6.2,Long/Long,Val/Met,High Activity,16.5,11.31,6.57,38.2,44.3,8.33,TT,0.95,2.35,123.5,0.73,16,Atypical Depression
+69,5.2,Long/Long,Val/Met,Low Activity,20.2,17.25,0.94,22.4,45.1,3.55,TT,0.14,1.83,142.2,0.99,7,Seasonal Affective Disorder
+59,8.1,Short/Short,Val/Met,High Activity,20.6,18.54,4.25,24.5,46.7,7.34,CC,0.71,2.06,192.0,0.82,17,False
+23,8.0,Short/Long,Met/Met,Low Activity,10.5,11.49,2.83,15.8,51.9,2.75,CT,0.07,1.68,187.9,0.56,11,False
+32,7.5,Long/Long,Met/Met,Low Activity,9.1,13.81,7.2,16.2,52.1,6.06,CT,0.11,1.85,145.7,0.48,16,Major Depressive Disorder
+60,5.4,Short/Short,Val/Val,Low Activity,5.3,16.07,4.1,29.0,49.9,3.3,CT,0.51,2.74,141.1,0.84,22,Major Depressive Disorder
+54,7.0,Short/Long,Val/Val,High Activity,18.6,7.96,3.65,18.1,42.2,5.33,CT,0.46,2.37,155.5,0.94,10,False
+50,5.8,Long/Long,Met/Met,Low Activity,6.5,16.07,2.84,20.5,67.1,8.66,TT,0.95,2.62,124.3,0.99,8,False
+25,4.5,Short/Long,Val/Val,Low Activity,13.4,7.84,1.59,28.6,53.5,9.9,CT,0.94,3.41,105.2,0.4,21,False
+61,8.6,Short/Long,Met/Met,High Activity,17.0,17.83,3.62,18.1,46.3,4.54,CT,0.78,2.35,193.9,0.99,23,Major Depressive Disorder
+61,4.7,Short/Long,Val/Val,Low Activity,23.7,12.82,0.24,30.5,56.0,6.26,CC,0.6,2.82,118.7,0.16,23,False
+22,8.8,Short/Long,Val/Met,High Activity,11.2,7.82,0.33,24.0,60.7,6.09,CT,0.45,2.51,119.8,0.25,24,False
+56,6.2,Long/Long,Val/Val,High Activity,10.0,12.1,5.02,23.2,68.4,9.64,TT,0.36,3.88,147.2,0.09,22,Seasonal Affective Disorder
+21,4.9,Long/Long,Val/Met,High Activity,18.1,12.31,-0.52,15.5,50.0,5.83,CT,0.95,0.99,149.2,0.27,24,False
+23,6.7,Long/Long,Val/Met,High Activity,17.4,20.34,2.36,23.6,34.5,7.59,CT,0.6,2.14,101.8,0.77,14,False
+62,8.4,Short/Short,Val/Met,Low Activity,11.6,15.87,0.9,17.0,47.6,9.37,TT,0.58,2.83,114.8,0.85,8,Seasonal Affective Disorder
+49,7.7,Long/Long,Val/Met,Low Activity,23.6,10.22,2.2,23.3,49.2,4.99,CC,0.23,2.12,137.8,0.78,11,False
+69,8.0,Short/Long,Val/Val,Low Activity,21.9,23.25,3.37,19.3,65.9,9.22,TT,0.05,2.78,168.4,0.63,10,Psychotic Depression
+47,7.3,Long/Long,Met/Met,Low Activity,9.5,18.13,4.97,26.8,45.8,9.34,CC,0.95,2.47,122.8,0.51,16,False
+64,7.5,Short/Long,Val/Met,Low Activity,9.8,13.32,5.44,19.8,68.1,9.45,CT,0.31,2.93,142.3,0.71,5,False
+52,8.2,Short/Short,Val/Val,High Activity,15.2,7.23,1.16,34.3,49.4,4.16,CC,0.44,1.93,155.7,0.39,7,Seasonal Affective Disorder
+57,5.2,Short/Long,Val/Met,Low Activity,20.5,12.88,2.07,18.1,69.0,5.2,CC,0.11,2.59,188.9,0.84,9,Major Depressive Disorder
+69,6.4,Short/Long,Val/Val,Low Activity,5.9,13.9,11.11,16.3,30.3,8.96,CC,0.84,2.73,132.6,0.68,24,Atypical Depression
+33,5.1,Short/Long,Val/Val,Low Activity,18.9,16.85,2.5,22.4,66.0,4.87,CT,0.03,2.57,113.4,0.7,14,False
+30,8.9,Short/Short,Val/Val,High Activity,18.0,18.04,1.24,27.5,67.2,6.8,CC,0.83,2.57,148.9,0.54,3,Major Depressive Disorder
+67,8.7,Long/Long,Met/Met,High Activity,9.6,19.03,1.57,27.5,68.4,2.94,CC,0.14,3.1,174.7,0.89,17,False
+59,4.2,Long/Long,Val/Val,Low Activity,18.6,6.94,2.51,21.2,30.5,2.45,CT,0.89,1.66,111.0,0.25,10,Persistent Depressive Disorder
+47,7.5,Short/Short,Val/Val,High Activity,23.8,16.04,2.21,22.4,36.9,5.3,TT,0.73,2.56,142.5,0.38,8,False
+36,8.6,Short/Long,Met/Met,Low Activity,5.9,14.2,2.53,22.4,56.2,6.63,TT,0.16,1.9,101.8,0.78,8,Persistent Depressive Disorder
+34,4.9,Long/Long,Met/Met,Low Activity,11.4,28.39,2.96,12.5,31.0,5.14,TT,0.57,2.88,103.4,0.49,7,Persistent Depressive Disorder
+36,6.8,Short/Short,Val/Val,High Activity,13.8,15.32,2.94,27.2,32.5,6.62,CT,0.31,2.08,148.3,0.89,2,Psychotic Depression
+45,8.6,Long/Long,Met/Met,High Activity,23.0,11.89,1.09,11.2,38.8,6.12,CT,0.18,1.26,129.8,0.35,20,False
+43,4.2,Short/Short,Val/Met,Low Activity,24.2,15.55,3.74,12.5,50.5,7.49,TT,0.86,2.89,184.5,0.37,17,False
+54,7.5,Short/Long,Val/Met,Low Activity,13.9,14.96,3.24,20.4,51.8,7.2,CC,0.4,2.37,160.2,0.89,13,False
+43,5.5,Long/Long,Met/Met,High Activity,20.0,5.05,3.99,17.8,31.4,5.39,TT,0.4,2.68,145.4,0.46,2,False
+40,8.6,Short/Short,Met/Met,Low Activity,15.6,17.04,-0.43,25.6,36.8,5.4,CT,0.17,3.21,140.8,0.52,16,False
+26,8.9,Long/Long,Val/Val,High Activity,15.8,13.45,3.31,23.1,50.0,3.13,CC,0.38,2.69,149.7,0.33,3,Atypical Depression
+29,8.7,Long/Long,Met/Met,Low Activity,10.6,14.87,-0.97,21.0,53.8,6.11,CC,0.87,2.58,104.0,0.28,20,False
+18,6.4,Long/Long,Val/Val,High Activity,9.3,10.63,2.65,12.1,35.9,6.7,CT,0.36,2.48,189.3,0.66,17,Psychotic Depression
+18,8.3,Long/Long,Val/Met,Low Activity,10.8,9.53,4.32,20.2,46.0,5.81,CC,0.95,1.93,199.8,0.12,14,Persistent Depressive Disorder
+64,8.2,Short/Short,Met/Met,Low Activity,16.1,19.39,5.09,19.6,66.2,4.61,TT,0.95,2.39,118.1,0.88,18,Major Depressive Disorder
+51,5.6,Short/Long,Val/Val,High Activity,5.6,20.54,3.67,21.6,70.0,7.77,CT,0.14,3.49,112.0,0.78,21,False
+49,8.1,Short/Short,Val/Val,Low Activity,23.1,17.09,4.35,17.0,69.5,2.6,CT,0.18,2.31,114.4,0.19,5,False
+65,4.2,Short/Short,Val/Met,Low Activity,8.1,5.95,2.4,23.7,65.3,9.32,CT,0.86,2.42,166.1,0.69,14,False
+42,7.0,Short/Short,Met/Met,High Activity,9.4,17.42,1.98,17.6,45.8,2.17,CT,0.39,3.13,166.1,0.6,6,Persistent Depressive Disorder
+57,5.2,Short/Long,Val/Met,Low Activity,15.4,6.02,8.39,23.0,57.5,9.7,CC,0.0,1.73,184.8,0.18,11,Persistent Depressive Disorder
+62,4.6,Long/Long,Val/Val,Low Activity,19.2,11.69,4.65,25.6,46.7,5.7,CT,0.27,2.81,175.2,0.27,15,Seasonal Affective Disorder
+18,4.4,Long/Long,Val/Val,Low Activity,6.9,19.33,0.65,16.3,55.9,5.3,CT,0.6,1.71,145.0,0.41,8,Atypical Depression
+33,7.5,Long/Long,Met/Met,High Activity,11.4,18.29,-0.47,14.6,42.4,4.05,CC,0.8,2.7,161.3,0.7,19,False
+56,5.7,Short/Long,Val/Val,High Activity,24.4,17.28,2.07,23.3,54.2,2.08,CT,0.13,2.49,168.8,0.64,4,False
+22,7.6,Long/Long,Met/Met,High Activity,10.2,21.56,5.38,10.8,51.0,4.2,CC,0.11,2.81,151.3,0.53,10,Major Depressive Disorder
+39,4.3,Short/Long,Val/Met,Low Activity,11.3,17.8,3.1,27.8,31.0,2.88,CC,0.92,1.99,147.6,0.77,1,Psychotic Depression
+46,5.6,Long/Long,Met/Met,Low Activity,21.7,4.9,-1.45,20.1,61.6,7.28,CT,0.75,2.23,164.5,0.76,21,False
+20,6.7,Long/Long,Met/Met,Low Activity,6.0,13.15,2.65,19.2,30.5,4.55,TT,0.59,2.83,155.7,0.62,15,Atypical Depression
+29,8.0,Short/Short,Val/Val,Low Activity,14.3,14.79,3.0,23.8,41.7,8.14,CT,0.77,2.25,164.4,0.79,3,Persistent Depressive Disorder
+43,5.6,Short/Long,Val/Val,High Activity,12.6,14.21,-1.83,23.4,30.2,3.66,TT,0.43,2.88,161.3,0.33,4,Persistent Depressive Disorder
+33,7.1,Short/Short,Met/Met,Low Activity,11.3,11.91,3.05,20.0,45.0,9.2,CC,0.76,2.6,171.9,0.88,6,Seasonal Affective Disorder
+68,8.4,Short/Short,Val/Val,Low Activity,10.7,9.85,0.97,26.2,32.5,6.18,TT,0.37,2.28,164.3,0.61,5,False
+54,7.1,Short/Short,Val/Val,Low Activity,6.8,27.0,-0.67,15.3,66.5,2.92,CT,0.24,2.34,152.0,0.82,23,False
+39,5.2,Short/Long,Val/Val,High Activity,11.3,13.06,6.21,25.0,46.6,5.21,CT,0.73,2.5,168.2,0.55,21,False
+46,4.1,Short/Long,Met/Met,Low Activity,5.9,26.76,0.88,12.4,48.4,3.65,TT,0.42,2.39,144.9,0.22,9,False
+31,8.4,Long/Long,Val/Val,Low Activity,20.6,9.29,1.67,23.6,44.0,3.6,CT,0.98,2.87,124.2,0.54,13,False
+45,4.1,Short/Short,Met/Met,Low Activity,13.0,18.29,1.64,17.7,55.1,6.05,TT,0.35,2.31,100.1,0.37,7,Atypical Depression
+22,8.4,Long/Long,Val/Val,Low Activity,13.9,16.15,3.0,10.8,61.4,7.38,CC,0.92,2.21,156.0,0.7,13,False
+64,6.6,Short/Short,Val/Met,Low Activity,22.9,10.39,6.53,21.8,55.9,9.29,TT,0.93,2.96,159.1,0.48,13,Persistent Depressive Disorder
+66,8.7,Short/Long,Val/Val,High Activity,18.2,12.66,0.61,19.8,59.9,6.02,TT,0.24,2.29,197.2,0.84,19,False
+47,8.0,Short/Long,Val/Val,Low Activity,5.2,14.92,2.39,9.2,66.2,9.73,TT,0.8,2.23,136.1,0.68,22,False
+63,9.0,Short/Long,Met/Met,Low Activity,23.9,10.78,3.24,5.2,64.5,9.53,TT,0.43,1.26,139.4,0.68,2,Psychotic Depression
+69,5.8,Short/Short,Met/Met,Low Activity,9.7,13.72,1.26,18.9,57.0,8.92,CC,0.92,1.98,120.2,0.22,0,Persistent Depressive Disorder
+22,7.8,Short/Long,Val/Val,Low Activity,7.2,3.18,2.35,31.3,38.6,6.0,CC,0.45,2.08,107.1,0.98,8,False
+29,6.0,Short/Short,Val/Met,Low Activity,20.4,18.56,4.19,22.2,55.5,3.13,CC,0.74,2.23,177.3,0.84,8,False
+33,6.4,Long/Long,Val/Val,Low Activity,15.0,21.14,1.49,15.3,50.2,3.74,TT,0.47,2.14,125.0,0.79,21,False
+43,7.1,Short/Short,Val/Val,Low Activity,13.7,17.27,2.32,27.6,58.7,7.18,CC,0.23,2.99,160.9,0.33,1,Persistent Depressive Disorder
+43,8.4,Long/Long,Val/Met,Low Activity,10.0,26.32,2.14,26.4,63.3,5.37,CT,0.2,2.11,168.8,0.54,15,False
+65,8.9,Short/Short,Met/Met,Low Activity,15.9,18.41,2.79,28.9,59.7,3.17,CC,0.43,2.15,147.1,0.14,7,False
+38,7.8,Long/Long,Val/Val,Low Activity,10.5,20.71,3.49,24.8,63.9,5.83,TT,0.76,2.58,187.6,0.54,25,False
+56,6.1,Short/Long,Met/Met,High Activity,23.0,21.19,4.17,26.2,32.6,2.14,CT,0.61,1.95,144.4,0.15,5,Psychotic Depression
+53,6.1,Long/Long,Met/Met,High Activity,9.3,1.24,6.88,25.1,31.3,7.87,TT,0.69,3.28,128.5,0.55,22,Psychotic Depression
+50,7.7,Short/Long,Val/Met,High Activity,22.7,17.12,-2.32,16.7,40.3,2.59,CT,0.28,2.9,189.6,0.65,12,Persistent Depressive Disorder
+47,5.2,Short/Long,Val/Met,High Activity,16.2,8.09,2.67,8.5,66.0,7.03,TT,0.48,1.92,186.2,0.39,0,False
+54,4.6,Long/Long,Met/Met,Low Activity,21.6,9.1,0.27,16.4,62.9,8.34,TT,0.04,3.01,116.4,0.5,18,False
+40,5.8,Short/Short,Val/Val,High Activity,19.3,9.97,2.23,27.7,57.3,3.06,CT,0.82,3.11,102.6,0.88,14,Persistent Depressive Disorder
+27,5.4,Short/Short,Met/Met,High Activity,18.9,13.44,4.76,17.3,58.0,6.15,CC,0.99,1.93,109.0,0.11,0,Major Depressive Disorder
+22,5.5,Short/Short,Val/Val,Low Activity,11.5,18.25,5.4,19.0,59.1,8.23,CT,0.41,1.92,128.7,0.79,9,Seasonal Affective Disorder
+53,5.2,Short/Short,Val/Val,High Activity,9.7,17.17,5.49,11.8,67.7,4.09,CT,0.01,2.19,197.2,0.17,0,Psychotic Depression
+51,4.2,Short/Short,Val/Met,High Activity,9.2,14.94,5.47,16.1,63.3,3.3,CT,0.17,1.79,155.9,0.04,11,Atypical Depression
+69,4.1,Short/Long,Val/Val,Low Activity,22.1,18.61,2.65,19.9,54.9,4.69,CT,0.65,2.11,137.3,0.19,10,False
+48,8.9,Short/Short,Val/Val,Low Activity,21.4,18.92,5.8,23.4,56.6,6.44,CT,0.61,2.3,188.9,0.77,16,False
+27,6.1,Short/Long,Met/Met,Low Activity,13.8,17.21,6.19,16.8,38.5,6.6,TT,0.79,2.75,145.3,0.41,3,False
+36,5.9,Short/Long,Val/Met,High Activity,7.6,6.38,3.28,16.3,56.3,3.05,TT,0.25,2.54,131.5,0.87,22,False
+49,7.4,Short/Long,Val/Val,High Activity,12.6,11.3,5.35,25.9,47.0,5.66,CC,0.76,2.43,194.1,0.52,6,Persistent Depressive Disorder
+18,5.1,Long/Long,Val/Val,Low Activity,17.4,15.13,3.08,22.3,36.1,4.15,CC,0.69,2.26,185.0,0.02,11,False
+22,8.7,Long/Long,Val/Met,Low Activity,14.1,18.67,5.82,23.1,62.3,8.74,CT,0.32,1.85,184.4,0.72,12,False
+62,7.9,Short/Long,Met/Met,High Activity,20.6,8.36,2.68,30.7,50.4,4.51,CC,0.55,2.8,151.2,0.11,4,False
+21,4.4,Long/Long,Val/Met,Low Activity,25.0,14.94,1.78,16.5,69.1,8.71,CC,0.15,2.78,178.9,0.79,5,Seasonal Affective Disorder
+33,6.1,Short/Short,Val/Met,High Activity,8.8,7.17,0.76,19.7,41.3,5.43,CT,0.45,2.19,117.9,0.17,1,Persistent Depressive Disorder
+41,8.4,Short/Short,Val/Val,Low Activity,14.2,20.13,2.65,23.9,49.2,7.81,TT,0.88,1.95,157.3,0.35,20,False
+33,8.7,Short/Long,Val/Val,Low Activity,13.6,16.21,3.17,13.9,47.9,6.08,TT,0.42,3.28,198.4,0.76,6,Persistent Depressive Disorder
+19,6.3,Short/Short,Met/Met,High Activity,11.1,8.27,1.11,21.6,34.8,6.98,CC,0.84,2.62,129.1,0.95,13,Psychotic Depression
+66,7.1,Short/Long,Val/Val,Low Activity,9.0,8.24,2.5,20.2,47.0,5.16,TT,0.59,2.7,179.4,0.37,24,False
+45,4.8,Short/Long,Val/Val,Low Activity,6.3,16.94,1.95,39.4,41.5,8.15,TT,0.19,2.72,149.0,0.83,21,Persistent Depressive Disorder
+49,9.0,Short/Short,Val/Met,Low Activity,22.7,21.87,0.85,20.7,36.4,5.4,CC,0.58,1.9,104.0,0.19,13,Seasonal Affective Disorder
+44,5.2,Long/Long,Val/Val,High Activity,13.4,9.52,5.07,28.1,41.3,5.66,CT,0.51,3.25,176.3,0.81,9,Psychotic Depression
+37,8.7,Short/Short,Met/Met,Low Activity,14.9,18.93,5.42,25.8,39.3,6.14,CC,0.4,2.3,116.9,0.66,3,False
+41,7.2,Short/Short,Val/Met,Low Activity,23.3,12.29,5.06,11.9,59.4,8.65,CC,0.12,2.91,163.1,0.19,2,False
+29,7.0,Short/Long,Met/Met,Low Activity,20.5,19.12,2.83,9.2,31.2,7.28,CC,0.42,3.23,108.6,0.3,24,False
+67,6.6,Short/Long,Val/Met,Low Activity,7.6,18.42,2.96,21.7,54.7,4.79,CT,0.07,2.54,194.7,0.13,22,False
+52,5.2,Short/Long,Val/Val,Low Activity,16.3,15.78,0.87,28.8,60.4,7.36,CT,0.1,1.91,129.2,0.38,26,False
+50,4.9,Short/Long,Val/Met,Low Activity,13.8,5.83,3.83,22.0,49.2,7.14,CT,0.42,1.25,122.6,0.2,13,False
+50,5.1,Long/Long,Val/Met,High Activity,20.9,18.41,3.34,20.6,67.3,9.45,CT,0.31,2.48,112.9,0.64,5,Persistent Depressive Disorder
+68,4.9,Long/Long,Val/Val,High Activity,19.5,17.51,8.69,18.0,58.3,8.73,CC,0.93,2.63,194.6,0.99,22,False
+60,7.9,Long/Long,Val/Val,Low Activity,18.8,17.05,5.17,10.7,59.9,7.18,TT,0.38,2.21,171.2,0.01,14,False
+54,5.8,Short/Long,Met/Met,High Activity,11.8,15.98,3.63,13.3,37.9,4.73,CC,0.76,2.57,174.2,0.54,7,False
+29,4.3,Short/Long,Met/Met,High Activity,21.1,10.61,2.92,8.6,61.1,8.24,CT,0.53,2.72,149.9,0.57,4,False
+20,8.8,Short/Long,Val/Val,Low Activity,6.0,20.41,5.0,12.3,63.3,6.6,TT,0.7,3.0,147.5,0.91,2,False
+18,8.4,Long/Long,Val/Val,High Activity,8.2,19.49,1.17,16.3,44.5,9.88,CC,0.26,2.39,111.0,0.51,2,Atypical Depression
+50,8.6,Short/Long,Val/Val,High Activity,11.7,9.62,5.28,25.4,38.5,3.98,TT,0.94,2.48,156.0,0.54,12,False
+57,9.0,Short/Short,Val/Met,High Activity,6.5,21.57,0.83,16.9,45.4,2.64,CT,0.53,2.41,124.7,0.47,1,Persistent Depressive Disorder
+27,4.9,Short/Short,Val/Met,High Activity,9.7,15.66,1.88,21.8,59.6,2.56,TT,0.83,2.52,197.7,0.27,23,False
+60,6.0,Short/Long,Val/Met,High Activity,21.6,15.65,-0.68,20.9,46.7,7.12,TT,0.37,2.24,179.7,0.06,0,Psychotic Depression
+61,7.8,Short/Short,Val/Val,High Activity,24.0,14.12,4.23,23.5,59.5,9.51,CT,0.1,2.24,141.3,0.41,11,False
+46,7.5,Short/Short,Met/Met,High Activity,11.1,14.61,3.5,12.8,34.5,2.02,TT,0.67,2.27,115.1,0.05,7,False
+30,4.8,Long/Long,Val/Val,High Activity,10.3,21.85,1.88,27.4,62.2,7.81,CC,0.01,2.58,178.5,0.55,18,False
+29,8.1,Short/Long,Val/Met,Low Activity,10.6,20.17,1.14,10.1,40.1,7.26,TT,0.48,2.08,112.2,0.31,8,False
+48,5.1,Short/Long,Val/Met,Low Activity,10.6,20.06,5.76,16.9,40.0,7.86,CC,0.19,2.27,118.9,0.53,13,Major Depressive Disorder
+63,5.1,Long/Long,Val/Val,High Activity,5.7,15.92,2.73,19.9,53.6,4.84,TT,0.63,3.4,121.2,0.13,26,Psychotic Depression
+19,6.7,Short/Short,Val/Val,High Activity,23.5,19.45,1.47,25.3,32.8,8.56,TT,0.98,2.95,155.7,0.93,17,Seasonal Affective Disorder
+68,7.0,Short/Short,Val/Met,Low Activity,9.3,10.83,6.84,29.7,31.1,2.36,CT,0.46,2.02,178.7,0.89,9,Atypical Depression
+67,6.9,Short/Long,Val/Met,High Activity,13.4,17.92,1.69,25.4,40.4,8.04,CT,0.82,2.93,131.4,0.19,8,False
+52,4.5,Short/Short,Val/Met,High Activity,5.2,14.23,5.28,29.9,51.5,4.14,CC,0.51,2.81,108.5,0.34,5,Persistent Depressive Disorder
+40,8.4,Long/Long,Val/Val,Low Activity,22.2,4.7,0.7,14.2,66.3,5.81,CT,0.5,2.45,146.5,0.61,0,False
+34,5.3,Long/Long,Val/Met,Low Activity,19.6,7.07,2.29,28.3,63.9,8.58,CT,0.93,2.15,174.8,0.1,4,Major Depressive Disorder
+43,4.6,Short/Long,Val/Met,Low Activity,23.9,11.69,4.0,27.1,49.6,4.17,CT,0.89,2.09,122.2,0.35,9,Major Depressive Disorder
+25,8.4,Long/Long,Met/Met,High Activity,20.6,17.08,2.88,3.2,31.5,3.48,CT,0.79,2.61,122.0,0.25,24,Major Depressive Disorder
+46,8.8,Long/Long,Val/Val,High Activity,11.3,11.69,3.49,18.5,51.4,7.45,CT,0.3,2.08,194.7,0.92,12,False
+43,8.3,Short/Long,Met/Met,Low Activity,10.0,12.04,1.92,24.2,58.2,6.27,CC,0.55,3.05,195.4,0.85,21,Persistent Depressive Disorder
+27,8.0,Long/Long,Met/Met,Low Activity,19.0,18.82,-0.2,16.4,43.6,6.12,CC,0.22,3.19,199.0,0.58,22,Major Depressive Disorder
+43,7.3,Long/Long,Val/Met,High Activity,12.3,12.22,5.93,12.4,34.4,4.05,CT,0.44,2.48,180.8,0.52,3,False
+51,6.8,Long/Long,Val/Val,Low Activity,16.3,21.65,2.04,34.8,41.1,2.28,CT,0.48,3.07,118.8,0.93,0,False
+68,4.4,Short/Short,Val/Met,High Activity,5.1,20.83,3.58,20.8,60.9,5.28,CC,0.83,2.29,121.2,0.93,20,False
+58,6.0,Short/Long,Val/Val,High Activity,6.2,15.11,4.4,21.0,44.0,2.85,TT,0.9,2.14,134.0,0.97,1,Seasonal Affective Disorder
+24,5.9,Short/Long,Met/Met,Low Activity,15.7,18.77,3.62,10.8,62.5,9.25,CC,0.41,3.05,131.8,0.13,23,Major Depressive Disorder
+21,5.3,Short/Long,Val/Val,Low Activity,16.3,18.09,1.58,15.7,42.8,2.33,TT,0.02,3.29,195.7,0.16,3,False
+67,7.6,Short/Short,Val/Met,High Activity,20.0,13.77,5.32,13.7,36.5,5.45,CT,0.86,3.48,178.9,0.68,16,False
+62,6.5,Short/Short,Val/Met,Low Activity,7.6,19.31,4.03,27.6,47.4,2.42,CT,0.17,2.67,172.4,0.54,9,False
+28,4.4,Short/Long,Val/Met,Low Activity,15.3,20.04,3.4,23.5,48.1,2.76,CC,0.62,2.93,118.6,0.02,22,Persistent Depressive Disorder
+46,5.1,Short/Short,Val/Val,Low Activity,8.9,10.24,3.35,16.0,30.6,7.27,CT,0.02,2.66,191.0,0.06,11,Major Depressive Disorder
+53,7.4,Short/Long,Met/Met,Low Activity,6.9,15.77,6.36,23.9,34.7,7.18,TT,0.4,3.2,182.8,0.89,26,False
+42,4.4,Short/Short,Met/Met,High Activity,13.2,15.71,1.54,18.2,37.4,2.26,TT,0.99,2.72,116.4,0.87,1,False
+38,8.3,Long/Long,Val/Val,High Activity,8.3,19.25,3.83,21.6,34.5,2.01,CC,0.1,2.9,187.1,0.36,2,Major Depressive Disorder
+53,6.5,Long/Long,Val/Met,High Activity,9.4,12.78,1.94,21.6,43.7,2.63,TT,0.42,1.93,127.2,0.89,13,Major Depressive Disorder
+27,6.4,Short/Long,Met/Met,High Activity,11.4,12.01,-0.87,22.9,68.6,8.1,CC,0.31,2.38,108.1,0.59,24,Atypical Depression
+54,7.0,Short/Short,Val/Met,Low Activity,10.2,15.84,-0.93,22.1,50.4,6.68,CC,0.91,2.91,165.7,0.81,14,False
+26,8.1,Short/Short,Val/Val,Low Activity,6.8,20.91,0.97,22.9,55.1,2.3,TT,0.87,2.86,165.4,0.43,12,False
+41,5.7,Long/Long,Val/Met,High Activity,6.8,9.0,1.68,28.8,44.3,5.9,TT,0.24,2.95,109.5,0.11,8,Persistent Depressive Disorder
+52,7.4,Long/Long,Met/Met,High Activity,8.9,9.88,7.35,24.5,42.9,7.7,TT,0.08,2.56,131.9,0.43,1,False
+66,6.8,Short/Short,Met/Met,Low Activity,6.0,12.4,4.4,17.6,30.9,8.95,TT,0.63,2.17,199.3,0.46,18,False
+52,5.3,Short/Short,Val/Met,High Activity,17.5,13.29,4.58,19.3,50.0,9.47,TT,0.34,2.47,167.8,0.55,15,False
+65,8.4,Short/Short,Val/Val,High Activity,10.7,6.17,1.73,28.6,49.3,4.62,TT,0.67,2.52,173.0,0.11,10,Atypical Depression
+53,8.0,Short/Short,Val/Met,Low Activity,10.6,22.49,3.12,20.8,36.3,3.09,TT,0.03,2.62,121.3,0.99,11,False
+35,7.3,Short/Short,Val/Val,High Activity,11.6,14.35,7.61,17.4,60.6,3.9,CT,0.13,2.02,107.9,0.24,24,False
+66,8.3,Short/Short,Val/Met,Low Activity,18.3,13.6,0.57,15.6,49.7,8.21,CC,0.69,2.37,127.7,0.2,0,Persistent Depressive Disorder
+56,8.3,Short/Long,Met/Met,Low Activity,22.4,23.11,3.91,21.9,43.6,9.77,CC,0.21,2.46,124.9,0.53,1,False
+49,7.5,Short/Short,Val/Val,High Activity,20.2,18.59,6.22,14.0,35.9,5.73,TT,0.86,1.38,123.5,0.54,15,Persistent Depressive Disorder
+41,8.2,Long/Long,Val/Val,Low Activity,19.6,12.32,4.93,29.0,52.1,4.44,CC,0.06,2.92,119.3,0.44,26,False
+40,7.5,Short/Long,Val/Val,High Activity,14.7,15.82,6.6,12.7,60.1,5.43,TT,0.22,2.58,157.5,0.77,1,Seasonal Affective Disorder
+49,7.4,Short/Short,Met/Met,Low Activity,18.9,14.79,3.43,30.3,41.3,4.44,CT,1.0,2.63,132.8,0.52,25,False
+54,7.1,Long/Long,Val/Met,High Activity,16.1,22.24,4.21,18.0,38.8,4.05,CC,0.43,2.24,182.0,0.61,18,Psychotic Depression
+29,7.8,Short/Long,Met/Met,High Activity,9.3,14.16,3.22,12.5,50.9,6.75,CC,0.7,2.79,118.4,0.72,9,Psychotic Depression
+66,4.8,Long/Long,Val/Val,High Activity,9.2,7.79,4.07,21.3,36.2,2.13,CT,0.18,2.08,146.5,0.03,18,Psychotic Depression
+30,8.4,Short/Short,Val/Met,Low Activity,10.9,5.61,1.17,13.3,56.7,4.08,CT,0.61,2.16,101.4,0.57,9,False
+40,8.4,Short/Short,Met/Met,Low Activity,23.2,22.38,4.58,20.2,54.2,7.29,CT,0.73,2.81,148.2,0.88,15,Seasonal Affective Disorder
+42,4.1,Short/Short,Val/Val,High Activity,15.9,11.06,3.59,16.0,33.5,2.26,CC,0.31,2.68,105.6,0.02,12,Seasonal Affective Disorder
+52,8.1,Short/Short,Val/Val,Low Activity,19.7,18.35,3.13,26.6,31.5,2.67,CC,0.83,1.86,197.8,0.41,15,False
+58,4.6,Short/Long,Met/Met,High Activity,11.9,15.36,6.49,21.0,54.8,4.35,CT,0.6,3.29,179.1,0.93,17,Psychotic Depression
+47,5.7,Short/Long,Met/Met,High Activity,13.2,12.92,2.47,11.7,41.8,9.02,CT,0.39,2.12,149.0,0.35,23,False
+34,7.7,Long/Long,Met/Met,Low Activity,7.5,13.7,5.42,15.8,33.5,8.12,CT,0.56,2.43,108.7,0.46,7,Persistent Depressive Disorder
+66,4.8,Short/Short,Val/Val,High Activity,8.4,22.92,5.61,24.9,60.4,2.18,CT,0.58,3.37,159.2,0.98,23,False
+37,8.1,Long/Long,Met/Met,Low Activity,21.5,7.76,4.71,29.0,42.6,6.01,CT,0.17,1.47,175.9,0.2,17,Persistent Depressive Disorder
+65,8.2,Short/Long,Val/Val,High Activity,16.7,13.07,1.07,19.7,48.4,4.2,TT,0.4,1.65,119.1,0.07,12,Psychotic Depression
+42,6.5,Short/Short,Met/Met,Low Activity,11.8,19.53,3.72,12.7,39.5,7.19,CT,0.34,2.72,156.8,0.86,24,Seasonal Affective Disorder
+39,4.0,Short/Short,Val/Val,High Activity,21.1,8.58,6.92,27.4,55.1,7.77,TT,0.4,1.26,181.4,0.87,26,False
+30,5.4,Short/Long,Val/Val,High Activity,9.9,21.59,-0.64,24.9,42.1,8.9,CC,0.76,1.48,176.8,0.47,6,Persistent Depressive Disorder
+36,7.1,Short/Long,Val/Met,Low Activity,24.5,19.46,2.62,29.1,68.7,5.8,CC,0.48,3.09,180.3,0.51,20,False
+66,8.9,Short/Long,Met/Met,High Activity,11.9,16.36,5.32,22.0,58.1,9.96,TT,0.94,2.3,187.9,0.84,22,Atypical Depression
+53,7.2,Short/Long,Met/Met,High Activity,11.7,12.48,2.77,16.4,35.5,9.84,CT,0.29,3.6,193.8,0.74,23,Persistent Depressive Disorder
+29,5.3,Short/Long,Val/Val,Low Activity,11.2,7.94,4.62,23.6,46.7,9.06,CC,0.42,1.98,140.6,0.27,24,False
+58,7.2,Short/Short,Val/Val,High Activity,7.4,18.54,5.82,22.3,45.4,6.6,CT,0.79,2.34,156.9,0.02,17,False
+36,6.7,Short/Long,Val/Val,Low Activity,7.2,28.74,3.46,16.0,51.4,5.18,CT,0.55,2.77,179.1,0.48,5,False
+29,7.9,Short/Short,Val/Met,High Activity,18.0,15.73,4.02,21.4,63.7,4.92,TT,0.55,2.74,169.7,0.86,8,False
+26,4.5,Short/Short,Val/Met,Low Activity,22.5,5.87,3.18,18.6,53.3,2.1,CC,0.05,2.37,199.6,0.9,5,False
+24,7.8,Short/Long,Val/Val,High Activity,20.8,17.29,3.6,25.2,32.5,3.99,CC,0.4,2.18,101.4,0.96,17,False
+45,6.7,Short/Long,Met/Met,High Activity,7.8,19.3,7.21,23.4,56.2,7.75,TT,0.27,2.62,135.5,0.88,16,False
+31,8.8,Short/Short,Met/Met,High Activity,15.9,10.41,2.87,12.6,30.3,6.83,CT,1.0,3.19,128.1,0.58,11,Persistent Depressive Disorder
+48,5.7,Short/Long,Val/Met,Low Activity,7.1,11.77,2.29,11.9,61.2,9.33,CT,0.31,2.88,126.2,0.44,2,False
+69,7.2,Short/Long,Val/Met,Low Activity,5.9,11.26,5.08,19.4,56.7,2.4,CC,0.88,2.18,122.3,0.77,26,False
+36,8.7,Short/Long,Val/Val,Low Activity,18.1,12.34,1.31,20.2,42.4,3.24,TT,0.68,2.0,170.9,0.74,4,False
+64,4.5,Long/Long,Met/Met,Low Activity,15.7,14.14,1.77,25.3,41.7,8.31,TT,0.34,2.15,108.5,0.54,6,False
+33,8.7,Short/Short,Val/Val,High Activity,6.6,10.7,1.78,23.6,61.9,4.87,CT,0.54,1.86,174.2,0.09,9,Atypical Depression
+22,7.4,Long/Long,Val/Met,High Activity,5.7,8.82,2.49,30.2,61.3,2.95,CT,0.84,2.57,169.3,0.93,9,False
+52,4.3,Short/Long,Met/Met,Low Activity,24.8,15.87,2.58,16.7,44.1,9.97,TT,0.88,2.91,125.1,0.46,18,Atypical Depression
+29,5.5,Long/Long,Met/Met,Low Activity,5.6,14.09,4.4,16.3,42.0,8.3,CC,0.16,2.46,125.3,0.36,24,False
+42,7.5,Short/Long,Val/Met,Low Activity,13.9,12.82,2.32,13.3,52.4,5.27,CT,0.34,3.36,162.9,0.63,25,Seasonal Affective Disorder
+69,4.3,Long/Long,Val/Val,High Activity,15.1,15.42,4.48,25.2,30.3,8.59,TT,0.34,3.39,176.2,0.67,3,Atypical Depression
+38,6.9,Short/Long,Val/Val,Low Activity,7.3,7.4,4.73,20.2,33.3,7.44,TT,0.04,2.65,187.6,0.21,9,Major Depressive Disorder
+53,5.7,Long/Long,Met/Met,Low Activity,8.4,16.32,1.69,7.0,35.0,8.32,TT,0.6,2.85,185.2,0.84,17,False
+40,7.1,Long/Long,Val/Met,High Activity,12.0,12.92,4.69,21.4,37.4,8.52,CC,0.85,2.05,196.5,0.29,2,False
+33,4.2,Long/Long,Met/Met,High Activity,20.2,16.2,4.87,21.9,50.5,2.68,CT,0.38,2.32,158.1,0.19,20,False
+56,8.4,Short/Short,Val/Met,Low Activity,15.1,17.0,-0.52,19.0,69.7,6.98,CT,0.74,3.14,190.9,0.41,2,Seasonal Affective Disorder
+62,8.9,Long/Long,Val/Val,High Activity,17.8,20.66,3.59,22.1,56.1,2.05,CT,0.63,2.21,180.9,0.73,4,False
+59,8.8,Short/Short,Val/Met,Low Activity,24.7,15.51,1.99,11.5,32.5,2.35,CC,0.38,3.24,189.5,0.97,15,Persistent Depressive Disorder
+56,7.7,Short/Long,Val/Val,High Activity,20.4,20.33,5.61,31.5,51.0,9.23,CT,0.14,3.06,101.2,0.81,19,Atypical Depression
+31,4.7,Long/Long,Val/Met,Low Activity,13.7,13.39,1.97,22.7,49.9,6.22,CT,0.71,2.88,196.6,0.94,12,Seasonal Affective Disorder
+48,7.8,Short/Long,Met/Met,Low Activity,13.9,13.63,0.32,7.6,35.8,7.89,CT,0.85,1.91,147.4,0.14,10,Psychotic Depression
+22,4.1,Short/Long,Val/Val,Low Activity,17.4,14.55,2.94,20.0,66.8,8.71,CT,0.69,2.34,179.8,0.07,25,False
+52,4.1,Long/Long,Met/Met,Low Activity,18.3,18.87,1.21,22.8,47.6,9.6,CC,0.02,2.82,112.7,0.56,12,False
+40,5.6,Short/Short,Met/Met,High Activity,15.0,18.15,4.7,12.2,69.8,8.95,TT,0.22,2.01,139.6,0.29,18,Seasonal Affective Disorder
+46,6.4,Long/Long,Val/Val,High Activity,17.9,15.68,1.38,23.7,46.8,5.87,TT,0.07,2.4,127.1,0.83,5,False
+60,7.9,Short/Long,Val/Val,High Activity,5.5,8.86,2.96,31.8,54.3,4.69,CT,0.57,2.88,129.2,0.67,23,Major Depressive Disorder
+28,7.4,Short/Long,Met/Met,High Activity,13.6,18.07,6.09,15.5,34.2,3.24,CT,0.76,2.22,112.3,0.97,12,Psychotic Depression
+35,6.2,Long/Long,Met/Met,Low Activity,10.6,10.69,5.2,23.0,48.2,5.2,CT,0.11,2.08,180.6,0.25,3,Atypical Depression
+64,5.4,Short/Short,Met/Met,Low Activity,7.6,10.42,3.96,21.5,39.6,4.93,CC,0.84,1.6,100.9,0.49,24,Seasonal Affective Disorder
+29,9.0,Short/Short,Met/Met,High Activity,7.0,9.31,2.74,26.8,63.4,6.48,CT,0.56,2.31,131.3,0.5,21,False
+26,6.1,Short/Long,Val/Val,High Activity,17.1,14.58,3.77,19.2,61.4,7.32,CC,0.69,2.89,117.4,0.24,4,Psychotic Depression
+27,6.3,Short/Long,Val/Val,High Activity,15.5,21.06,4.38,12.5,63.0,9.83,CT,0.97,2.06,158.9,0.59,18,Seasonal Affective Disorder
+61,4.8,Short/Short,Met/Met,High Activity,10.1,10.17,1.03,26.3,58.9,7.83,CT,0.08,2.51,125.4,0.44,4,False
+34,8.0,Long/Long,Val/Met,High Activity,14.4,23.39,4.7,12.9,63.3,7.15,TT,0.9,2.39,125.9,0.45,20,False
+55,7.5,Short/Long,Val/Met,Low Activity,14.8,19.55,0.8,32.7,38.0,4.68,CT,0.13,2.17,148.8,0.36,13,Persistent Depressive Disorder
+24,5.1,Short/Short,Val/Val,Low Activity,8.9,7.68,4.14,23.9,48.1,2.28,CC,0.39,2.92,165.3,0.02,3,False
+63,4.4,Short/Long,Met/Met,Low Activity,18.0,13.09,0.79,15.8,57.7,4.31,TT,0.85,3.32,112.1,0.52,11,Psychotic Depression
+30,7.4,Long/Long,Met/Met,High Activity,20.6,9.8,6.93,27.8,55.5,8.15,CC,0.91,3.0,117.6,0.34,5,False
+57,7.3,Short/Short,Val/Val,High Activity,20.8,18.32,4.53,19.9,58.7,3.64,TT,0.51,2.15,124.7,0.0,18,Persistent Depressive Disorder
+59,5.4,Short/Long,Val/Met,High Activity,17.0,10.06,-0.11,18.5,39.0,7.7,CC,0.59,3.5,197.4,0.31,9,False
+26,8.8,Long/Long,Val/Met,High Activity,15.2,6.89,3.0,15.2,33.9,6.64,TT,0.71,3.0,139.7,0.28,0,False
+67,4.8,Short/Long,Val/Met,Low Activity,6.2,13.37,1.96,6.9,66.7,3.37,CC,0.83,2.27,159.9,0.39,22,Persistent Depressive Disorder
+44,6.2,Long/Long,Val/Val,Low Activity,10.8,20.85,1.72,24.2,52.4,4.09,CC,0.12,2.11,124.2,0.13,22,Persistent Depressive Disorder
+19,8.7,Long/Long,Val/Met,High Activity,6.9,14.04,3.29,8.6,36.2,5.97,CT,0.81,3.06,149.0,0.51,15,False
+22,6.1,Short/Short,Val/Val,Low Activity,24.3,16.99,1.14,14.4,61.7,5.35,TT,0.48,2.59,107.4,0.69,3,False
+46,7.2,Long/Long,Val/Val,Low Activity,7.7,17.19,4.52,23.0,66.6,8.23,TT,0.45,2.07,103.5,0.63,8,Atypical Depression
+54,6.0,Short/Long,Met/Met,High Activity,8.0,7.44,4.41,16.5,36.8,7.88,CT,0.42,2.43,146.9,0.8,17,Psychotic Depression
+55,5.4,Long/Long,Val/Met,High Activity,22.8,10.5,3.7,21.1,62.7,6.6,CC,0.51,2.3,139.9,0.45,16,False
+36,8.9,Long/Long,Val/Val,High Activity,23.9,15.03,2.96,11.5,67.3,8.58,CC,0.95,2.09,113.7,0.52,14,Persistent Depressive Disorder
+25,6.0,Short/Short,Val/Met,High Activity,20.3,12.21,4.32,17.6,67.5,6.5,TT,0.55,3.01,168.8,0.81,18,False
+65,8.5,Long/Long,Val/Met,High Activity,5.1,23.52,4.58,21.1,66.6,9.72,CC,0.95,2.89,199.3,0.43,6,False
+62,5.1,Long/Long,Met/Met,High Activity,5.0,8.86,3.91,13.3,51.9,3.74,TT,0.18,2.92,139.6,0.7,24,False
+18,5.1,Short/Long,Val/Met,Low Activity,12.6,10.45,0.38,31.8,44.2,7.71,TT,0.72,2.91,162.5,0.43,17,Persistent Depressive Disorder
+39,4.2,Short/Short,Met/Met,Low Activity,7.9,16.45,1.42,15.5,30.3,4.96,CC,0.81,2.04,196.3,0.42,5,Seasonal Affective Disorder
+69,7.3,Short/Short,Val/Val,High Activity,5.4,11.86,2.46,29.6,32.4,4.23,CC,0.68,2.2,183.2,0.76,18,Persistent Depressive Disorder
+34,5.8,Short/Short,Val/Met,Low Activity,14.3,0.54,0.05,18.8,47.2,3.44,CC,0.61,3.23,146.4,0.17,20,Major Depressive Disorder
+24,8.3,Long/Long,Val/Val,High Activity,23.9,24.67,3.45,9.0,46.0,6.42,CT,0.56,2.55,173.7,0.34,11,Seasonal Affective Disorder
+42,6.4,Short/Short,Val/Met,High Activity,11.5,9.63,5.82,12.0,37.4,3.72,TT,0.86,1.76,112.8,0.22,24,False
+62,8.8,Long/Long,Val/Val,High Activity,18.2,17.8,5.5,21.2,45.8,3.6,CC,0.82,2.61,151.2,0.36,2,False
+21,4.9,Long/Long,Val/Met,High Activity,18.0,8.73,4.48,27.2,37.0,9.92,CT,0.12,2.83,127.9,0.23,0,False
+53,8.3,Short/Long,Val/Met,Low Activity,10.0,10.68,4.46,32.4,64.0,8.41,CC,0.85,2.76,116.1,0.58,4,False
+23,7.9,Short/Long,Val/Met,High Activity,18.0,6.89,7.43,20.9,41.9,7.99,TT,0.41,2.03,142.6,0.8,0,False
+48,7.9,Short/Long,Val/Met,Low Activity,9.2,11.29,4.69,11.8,53.9,8.35,CT,0.25,3.44,113.1,0.79,7,False
+36,8.2,Short/Long,Val/Met,High Activity,7.4,11.78,4.85,21.9,50.1,9.75,TT,0.87,1.75,169.9,0.36,6,False
+61,7.8,Short/Long,Val/Met,High Activity,19.0,14.34,0.12,14.2,32.1,6.59,CC,0.43,2.56,145.6,0.99,14,Major Depressive Disorder
+56,7.1,Long/Long,Val/Met,High Activity,7.3,13.14,5.67,22.7,67.7,3.76,CC,0.81,3.37,153.1,0.59,10,False
+44,4.7,Long/Long,Val/Met,Low Activity,24.9,7.79,3.8,13.4,51.1,8.9,CC,0.26,2.8,114.6,0.4,17,False
+27,4.2,Short/Short,Val/Met,High Activity,8.7,12.38,2.84,5.4,43.0,7.94,CT,0.0,2.92,114.0,0.84,13,Major Depressive Disorder
+43,8.6,Long/Long,Val/Val,High Activity,16.9,22.24,2.34,29.2,36.3,5.31,CT,0.5,1.97,158.3,0.73,26,Persistent Depressive Disorder
+36,7.1,Long/Long,Met/Met,High Activity,13.2,21.64,1.9,18.4,43.5,5.79,CT,0.1,2.67,198.5,0.75,8,False
+56,8.0,Short/Long,Val/Met,Low Activity,7.5,17.28,5.51,20.3,30.8,5.29,CT,0.75,2.48,109.6,0.2,4,Persistent Depressive Disorder
+20,6.4,Long/Long,Met/Met,Low Activity,5.6,18.32,2.94,27.0,44.5,9.44,CC,0.28,1.93,128.6,0.47,22,Psychotic Depression
+62,4.6,Short/Long,Val/Met,Low Activity,17.5,25.3,1.98,33.2,51.3,4.75,CC,0.44,2.93,186.9,0.86,3,False
+30,4.6,Short/Short,Val/Met,High Activity,21.1,17.86,1.46,25.0,64.9,9.71,CC,0.09,2.09,107.2,0.5,11,Psychotic Depression
+67,7.4,Short/Short,Val/Val,Low Activity,21.8,18.22,3.34,20.7,57.5,9.28,CT,0.29,2.15,187.6,0.68,0,Seasonal Affective Disorder
+45,6.2,Long/Long,Val/Val,High Activity,14.7,7.18,2.28,23.2,34.5,7.04,CT,0.78,2.72,152.4,0.59,23,Major Depressive Disorder
+37,5.0,Short/Short,Met/Met,Low Activity,20.5,9.44,1.82,17.9,35.9,6.64,CC,0.15,2.43,140.8,0.84,12,Psychotic Depression
+45,6.5,Long/Long,Val/Val,Low Activity,18.5,14.84,0.24,20.3,47.1,4.96,CC,0.65,2.58,131.0,0.28,0,Seasonal Affective Disorder
+25,4.3,Short/Short,Val/Val,High Activity,19.5,10.96,4.92,21.0,37.8,2.15,CT,0.92,2.4,129.7,0.58,2,Seasonal Affective Disorder
+58,6.9,Short/Long,Met/Met,Low Activity,14.9,10.01,2.72,14.5,31.1,3.02,TT,0.68,3.21,130.6,0.12,21,Atypical Depression
+56,5.3,Short/Long,Val/Val,High Activity,17.7,10.59,0.83,20.1,62.2,8.03,CC,0.81,2.04,188.5,0.69,7,Seasonal Affective Disorder
+18,8.0,Short/Long,Val/Met,High Activity,21.1,7.88,2.46,22.6,30.8,5.77,CC,0.11,2.27,172.4,0.73,23,Major Depressive Disorder
+20,5.6,Short/Long,Met/Met,Low Activity,13.0,11.04,4.1,23.6,63.2,3.2,CC,0.25,2.74,167.0,0.04,17,False
+30,6.3,Long/Long,Met/Met,High Activity,21.1,16.7,3.06,23.1,35.8,4.11,CT,0.89,2.01,179.9,0.68,24,False
+45,4.1,Short/Short,Val/Met,High Activity,16.8,23.98,3.38,10.6,69.0,9.58,CC,0.72,1.98,125.7,0.41,15,Atypical Depression
+66,4.4,Long/Long,Val/Val,Low Activity,8.3,18.98,3.09,28.6,54.2,4.94,CC,0.64,2.57,161.8,0.12,19,False
+42,6.0,Short/Long,Met/Met,Low Activity,5.5,18.18,0.45,28.0,59.4,9.26,CC,0.66,2.93,146.0,0.42,19,Major Depressive Disorder
+50,6.4,Long/Long,Met/Met,High Activity,12.3,6.88,4.9,19.3,34.4,4.44,CC,0.41,3.0,178.2,0.19,15,False
+55,7.0,Short/Short,Val/Met,Low Activity,15.9,15.6,-0.42,23.2,64.5,6.35,CC,0.04,2.55,130.9,0.42,1,Seasonal Affective Disorder
+23,5.5,Long/Long,Val/Met,High Activity,21.8,14.67,3.92,18.5,63.6,2.16,TT,0.78,2.16,164.3,0.38,16,Major Depressive Disorder
+61,7.5,Short/Short,Val/Val,High Activity,7.5,16.45,4.23,25.3,56.1,6.18,TT,0.68,2.64,188.2,0.74,9,Atypical Depression
+62,8.3,Long/Long,Met/Met,Low Activity,21.0,13.2,2.56,14.3,50.1,7.1,CC,0.47,2.78,140.2,0.77,6,Major Depressive Disorder
+49,7.9,Short/Short,Val/Val,Low Activity,22.3,23.31,3.71,29.4,58.9,3.87,CC,0.9,2.63,106.7,0.61,26,Psychotic Depression
+62,4.2,Short/Short,Val/Val,Low Activity,8.0,15.26,2.45,24.9,30.2,6.63,CC,0.34,3.12,151.6,0.02,9,Persistent Depressive Disorder
+64,6.4,Short/Long,Val/Met,Low Activity,22.0,15.75,3.73,25.1,53.7,7.18,CC,0.29,1.99,134.6,0.93,18,Seasonal Affective Disorder
+38,4.5,Short/Short,Met/Met,High Activity,24.8,5.19,4.99,19.3,63.9,7.5,CT,0.87,2.15,167.2,0.69,19,False
+33,5.2,Short/Long,Met/Met,High Activity,19.5,14.47,1.42,10.1,44.3,8.21,CT,0.8,3.05,195.1,0.03,26,Seasonal Affective Disorder
+38,8.9,Short/Long,Met/Met,Low Activity,20.7,20.75,4.35,26.2,34.3,4.49,CT,0.51,1.76,148.6,0.82,8,Persistent Depressive Disorder
+28,4.7,Short/Long,Val/Met,Low Activity,24.9,17.78,6.38,10.3,46.8,6.54,TT,0.13,2.23,146.6,0.2,21,False
+54,6.5,Long/Long,Val/Met,High Activity,17.1,4.22,3.53,26.3,59.1,9.85,CC,0.22,2.13,165.5,0.58,16,Seasonal Affective Disorder
+53,7.1,Long/Long,Val/Met,High Activity,11.2,12.75,1.99,14.6,34.3,9.19,CT,0.66,1.72,110.3,0.47,8,Persistent Depressive Disorder
+52,7.5,Long/Long,Val/Met,High Activity,21.8,23.66,7.53,8.9,38.2,9.62,CC,0.39,2.41,125.4,0.42,8,False
+36,6.8,Long/Long,Val/Met,High Activity,17.3,14.25,3.18,20.0,35.9,5.09,CC,0.84,2.87,191.9,0.89,4,Seasonal Affective Disorder
+37,4.0,Short/Short,Met/Met,Low Activity,16.6,16.61,3.46,28.3,61.9,8.3,TT,0.95,2.58,167.0,0.44,23,Seasonal Affective Disorder
+35,5.6,Short/Short,Val/Val,High Activity,10.1,23.1,3.5,13.2,32.5,6.96,TT,0.81,2.9,101.3,0.08,6,False
+64,6.6,Long/Long,Met/Met,High Activity,20.1,14.23,3.9,31.2,57.5,2.66,CT,0.38,3.1,120.5,0.95,10,False
+58,4.4,Short/Short,Val/Val,Low Activity,6.6,18.96,2.32,24.6,44.7,8.59,CT,0.79,2.31,168.3,0.92,7,Major Depressive Disorder
+66,5.8,Short/Short,Val/Met,High Activity,23.5,17.06,3.38,21.1,60.2,7.42,TT,0.35,3.82,176.4,0.68,24,Major Depressive Disorder
+31,4.2,Short/Long,Val/Val,High Activity,11.5,18.13,4.9,17.0,68.6,3.59,TT,0.17,2.33,184.0,0.47,13,Major Depressive Disorder
+32,4.4,Short/Long,Met/Met,Low Activity,7.6,16.9,2.25,17.4,34.6,2.64,CC,0.03,2.39,129.2,0.09,1,False
+48,6.0,Short/Long,Met/Met,Low Activity,13.8,12.26,2.16,23.0,42.6,8.7,CC,0.39,2.15,193.1,0.79,9,Psychotic Depression
+18,4.7,Short/Long,Val/Val,Low Activity,5.8,12.76,2.42,25.9,62.4,2.63,CT,0.9,2.77,155.3,0.08,20,False
+20,6.8,Short/Short,Val/Met,High Activity,18.7,10.73,0.8,15.8,40.6,2.73,CT,0.24,2.35,169.7,0.07,23,False
+33,7.4,Long/Long,Val/Met,High Activity,23.1,6.8,1.63,14.4,38.6,5.42,TT,0.21,2.46,159.7,0.54,15,False
+40,8.0,Short/Short,Met/Met,Low Activity,21.7,21.22,1.55,18.5,63.0,3.08,CT,0.97,2.4,112.3,0.16,15,False
+28,5.0,Short/Short,Val/Val,Low Activity,7.5,15.05,3.0,29.8,69.5,9.31,CC,0.03,2.39,196.3,0.01,18,Major Depressive Disorder
+29,4.8,Short/Short,Val/Met,High Activity,7.5,20.97,4.67,11.5,52.3,5.76,TT,0.79,2.58,112.3,0.42,26,False
+27,4.5,Short/Long,Val/Met,Low Activity,21.3,22.83,5.91,28.0,41.1,6.55,CC,0.32,2.27,125.5,0.14,10,Psychotic Depression
+49,7.2,Short/Long,Met/Met,Low Activity,23.5,15.27,3.11,20.3,45.9,9.42,TT,0.04,2.3,181.4,0.16,5,Persistent Depressive Disorder
+33,7.5,Short/Long,Val/Met,Low Activity,14.2,8.43,3.91,8.4,36.8,6.24,TT,0.92,3.04,161.9,0.08,5,False
+25,4.2,Long/Long,Val/Val,High Activity,15.0,14.02,3.49,16.8,60.5,4.83,CC,0.14,2.35,183.8,0.21,6,False
+55,8.7,Short/Short,Met/Met,High Activity,11.4,11.64,-1.19,24.3,60.9,8.38,CT,0.55,2.69,151.6,0.72,15,Major Depressive Disorder
+29,4.3,Long/Long,Met/Met,High Activity,22.9,5.1,0.7,32.6,65.0,5.54,CT,0.27,2.06,137.7,0.81,12,Major Depressive Disorder
+41,6.7,Short/Long,Val/Val,High Activity,17.9,12.49,4.52,10.7,31.1,4.55,CT,0.07,2.28,192.2,0.45,26,False
+45,7.5,Long/Long,Met/Met,High Activity,10.8,14.64,4.72,0.3,52.5,7.79,CT,0.05,1.88,103.6,0.51,2,Persistent Depressive Disorder
+25,8.4,Short/Short,Val/Met,High Activity,11.0,11.78,4.67,10.8,38.6,8.41,CC,0.12,3.43,185.6,0.03,23,Atypical Depression
+45,7.6,Short/Short,Val/Met,Low Activity,22.8,11.14,2.64,27.9,43.6,8.33,TT,0.07,3.19,123.1,0.07,23,False
+53,8.0,Short/Long,Val/Val,High Activity,5.3,8.61,-0.99,7.4,61.4,9.82,CC,0.76,2.8,184.9,0.26,8,False
+43,5.7,Short/Long,Val/Met,High Activity,11.5,15.98,0.94,30.5,37.7,8.29,CT,0.49,3.58,113.9,0.54,23,False
+25,8.1,Long/Long,Val/Val,Low Activity,16.1,24.35,1.25,28.5,55.5,8.16,CT,0.34,2.89,158.0,0.74,2,Persistent Depressive Disorder
+67,4.4,Short/Long,Val/Val,High Activity,8.0,21.39,4.26,21.3,56.2,8.86,CC,0.42,2.41,188.8,0.61,5,Persistent Depressive Disorder
+45,8.5,Short/Long,Val/Met,High Activity,6.8,18.27,2.29,15.6,68.2,2.0,TT,0.93,2.69,147.4,0.39,24,Persistent Depressive Disorder
+45,6.7,Short/Short,Val/Val,Low Activity,21.3,18.38,6.38,20.4,61.0,4.9,CC,0.91,3.18,174.7,0.12,16,Major Depressive Disorder
+54,8.1,Short/Long,Val/Met,Low Activity,22.9,14.34,5.94,24.3,62.1,7.9,CC,0.72,2.06,180.5,0.78,2,Persistent Depressive Disorder
+58,6.3,Short/Long,Met/Met,Low Activity,21.5,5.98,6.35,23.2,51.3,6.8,CC,0.88,1.91,173.6,0.36,1,Major Depressive Disorder
+53,7.2,Short/Short,Met/Met,High Activity,23.0,13.15,1.17,32.2,37.5,3.42,TT,0.32,2.7,192.5,0.74,11,False
+44,6.6,Short/Short,Val/Val,Low Activity,16.1,10.15,3.98,18.2,47.0,4.43,CC,0.38,2.21,144.7,0.51,23,False
+34,7.7,Long/Long,Val/Met,High Activity,21.2,15.77,2.04,10.9,52.0,4.69,CC,0.61,1.37,117.3,0.74,5,False
+26,4.4,Short/Long,Val/Met,High Activity,12.7,21.17,3.66,9.7,57.1,6.54,CT,0.62,1.88,104.8,0.91,9,Persistent Depressive Disorder
+50,4.3,Short/Short,Met/Met,High Activity,18.3,24.87,1.39,8.3,54.3,8.65,CC,0.48,2.34,124.6,0.92,10,False
+37,5.2,Long/Long,Met/Met,High Activity,24.8,15.32,5.45,21.4,45.8,9.46,CT,0.4,2.52,114.3,0.54,15,Psychotic Depression
+30,4.8,Long/Long,Val/Met,Low Activity,9.5,6.66,1.43,18.4,40.6,8.0,CT,0.99,2.54,155.8,0.51,26,Major Depressive Disorder
+45,8.4,Short/Long,Val/Val,Low Activity,12.8,15.31,-0.89,20.2,36.7,8.74,CT,0.82,3.5,118.5,0.27,15,False
+65,5.1,Short/Long,Met/Met,High Activity,14.6,15.45,7.07,16.2,57.8,5.76,TT,0.43,2.4,103.9,0.94,23,Atypical Depression
+46,8.9,Long/Long,Val/Val,Low Activity,7.8,18.39,3.88,12.2,55.8,5.12,CT,0.73,2.64,103.6,0.46,17,False
+30,5.7,Short/Short,Val/Val,High Activity,6.6,14.9,0.86,24.3,57.5,5.14,CC,0.27,1.69,183.2,0.13,26,False
+63,4.9,Long/Long,Met/Met,High Activity,21.6,15.33,2.68,2.8,44.9,6.93,CC,0.1,2.48,159.1,0.43,21,False
+52,7.9,Short/Long,Val/Val,High Activity,24.5,11.84,1.85,14.4,40.5,2.99,CT,0.35,2.67,135.8,0.13,22,Persistent Depressive Disorder
+23,7.3,Short/Short,Val/Val,Low Activity,13.1,13.44,3.01,25.5,60.4,6.64,CT,0.4,1.81,189.4,0.5,23,False
+35,6.5,Short/Short,Val/Met,High Activity,6.8,17.57,4.61,13.7,60.9,7.32,CC,0.02,2.03,107.0,0.56,8,False
+68,6.8,Long/Long,Val/Val,High Activity,6.3,4.96,4.29,22.7,48.2,5.51,CT,0.81,2.74,198.0,0.34,20,Major Depressive Disorder
+22,7.6,Short/Long,Val/Met,Low Activity,22.8,13.41,3.51,14.4,54.5,9.63,TT,0.36,2.23,161.6,0.07,26,Seasonal Affective Disorder
+64,5.1,Long/Long,Met/Met,Low Activity,14.3,18.44,3.01,16.8,44.9,6.87,CT,0.58,2.45,118.3,0.94,18,Psychotic Depression
+42,9.0,Long/Long,Met/Met,Low Activity,11.4,23.2,5.16,24.0,58.1,3.76,TT,0.07,2.77,167.9,0.77,1,Seasonal Affective Disorder
+19,8.9,Long/Long,Val/Met,Low Activity,14.5,13.01,-0.85,11.1,63.4,5.83,TT,0.17,3.52,176.3,0.84,23,False
+27,7.3,Short/Short,Met/Met,High Activity,11.4,20.93,1.5,25.2,57.5,7.4,TT,0.89,2.39,142.9,0.37,0,False
+47,5.0,Short/Short,Val/Val,Low Activity,14.8,23.45,1.04,20.3,50.5,4.59,CT,0.61,3.38,186.2,0.76,25,Atypical Depression
+67,7.4,Short/Long,Val/Val,High Activity,22.2,13.07,5.01,28.8,48.3,2.64,TT,0.95,1.52,115.1,0.49,15,False
+62,4.4,Short/Long,Val/Val,Low Activity,16.8,12.21,1.52,21.5,55.7,6.67,TT,1.0,2.57,127.9,0.2,21,False
+22,4.2,Long/Long,Met/Met,Low Activity,18.9,14.09,0.43,12.5,57.2,9.58,CT,0.37,2.33,109.3,0.12,17,False
+50,5.3,Long/Long,Val/Val,Low Activity,12.3,14.59,4.1,32.1,52.3,5.88,TT,0.3,2.23,121.1,0.35,2,Psychotic Depression
+18,6.3,Long/Long,Met/Met,Low Activity,19.8,20.45,1.18,13.1,55.0,9.25,CT,0.86,2.83,123.9,0.14,23,Atypical Depression
+35,8.3,Short/Long,Val/Val,Low Activity,18.3,11.13,2.3,18.4,33.9,8.68,CC,1.0,2.39,191.8,1.0,0,False
+49,7.6,Short/Short,Val/Met,Low Activity,7.4,22.69,7.76,26.7,68.1,3.18,TT,0.63,1.49,107.8,0.05,5,False
+64,7.7,Short/Short,Met/Met,High Activity,16.5,11.0,4.57,6.8,61.6,7.67,CT,0.8,1.71,142.7,0.44,18,False
+66,6.1,Long/Long,Met/Met,Low Activity,10.1,8.68,2.58,30.1,45.0,5.48,CC,0.78,2.86,153.2,0.45,21,Persistent Depressive Disorder
+28,5.7,Long/Long,Val/Val,Low Activity,21.1,17.62,2.76,11.9,52.5,4.0,TT,0.36,1.68,189.9,0.3,18,False
+38,5.9,Long/Long,Met/Met,Low Activity,13.5,21.15,4.81,16.8,31.9,7.5,TT,0.57,2.87,199.8,0.57,10,False
+43,8.9,Long/Long,Met/Met,Low Activity,24.9,15.89,4.33,22.0,31.6,7.94,CT,0.83,2.56,175.3,0.15,26,False
+42,4.2,Short/Long,Val/Met,High Activity,6.9,17.18,3.15,19.7,40.0,3.44,CC,0.69,2.41,197.1,0.78,7,Seasonal Affective Disorder
+39,8.3,Short/Short,Val/Met,Low Activity,20.6,24.77,3.21,25.5,57.6,9.32,CT,0.02,2.46,178.7,0.33,4,Major Depressive Disorder
+44,6.9,Long/Long,Val/Val,Low Activity,18.5,21.22,0.04,8.8,64.1,8.01,TT,0.34,2.76,196.3,0.59,19,Persistent Depressive Disorder
+66,6.2,Short/Long,Val/Met,Low Activity,20.3,15.15,-0.38,25.1,52.4,9.47,TT,0.14,1.91,170.7,0.72,8,False
+30,7.6,Long/Long,Val/Val,Low Activity,11.2,12.84,2.65,25.7,51.3,4.54,TT,0.23,2.52,108.0,0.89,14,Atypical Depression
+50,6.4,Long/Long,Val/Val,High Activity,14.8,20.48,1.73,27.2,46.1,9.51,TT,0.91,1.93,140.2,0.84,20,Major Depressive Disorder
+51,8.4,Short/Short,Val/Val,Low Activity,20.9,19.15,4.17,8.9,36.5,4.95,CC,0.04,2.58,164.7,0.61,13,Atypical Depression
+58,8.5,Long/Long,Met/Met,High Activity,9.7,17.09,3.39,9.7,34.7,2.43,CC,0.22,2.82,135.1,0.39,3,False
+52,6.1,Short/Short,Val/Met,Low Activity,9.5,13.36,1.45,17.6,60.4,8.1,CT,0.31,2.58,127.3,0.5,23,Atypical Depression
+18,5.4,Short/Short,Val/Val,High Activity,16.0,14.62,3.33,10.5,67.1,7.63,CT,0.62,2.8,157.7,0.77,23,False
+38,7.0,Short/Short,Val/Met,High Activity,15.5,14.26,2.16,7.4,48.3,6.78,CT,0.53,2.15,193.4,0.88,7,False
+65,8.6,Short/Long,Val/Val,Low Activity,10.6,13.45,7.13,17.3,56.4,5.92,TT,0.22,2.47,103.5,0.1,19,Psychotic Depression
+23,5.1,Short/Long,Val/Met,Low Activity,11.0,11.99,3.77,21.6,66.6,2.26,CT,0.16,2.38,176.9,0.38,16,Major Depressive Disorder
+45,7.1,Short/Short,Val/Met,High Activity,10.6,16.33,-0.12,39.6,33.6,7.0,CC,0.24,2.35,172.3,0.78,1,False
+34,7.2,Long/Long,Val/Val,High Activity,20.4,11.77,6.64,23.8,60.8,5.33,CT,0.5,2.1,196.4,0.43,19,Major Depressive Disorder
+22,7.7,Short/Short,Met/Met,Low Activity,18.0,15.89,1.73,32.3,54.7,6.48,CT,0.27,2.28,193.1,0.33,15,Seasonal Affective Disorder
+48,4.7,Long/Long,Val/Met,High Activity,21.6,4.5,1.05,19.7,53.9,5.43,CC,0.95,1.94,176.2,0.41,9,False
+22,7.6,Short/Short,Met/Met,High Activity,24.5,12.0,7.29,23.9,41.7,9.73,CC,0.46,1.65,152.0,0.6,1,Psychotic Depression
+55,8.5,Long/Long,Met/Met,High Activity,14.5,20.49,3.69,19.0,57.4,6.83,TT,0.06,2.15,120.4,1.0,10,False
+20,4.9,Short/Long,Val/Val,Low Activity,6.3,10.5,4.4,38.8,61.8,7.99,CC,0.73,2.81,154.5,0.49,9,Atypical Depression
+40,5.2,Long/Long,Val/Val,High Activity,6.0,17.96,4.47,15.2,34.5,9.49,CC,0.33,2.62,176.5,0.21,18,Persistent Depressive Disorder
+54,8.9,Short/Short,Val/Val,High Activity,10.9,10.91,2.59,16.2,51.3,6.73,CT,0.65,1.87,189.6,0.16,24,False
+54,4.9,Short/Long,Val/Met,High Activity,23.7,18.88,1.86,25.6,34.1,2.1,CC,0.28,2.3,179.0,0.04,24,Persistent Depressive Disorder
+27,8.3,Long/Long,Val/Val,Low Activity,15.5,13.51,2.18,21.5,64.9,2.27,TT,0.57,2.85,119.5,0.56,13,False
+27,6.5,Long/Long,Val/Val,Low Activity,10.4,13.32,6.22,17.0,50.3,7.62,CT,0.77,2.28,160.0,0.54,10,Persistent Depressive Disorder
+36,5.2,Long/Long,Val/Met,High Activity,13.0,15.27,3.41,26.7,62.3,4.23,TT,0.93,1.79,133.2,0.21,8,False
+34,8.4,Long/Long,Val/Met,Low Activity,17.0,8.28,5.63,19.7,44.7,6.64,CC,0.26,3.63,100.9,0.7,6,False
+38,6.2,Long/Long,Val/Val,High Activity,18.1,19.86,2.85,19.7,35.0,3.62,TT,0.33,2.42,120.0,0.74,14,Atypical Depression
+31,6.6,Short/Long,Val/Val,Low Activity,8.1,21.52,1.49,21.6,31.7,4.16,TT,0.46,1.92,111.3,0.26,19,Major Depressive Disorder
+26,5.8,Short/Long,Val/Val,Low Activity,24.5,13.2,0.12,7.9,41.3,6.04,CC,0.93,2.59,184.3,0.34,16,False
+63,7.0,Short/Long,Val/Val,High Activity,15.9,17.62,4.3,8.8,39.8,9.8,CC,0.9,2.46,125.9,0.99,2,False
+18,4.8,Short/Long,Met/Met,Low Activity,7.7,18.89,6.39,27.6,52.4,6.93,CT,0.09,1.73,128.5,0.37,14,False
+68,6.0,Short/Short,Met/Met,Low Activity,22.9,14.54,1.23,15.3,30.9,9.49,CT,0.13,2.55,196.0,0.76,13,False
+62,8.8,Short/Long,Val/Val,Low Activity,6.5,9.46,4.03,19.1,50.8,9.68,CT,0.5,2.99,137.9,0.45,7,False
+30,5.3,Long/Long,Met/Met,High Activity,23.2,22.97,0.25,31.3,45.7,3.66,CC,0.11,2.38,101.0,0.79,3,Atypical Depression
+21,7.3,Long/Long,Val/Met,Low Activity,24.9,13.04,1.89,19.4,53.1,4.49,TT,0.35,1.47,128.4,0.77,25,Seasonal Affective Disorder
+18,5.6,Short/Long,Met/Met,Low Activity,19.0,11.95,3.54,18.5,58.1,8.16,TT,0.15,2.67,111.9,0.67,9,False
+66,7.9,Long/Long,Met/Met,High Activity,20.4,23.19,-0.46,26.3,55.4,8.93,CT,0.64,2.8,110.3,0.85,1,Persistent Depressive Disorder
+57,4.7,Short/Long,Val/Val,Low Activity,11.7,18.05,2.96,15.8,69.4,6.15,CT,0.95,2.21,107.7,0.94,13,Psychotic Depression
+49,8.8,Long/Long,Met/Met,Low Activity,23.8,16.29,1.33,28.4,35.5,9.95,CC,1.0,2.21,159.3,0.58,7,Seasonal Affective Disorder
+51,6.3,Short/Short,Met/Met,Low Activity,15.6,10.15,4.21,26.1,47.2,2.09,TT,0.38,3.63,118.9,0.24,22,Atypical Depression
+45,5.2,Short/Short,Met/Met,Low Activity,19.6,19.01,2.67,32.8,47.0,4.4,CT,0.6,2.17,136.1,0.4,26,Persistent Depressive Disorder
+48,4.4,Short/Long,Met/Met,Low Activity,23.5,29.48,4.88,15.2,46.7,6.99,CC,0.86,1.94,186.2,0.76,9,Persistent Depressive Disorder
+25,4.8,Short/Long,Val/Met,High Activity,24.5,19.4,2.44,29.6,56.6,5.75,CT,0.12,2.51,142.4,0.65,24,Persistent Depressive Disorder
+56,6.6,Short/Long,Val/Val,High Activity,21.7,17.48,0.28,23.9,49.6,2.93,CC,0.69,2.79,191.6,0.18,17,False
+43,5.7,Long/Long,Val/Val,Low Activity,11.1,18.61,0.03,10.7,50.7,4.94,TT,0.41,2.77,149.8,0.05,14,Seasonal Affective Disorder
+51,8.1,Short/Long,Val/Met,Low Activity,24.3,13.36,-0.82,1.8,47.3,2.2,CC,0.21,1.27,139.9,0.68,4,False
+20,6.2,Short/Short,Met/Met,Low Activity,17.6,13.31,4.27,14.4,69.7,7.14,CT,0.4,2.17,175.0,0.25,21,Major Depressive Disorder
+67,5.2,Long/Long,Val/Met,High Activity,23.6,13.25,8.12,22.0,67.1,9.14,CT,0.08,3.08,107.3,0.5,12,Persistent Depressive Disorder
+29,7.1,Short/Long,Met/Met,High Activity,18.5,12.13,3.87,23.1,42.3,9.08,TT,0.7,2.66,108.9,0.75,17,False
+18,7.5,Long/Long,Val/Met,Low Activity,11.1,13.24,6.34,19.6,34.5,7.6,TT,0.25,1.88,165.2,0.56,1,False
+61,4.8,Long/Long,Val/Val,Low Activity,12.4,13.21,5.27,19.6,63.6,5.73,CT,0.31,3.12,148.7,0.08,12,Psychotic Depression
+22,4.8,Short/Long,Val/Val,High Activity,16.0,13.78,1.96,19.1,69.9,6.1,CT,0.12,2.98,179.0,0.19,13,False
+47,4.2,Long/Long,Val/Val,Low Activity,20.8,13.64,5.53,27.2,41.7,3.1,CT,0.86,2.35,191.6,0.22,9,False
+47,7.7,Short/Short,Met/Met,High Activity,11.4,16.22,2.04,9.9,44.3,4.73,TT,0.49,2.94,138.8,0.26,3,Atypical Depression
+34,7.3,Short/Short,Met/Met,High Activity,16.6,15.39,2.08,21.9,67.7,3.5,CT,0.57,3.5,159.6,0.57,14,False
+65,6.4,Long/Long,Val/Met,Low Activity,11.9,15.84,2.58,14.2,58.4,8.57,TT,0.57,1.97,150.1,0.5,7,False
+64,8.2,Short/Long,Val/Met,High Activity,21.3,22.61,2.68,13.7,41.8,9.32,CT,0.41,2.78,198.2,0.2,14,False
+40,8.0,Long/Long,Val/Val,Low Activity,14.3,15.38,4.32,28.2,53.2,6.3,CC,0.19,3.49,183.1,0.07,13,Major Depressive Disorder
+32,6.9,Short/Short,Met/Met,Low Activity,6.5,26.05,1.66,13.1,67.8,7.82,CC,0.75,2.83,191.2,0.17,26,Atypical Depression
+54,8.3,Long/Long,Val/Met,Low Activity,8.3,16.76,4.78,19.0,62.5,2.97,CT,0.13,2.12,125.4,0.98,20,False
+38,5.0,Long/Long,Met/Met,Low Activity,6.2,12.76,4.75,33.7,59.7,6.87,CC,0.1,2.62,177.3,0.47,8,Major Depressive Disorder
+31,4.6,Short/Short,Met/Met,Low Activity,15.0,21.75,3.69,25.9,59.5,7.62,TT,0.71,3.18,126.5,0.87,19,False
+19,5.3,Long/Long,Val/Val,Low Activity,7.1,14.6,6.88,16.8,37.1,5.62,CC,0.21,1.99,120.9,0.85,2,False
+28,4.3,Long/Long,Val/Val,High Activity,7.3,3.03,5.57,17.4,63.0,3.95,CC,0.31,2.48,194.4,0.51,25,Seasonal Affective Disorder
+68,6.7,Short/Long,Met/Met,High Activity,23.8,14.98,5.14,11.4,41.0,9.02,TT,0.48,2.38,101.9,0.71,14,Persistent Depressive Disorder
+56,8.7,Short/Long,Met/Met,High Activity,22.5,13.75,3.13,29.1,67.2,7.94,CC,0.45,2.18,196.5,0.19,23,Atypical Depression
+55,4.2,Short/Short,Met/Met,High Activity,14.0,23.03,3.7,27.1,44.6,9.2,CC,0.71,2.62,114.9,0.69,16,Seasonal Affective Disorder
+51,4.6,Short/Short,Met/Met,Low Activity,24.7,10.51,4.05,24.8,64.3,8.55,CT,0.62,2.45,181.9,0.27,24,False
+55,6.3,Short/Short,Val/Val,High Activity,5.0,13.34,3.03,25.6,40.6,9.92,TT,0.64,2.82,127.6,0.83,15,Persistent Depressive Disorder
+67,8.7,Short/Long,Val/Met,High Activity,17.3,21.34,2.25,14.6,50.6,3.54,TT,0.71,3.07,135.1,0.08,3,False
+51,5.6,Short/Short,Val/Val,High Activity,17.3,16.97,-1.81,9.2,34.3,2.69,CT,0.29,1.86,121.7,0.77,10,Atypical Depression
+35,6.5,Short/Short,Val/Met,Low Activity,14.1,14.14,4.44,23.9,56.4,4.7,CT,0.32,2.53,158.6,0.1,24,False
+47,4.2,Short/Short,Met/Met,High Activity,12.9,11.22,5.08,26.2,63.4,3.03,CC,0.44,2.47,134.8,0.88,7,False
+32,4.7,Short/Long,Val/Met,Low Activity,14.1,16.76,0.68,31.2,58.7,6.19,CC,0.31,2.6,165.7,0.3,2,Persistent Depressive Disorder
+44,8.9,Long/Long,Val/Val,High Activity,13.3,14.85,4.21,18.6,50.9,7.06,CC,0.98,2.49,101.6,0.65,18,Major Depressive Disorder
+68,8.8,Short/Short,Val/Val,Low Activity,19.6,11.16,1.82,17.6,31.8,6.63,CT,0.81,2.01,106.4,0.49,13,False
+51,4.0,Long/Long,Met/Met,Low Activity,7.7,11.42,2.27,18.3,67.3,4.07,TT,0.16,3.23,110.0,0.37,8,Persistent Depressive Disorder
+69,8.8,Short/Short,Val/Val,High Activity,9.0,10.93,5.62,24.7,58.2,9.27,CC,0.01,3.44,141.9,0.65,2,Psychotic Depression
+55,7.2,Long/Long,Met/Met,Low Activity,8.6,10.04,1.02,18.0,59.8,2.17,CT,0.04,2.77,181.5,0.95,3,False
+50,8.3,Short/Long,Val/Val,Low Activity,10.2,19.67,1.02,19.6,61.8,4.78,TT,0.24,2.8,188.8,0.04,24,Psychotic Depression
+41,6.3,Short/Long,Val/Val,High Activity,15.5,19.0,6.61,25.8,59.9,7.75,CT,0.11,2.57,124.5,0.92,3,Atypical Depression
+32,6.6,Short/Short,Met/Met,High Activity,7.2,19.68,2.71,15.6,47.6,8.14,CC,0.53,2.98,157.4,0.61,10,Persistent Depressive Disorder
+47,6.4,Long/Long,Val/Met,High Activity,22.4,15.02,5.49,29.7,59.3,5.33,CT,0.86,1.28,176.8,0.81,18,False
+59,7.3,Short/Long,Val/Val,Low Activity,10.9,13.79,-0.2,24.4,55.0,2.14,CT,0.74,2.5,128.9,0.38,15,Psychotic Depression
+68,4.7,Short/Short,Val/Met,Low Activity,8.3,13.88,-0.04,7.0,64.2,6.94,CT,0.22,2.21,140.9,0.47,22,False
+34,4.1,Short/Short,Val/Val,Low Activity,18.5,20.11,1.17,16.4,62.1,2.5,CT,0.4,2.57,152.4,0.87,21,False
+22,5.5,Short/Long,Val/Val,High Activity,5.8,5.9,2.04,5.8,31.7,2.86,TT,0.51,3.05,113.5,0.41,16,False
+46,7.5,Short/Long,Val/Val,Low Activity,17.4,12.43,0.19,18.6,45.2,7.2,CC,0.81,2.51,102.6,0.53,9,False
+21,5.0,Short/Short,Val/Val,Low Activity,19.0,10.56,3.74,16.5,31.4,4.5,TT,0.84,2.32,115.3,0.02,23,Persistent Depressive Disorder
+27,7.4,Long/Long,Val/Met,Low Activity,9.3,21.8,3.87,25.8,34.1,4.78,CT,0.91,1.8,162.7,0.16,16,False
+34,8.8,Long/Long,Val/Met,Low Activity,5.8,12.61,1.2,13.8,54.1,5.89,CT,0.51,2.45,107.4,0.64,15,False
+27,4.5,Long/Long,Val/Val,Low Activity,12.3,6.82,1.36,22.7,65.0,9.83,CC,0.69,2.84,119.0,0.72,19,False
+34,7.4,Short/Short,Val/Val,Low Activity,7.0,16.12,1.63,24.0,34.8,9.72,CC,0.11,2.08,133.8,0.58,21,False
+37,6.2,Short/Long,Val/Met,Low Activity,7.3,13.15,0.67,21.8,48.0,5.33,TT,0.57,1.5,107.8,0.14,5,False
+41,8.3,Short/Short,Met/Met,High Activity,10.1,12.22,-2.79,28.0,66.4,4.12,TT,0.25,3.64,119.2,0.45,6,False
+22,4.9,Short/Long,Met/Met,High Activity,10.9,11.7,2.83,34.5,62.6,4.42,CC,0.43,2.67,191.1,0.36,13,Persistent Depressive Disorder
+51,7.5,Long/Long,Val/Met,High Activity,15.6,11.5,2.14,20.8,50.8,4.15,TT,0.63,2.39,101.9,0.5,10,False
+23,8.2,Long/Long,Val/Val,Low Activity,18.6,18.54,2.34,22.8,60.9,6.26,CT,0.26,3.2,165.3,0.87,11,False
+19,8.7,Short/Long,Val/Val,Low Activity,16.9,16.12,0.98,13.8,50.9,6.85,CT,0.05,2.57,138.4,0.78,13,Persistent Depressive Disorder
+30,7.4,Short/Long,Met/Met,High Activity,8.0,14.01,4.62,12.9,36.3,5.91,CC,0.01,3.17,167.3,0.08,4,Atypical Depression
+60,6.5,Short/Short,Met/Met,Low Activity,8.4,9.51,7.85,27.2,35.0,5.26,TT,0.02,3.12,158.9,0.89,4,Persistent Depressive Disorder
+60,7.1,Long/Long,Val/Met,High Activity,22.6,14.16,1.33,26.3,37.5,3.69,CT,0.01,1.86,122.3,0.47,19,Persistent Depressive Disorder
+65,8.3,Short/Short,Met/Met,Low Activity,16.2,16.3,5.8,12.8,44.0,5.86,CC,0.11,2.73,184.7,0.74,21,False
+28,6.9,Short/Short,Val/Met,Low Activity,22.4,16.49,3.73,10.8,67.2,4.73,TT,0.24,3.36,149.2,0.14,22,False
+68,4.2,Short/Short,Met/Met,High Activity,12.4,15.8,3.07,15.5,62.0,6.33,CT,0.22,2.0,182.3,0.67,25,Psychotic Depression
+64,8.7,Long/Long,Met/Met,High Activity,17.3,10.39,2.31,19.0,47.3,7.4,TT,0.99,2.01,140.6,0.24,14,Atypical Depression
+40,7.4,Short/Short,Met/Met,High Activity,15.5,2.98,2.83,17.1,49.7,7.07,TT,0.31,2.09,198.5,0.44,25,False
+33,7.4,Short/Short,Val/Val,High Activity,11.4,24.0,5.3,21.1,40.6,5.7,TT,0.13,2.95,177.0,0.02,0,Seasonal Affective Disorder
+48,5.1,Short/Short,Val/Val,High Activity,14.4,8.45,0.72,26.4,58.2,6.45,CC,0.55,2.64,196.6,0.15,24,False
+28,7.3,Short/Short,Val/Val,Low Activity,15.0,5.18,2.45,23.2,62.1,4.28,CT,0.86,1.53,151.4,0.09,23,Atypical Depression
+33,6.0,Short/Short,Met/Met,Low Activity,9.0,15.65,5.5,23.8,39.6,2.19,CC,0.68,2.67,147.4,0.24,22,False
+25,7.3,Short/Short,Val/Met,Low Activity,11.3,6.46,4.97,2.8,31.7,7.0,CT,0.3,2.37,175.5,0.1,8,Seasonal Affective Disorder
+21,4.5,Long/Long,Val/Met,High Activity,20.8,10.98,0.75,8.7,55.0,4.02,CT,0.56,2.44,188.0,0.69,2,False
+57,7.3,Short/Short,Val/Met,High Activity,23.3,17.74,2.63,14.4,52.5,7.35,CC,0.71,2.08,196.4,0.03,25,False
+21,9.0,Short/Long,Val/Met,High Activity,12.2,23.86,4.46,15.6,46.1,7.98,CC,0.73,2.67,132.5,0.62,3,False
+42,4.2,Short/Short,Val/Val,High Activity,11.1,16.94,4.33,25.9,55.8,9.33,CT,0.67,3.03,179.9,0.14,15,Persistent Depressive Disorder
+20,8.9,Short/Short,Val/Val,High Activity,8.9,12.8,4.95,13.8,52.0,9.66,CT,0.87,2.18,121.1,0.95,6,Major Depressive Disorder
+49,6.0,Long/Long,Met/Met,High Activity,18.6,14.74,3.77,24.7,40.0,2.08,CT,0.87,1.66,154.6,0.93,21,False
+20,8.4,Long/Long,Met/Met,Low Activity,11.5,5.96,4.1,14.5,45.9,9.92,TT,0.58,2.35,118.0,0.23,13,False
+44,7.9,Short/Long,Val/Met,Low Activity,24.8,12.75,3.69,11.6,47.1,7.46,CT,0.43,2.88,134.7,0.61,15,Major Depressive Disorder
+46,6.8,Short/Long,Val/Val,Low Activity,11.5,12.75,6.16,11.9,65.2,7.15,CC,0.64,2.29,193.1,0.03,17,Psychotic Depression
+49,7.7,Long/Long,Val/Met,Low Activity,12.9,15.77,2.16,35.8,68.4,2.12,CC,0.82,1.75,114.6,0.93,15,Psychotic Depression
+67,8.4,Long/Long,Met/Met,Low Activity,17.1,24.71,3.1,14.3,65.7,8.89,CC,0.01,2.88,163.2,0.52,15,Major Depressive Disorder
+68,6.0,Short/Short,Met/Met,High Activity,21.0,5.32,0.97,24.8,58.8,3.16,CT,0.99,3.21,159.3,0.04,1,False
+36,5.6,Long/Long,Val/Met,High Activity,14.4,12.96,0.58,9.1,53.4,8.7,CT,0.18,2.51,112.1,0.34,9,False
+38,7.3,Short/Long,Met/Met,High Activity,13.5,5.83,3.65,29.9,57.6,2.12,TT,0.47,1.7,132.6,0.08,6,Persistent Depressive Disorder
+22,8.0,Short/Short,Val/Met,High Activity,24.9,12.48,1.55,22.4,67.6,7.17,TT,0.87,2.34,156.3,0.39,24,Atypical Depression
+35,7.8,Short/Long,Val/Val,High Activity,5.2,10.68,2.88,21.9,40.0,5.48,CC,0.23,2.58,118.7,0.67,26,Psychotic Depression
+45,8.0,Short/Short,Val/Met,High Activity,22.9,7.53,6.24,22.9,51.4,3.61,TT,0.48,2.1,180.1,0.47,14,Atypical Depression
+59,6.2,Long/Long,Val/Val,Low Activity,8.0,19.57,6.12,23.7,57.6,2.86,TT,0.13,2.79,197.2,0.38,8,Atypical Depression
+39,8.1,Short/Long,Val/Val,High Activity,20.7,16.28,7.45,25.7,57.2,5.52,CC,0.4,2.05,121.5,0.12,6,False
+38,4.6,Short/Short,Met/Met,High Activity,17.4,18.98,6.28,15.8,40.1,2.99,CT,0.18,2.51,118.7,0.24,26,Seasonal Affective Disorder
+23,6.7,Short/Short,Met/Met,High Activity,11.8,12.34,7.81,15.4,53.5,5.89,TT,0.36,2.39,145.5,0.1,23,False
+18,4.0,Long/Long,Met/Met,High Activity,22.5,14.65,3.87,20.3,61.8,7.0,CT,0.37,2.81,174.8,0.81,15,False
+22,5.6,Long/Long,Val/Met,Low Activity,5.3,22.97,1.19,24.8,49.0,8.62,CC,0.99,2.49,128.2,0.14,25,False
+58,5.8,Long/Long,Val/Met,Low Activity,9.5,14.99,1.0,19.5,61.7,7.43,CC,0.99,2.4,102.0,0.6,2,Major Depressive Disorder
+29,6.0,Short/Long,Met/Met,High Activity,16.3,19.04,5.79,25.4,44.4,2.52,TT,0.11,2.1,154.1,0.34,16,Major Depressive Disorder
+43,7.5,Short/Short,Val/Met,Low Activity,12.0,11.91,3.1,24.3,67.6,4.46,CC,0.73,2.52,195.7,0.23,22,False
+63,5.9,Long/Long,Met/Met,Low Activity,17.2,18.58,3.25,18.5,51.4,4.3,CC,0.05,2.37,139.1,0.64,7,False
+51,6.2,Short/Long,Val/Met,High Activity,5.5,12.26,1.9,7.8,53.8,9.32,CC,0.03,2.06,142.0,0.46,1,False
+66,5.2,Short/Long,Val/Val,High Activity,7.3,5.52,2.14,16.5,31.3,8.94,TT,0.11,2.58,196.9,0.4,24,Atypical Depression
+31,5.9,Short/Long,Val/Val,High Activity,7.5,14.96,3.77,32.2,36.8,4.96,TT,0.97,2.68,169.5,0.59,19,False
+43,5.1,Long/Long,Met/Met,High Activity,8.8,12.65,0.89,22.4,55.3,2.57,TT,0.94,2.33,171.9,0.49,25,Major Depressive Disorder
+62,4.4,Long/Long,Val/Met,High Activity,14.2,6.88,3.51,15.5,46.8,9.15,CC,0.19,2.97,156.3,0.3,26,False
+44,7.0,Short/Short,Val/Met,Low Activity,20.0,15.96,6.02,21.8,50.3,9.11,CT,0.16,2.63,197.5,0.56,24,Seasonal Affective Disorder
+26,7.3,Short/Short,Val/Val,High Activity,23.1,10.53,-1.27,24.7,32.5,8.84,CC,0.24,1.86,168.9,0.67,2,False
+43,7.1,Long/Long,Val/Val,High Activity,21.7,30.46,-0.08,15.5,63.4,8.76,TT,0.52,3.17,189.5,0.03,7,False
+64,6.3,Short/Long,Met/Met,High Activity,8.9,7.68,4.35,28.6,61.4,5.84,CT,0.57,2.88,169.9,0.47,26,Major Depressive Disorder
+39,5.9,Short/Long,Val/Val,Low Activity,13.8,8.94,5.73,23.5,37.4,3.42,CT,0.22,3.0,173.5,0.06,1,Psychotic Depression
+64,8.3,Short/Long,Met/Met,High Activity,9.0,19.35,2.02,12.3,55.4,5.82,TT,0.76,2.7,129.0,0.19,18,False
+47,6.6,Short/Short,Val/Val,High Activity,10.3,14.33,-1.0,26.0,62.7,5.96,CT,0.31,1.33,130.3,0.56,16,Major Depressive Disorder
+60,6.4,Short/Long,Val/Val,High Activity,15.1,19.25,5.86,17.1,55.6,5.92,CT,0.92,3.05,178.3,0.87,4,Persistent Depressive Disorder
+65,4.1,Short/Short,Val/Met,Low Activity,6.4,16.9,1.38,18.7,42.4,6.31,TT,0.66,2.53,129.7,0.88,19,False
+34,5.7,Short/Short,Val/Val,High Activity,9.4,12.09,2.28,12.9,56.2,4.06,CT,0.44,2.68,156.3,0.07,16,Psychotic Depression
+43,5.9,Short/Long,Val/Val,High Activity,23.7,8.1,3.64,24.4,38.4,4.93,CT,0.79,2.77,124.9,0.42,9,Persistent Depressive Disorder
+53,6.0,Short/Long,Met/Met,High Activity,14.3,20.36,1.67,19.0,42.7,5.47,TT,0.82,3.47,181.7,0.58,8,False
+18,6.9,Long/Long,Val/Val,Low Activity,13.9,8.56,1.25,24.7,39.6,3.05,CT,0.29,2.23,111.1,0.15,21,False
+25,6.7,Long/Long,Met/Met,High Activity,5.3,17.79,1.28,16.1,52.3,5.64,CT,0.34,2.24,182.9,0.77,5,False
+66,7.0,Short/Long,Val/Val,High Activity,9.9,19.59,6.72,15.3,34.3,8.48,CT,0.94,2.07,160.3,0.74,10,False
+52,7.8,Short/Short,Val/Val,High Activity,22.3,14.37,5.32,14.8,67.3,8.62,CT,0.16,1.97,118.7,0.9,1,False
+69,8.1,Short/Short,Met/Met,Low Activity,8.3,13.48,4.15,22.8,43.3,5.29,TT,0.04,1.97,154.2,0.01,22,False
+32,7.6,Short/Short,Val/Met,High Activity,13.3,10.08,-1.37,15.2,38.8,6.15,CC,0.45,1.57,128.2,0.22,11,False
+64,8.8,Short/Short,Met/Met,High Activity,5.3,17.31,4.16,18.6,49.9,2.27,CC,0.8,2.71,132.3,0.83,11,False
+39,4.1,Short/Short,Met/Met,High Activity,14.6,-0.23,4.05,16.4,41.1,7.4,CT,0.77,3.49,135.2,0.67,15,False
+31,5.0,Long/Long,Met/Met,Low Activity,5.4,18.58,0.44,23.1,51.4,5.24,TT,0.92,3.53,106.3,0.89,24,False
+43,4.0,Short/Long,Val/Met,Low Activity,21.4,15.6,3.52,7.9,43.9,5.56,TT,0.53,2.07,198.6,0.06,21,Seasonal Affective Disorder
+45,7.2,Long/Long,Val/Val,High Activity,21.5,13.89,5.1,21.7,35.3,8.99,CT,0.1,2.36,103.2,0.6,26,False
+40,8.5,Short/Short,Met/Met,Low Activity,20.8,16.21,4.14,32.1,40.6,5.69,CC,0.59,3.12,166.2,0.57,23,False
+31,5.2,Short/Short,Met/Met,Low Activity,10.7,8.13,1.64,28.7,47.5,2.17,CT,0.78,2.72,137.1,0.04,11,False
+41,8.6,Short/Short,Val/Met,Low Activity,21.7,2.94,3.03,15.7,31.2,3.82,TT,0.09,2.57,164.6,0.51,20,Psychotic Depression
+19,4.3,Short/Short,Met/Met,High Activity,15.9,17.34,4.46,23.5,60.8,5.8,TT,0.17,2.37,135.6,0.61,17,False
+62,8.7,Short/Long,Val/Val,High Activity,12.5,21.58,3.12,22.1,54.9,5.4,CC,0.01,3.09,167.4,0.19,12,False
+43,5.8,Short/Short,Val/Met,Low Activity,17.5,6.3,5.51,30.3,54.1,8.88,TT,0.59,1.96,172.9,0.27,14,Atypical Depression
+31,4.5,Short/Long,Val/Val,Low Activity,5.2,9.74,3.79,2.4,51.8,6.34,TT,0.89,2.74,169.1,0.64,15,Seasonal Affective Disorder
+68,6.4,Short/Short,Val/Val,Low Activity,7.9,18.76,4.51,27.8,53.6,7.52,TT,0.67,2.67,111.4,0.47,3,Major Depressive Disorder
+24,5.3,Short/Long,Val/Met,High Activity,19.8,16.79,4.64,18.1,67.4,5.75,CC,0.98,2.52,165.7,0.86,11,Psychotic Depression
+20,5.4,Long/Long,Met/Met,High Activity,9.9,29.82,0.87,14.8,30.3,5.52,TT,0.06,2.89,128.0,0.34,16,False
+64,5.5,Short/Short,Val/Val,Low Activity,17.0,20.38,3.1,14.6,31.9,5.57,CT,0.9,2.52,102.9,0.27,0,False
+40,8.0,Short/Long,Val/Val,Low Activity,12.7,19.18,2.34,10.9,37.7,5.29,CC,0.81,2.23,141.5,0.98,21,False
+63,6.7,Long/Long,Val/Val,Low Activity,22.1,11.18,5.09,15.7,36.7,6.31,CT,0.31,2.55,143.4,0.91,17,Major Depressive Disorder
+60,5.6,Short/Short,Val/Val,Low Activity,24.0,17.62,3.93,12.4,37.2,4.0,CT,0.97,1.7,146.7,0.03,21,Atypical Depression
+64,7.1,Short/Short,Val/Met,High Activity,22.7,22.48,2.62,21.3,56.9,9.13,CC,0.29,2.81,170.5,0.77,15,Seasonal Affective Disorder
+62,7.6,Short/Short,Val/Met,Low Activity,10.4,14.18,0.44,24.1,48.4,4.66,CT,0.89,2.93,130.9,0.11,0,False
+35,5.4,Short/Long,Val/Val,High Activity,8.9,14.41,-0.19,18.2,69.7,3.18,CC,0.88,2.17,131.5,0.03,26,False
+55,6.1,Short/Long,Met/Met,Low Activity,14.5,15.71,3.62,30.5,39.1,2.77,CT,0.76,2.05,106.1,0.27,9,False
+52,4.6,Long/Long,Val/Val,Low Activity,5.1,11.68,1.57,16.2,42.4,2.11,CC,0.56,2.19,168.7,0.27,18,False
+68,4.9,Short/Long,Met/Met,Low Activity,5.5,16.34,4.33,17.8,69.4,5.38,TT,0.12,2.47,156.8,0.82,15,False
+32,7.4,Short/Long,Val/Val,Low Activity,16.1,16.22,-0.29,16.7,63.3,3.5,TT,0.53,2.61,134.9,0.71,13,False
+42,4.9,Short/Short,Met/Met,Low Activity,15.4,22.4,6.19,24.2,48.8,2.17,CT,0.36,3.31,170.5,0.98,24,False
+54,6.6,Short/Short,Val/Val,High Activity,24.9,14.05,4.33,24.9,52.2,6.16,TT,0.79,3.24,153.7,0.71,1,Psychotic Depression
+45,7.5,Short/Short,Met/Met,Low Activity,9.0,18.37,3.2,23.5,63.7,7.44,CC,0.76,2.92,146.9,0.42,23,Atypical Depression
+27,4.5,Short/Short,Val/Val,Low Activity,10.2,14.2,6.37,19.1,49.2,2.69,CT,0.91,2.56,151.1,0.7,5,False
+56,6.8,Short/Short,Val/Val,Low Activity,7.3,18.2,4.9,10.6,38.2,5.69,TT,0.01,2.04,163.6,1.0,21,False
+34,5.3,Short/Short,Met/Met,High Activity,23.4,13.75,2.05,17.8,63.1,7.95,TT,0.81,3.34,166.0,0.71,22,False
+56,8.8,Short/Short,Val/Met,High Activity,20.6,17.87,3.16,30.3,51.5,9.89,CT,0.94,2.38,128.9,0.76,4,Persistent Depressive Disorder
+39,6.4,Long/Long,Met/Met,High Activity,21.4,18.64,-0.93,27.1,36.1,7.34,TT,0.79,2.64,114.1,0.94,11,Persistent Depressive Disorder
+43,8.0,Long/Long,Val/Met,High Activity,23.1,9.67,5.13,22.1,50.2,3.96,TT,0.13,2.81,115.7,0.11,26,Seasonal Affective Disorder
+61,6.8,Long/Long,Val/Val,Low Activity,15.5,20.51,2.41,17.3,46.5,7.73,CT,0.08,2.53,163.9,0.7,3,False
+42,4.2,Long/Long,Met/Met,Low Activity,14.0,14.17,-0.95,19.9,65.1,6.78,TT,0.02,3.08,187.3,0.85,21,False
+34,7.2,Short/Short,Met/Met,Low Activity,11.6,12.65,0.64,17.3,35.0,3.69,TT,0.63,2.73,140.9,0.95,23,False
+30,8.8,Long/Long,Met/Met,High Activity,16.8,11.45,4.74,28.4,65.0,8.81,TT,0.63,2.99,117.0,0.21,3,Major Depressive Disorder
+37,7.0,Short/Short,Val/Met,Low Activity,14.1,16.49,6.23,14.1,50.5,5.42,TT,0.99,2.72,175.7,0.5,4,Atypical Depression
+42,8.1,Long/Long,Val/Met,Low Activity,14.0,14.98,3.04,26.5,46.2,9.7,CT,0.4,2.48,183.2,0.68,6,Major Depressive Disorder
+21,8.4,Short/Long,Val/Val,High Activity,23.7,16.85,1.04,16.3,36.5,7.78,CC,0.33,2.54,188.1,0.25,5,False
+27,5.1,Long/Long,Val/Met,High Activity,24.7,16.95,0.16,29.2,58.0,7.16,CC,0.62,2.47,160.7,0.6,12,False
+20,5.1,Long/Long,Val/Met,High Activity,20.9,18.04,5.83,23.0,67.1,7.83,TT,0.83,1.86,186.1,0.26,3,False
+58,7.1,Short/Short,Val/Val,Low Activity,20.1,28.88,3.9,14.8,45.0,5.82,TT,0.94,2.0,101.5,0.33,12,Seasonal Affective Disorder
+62,6.1,Long/Long,Met/Met,Low Activity,18.6,15.2,2.34,17.8,39.7,6.04,CC,0.8,2.87,110.7,0.44,3,False
+35,8.2,Short/Long,Met/Met,High Activity,8.3,11.33,1.86,25.0,52.2,8.81,TT,0.43,1.87,109.3,0.53,9,Major Depressive Disorder
+64,8.5,Short/Short,Val/Val,Low Activity,6.2,4.9,4.34,16.5,61.8,7.45,CC,0.63,2.3,171.3,0.45,19,False
+53,5.8,Short/Short,Met/Met,High Activity,18.8,9.02,4.29,20.2,30.2,9.18,CT,0.86,1.97,107.0,0.49,0,Major Depressive Disorder
+64,5.2,Long/Long,Val/Met,High Activity,19.6,21.18,1.21,16.4,55.3,9.13,CT,0.49,2.27,149.6,0.3,20,False
+39,7.9,Short/Short,Val/Val,Low Activity,5.9,18.6,0.72,32.3,53.9,9.81,CT,0.22,2.42,147.3,0.16,7,Psychotic Depression
+51,5.4,Short/Short,Val/Val,High Activity,23.6,8.25,0.82,33.5,42.7,7.6,CT,0.17,2.3,131.1,0.05,6,False
+64,8.1,Short/Short,Val/Val,High Activity,6.8,27.32,2.06,30.2,48.1,6.02,CT,0.0,1.79,187.0,0.2,4,False
+25,6.1,Short/Short,Met/Met,High Activity,10.7,16.63,1.62,19.1,39.9,3.33,CT,0.72,2.41,117.0,0.58,2,Seasonal Affective Disorder
+57,7.3,Short/Short,Val/Val,Low Activity,18.4,17.3,6.24,17.2,61.6,7.64,CC,0.11,2.02,135.2,0.79,14,False
+66,4.5,Short/Short,Val/Val,High Activity,8.4,26.22,1.99,14.5,55.4,4.33,TT,0.24,2.18,177.4,0.17,26,Psychotic Depression
+61,7.1,Short/Long,Val/Val,High Activity,6.1,23.7,0.5,30.8,51.3,4.26,CC,0.3,2.87,103.0,0.11,16,Atypical Depression
+36,6.3,Long/Long,Met/Met,High Activity,11.6,18.91,0.61,26.5,45.7,3.91,CT,0.56,2.98,167.3,0.75,22,Seasonal Affective Disorder
+59,6.9,Short/Long,Val/Met,High Activity,20.3,19.15,2.63,26.9,41.7,9.0,TT,0.4,1.84,181.6,0.31,12,False
+58,4.8,Short/Short,Val/Val,High Activity,13.3,19.61,-0.64,18.3,62.9,8.94,TT,0.67,3.28,193.2,0.95,14,False
+54,7.7,Short/Short,Val/Met,High Activity,18.1,13.8,2.88,7.7,48.1,7.05,CT,0.06,2.24,187.6,0.71,26,False
+23,8.3,Long/Long,Met/Met,High Activity,16.6,16.43,0.33,9.3,50.1,5.78,CT,0.12,2.2,131.9,0.33,18,Major Depressive Disorder
+69,5.1,Short/Long,Met/Met,Low Activity,5.4,17.87,5.32,20.4,50.8,7.38,CT,0.5,2.05,158.6,0.29,19,Seasonal Affective Disorder
+43,4.5,Long/Long,Met/Met,Low Activity,24.8,14.37,3.23,16.3,47.9,6.86,CT,0.34,2.53,107.7,0.52,13,Atypical Depression
+51,4.1,Short/Long,Met/Met,High Activity,5.8,10.17,7.24,15.5,40.2,5.33,CT,0.3,3.49,125.8,0.08,20,False
+62,7.2,Short/Short,Val/Met,Low Activity,24.4,13.67,2.54,22.4,34.8,5.04,CT,0.07,1.73,109.4,0.12,12,False
+23,7.0,Long/Long,Val/Val,Low Activity,16.0,10.06,-3.26,27.1,33.9,5.06,TT,0.9,1.47,131.5,0.18,11,False
+54,6.7,Long/Long,Met/Met,High Activity,24.3,15.32,5.92,15.1,60.3,6.71,CT,0.69,2.63,187.5,0.77,23,False
+50,5.2,Short/Short,Met/Met,Low Activity,7.3,6.1,4.0,10.9,38.9,7.18,CT,0.12,2.78,134.7,0.51,22,Atypical Depression
+39,6.0,Long/Long,Val/Met,High Activity,14.8,16.71,4.31,15.3,32.2,5.61,TT,0.07,2.53,156.2,0.01,8,Atypical Depression
+38,7.0,Short/Long,Val/Met,High Activity,8.4,6.84,0.99,12.7,61.9,9.75,CC,0.97,2.8,143.3,0.67,26,False
+23,6.5,Short/Long,Met/Met,High Activity,6.0,12.98,2.91,24.1,36.2,2.67,CT,0.68,1.93,145.9,0.42,2,Persistent Depressive Disorder
+23,8.9,Short/Long,Val/Val,High Activity,17.4,17.52,3.37,20.0,55.0,4.78,TT,0.42,2.03,197.0,0.51,10,False
+65,4.7,Short/Long,Val/Val,High Activity,9.2,18.96,2.52,33.2,43.5,5.35,TT,0.7,2.56,129.6,0.21,9,False
+21,7.5,Short/Short,Met/Met,Low Activity,16.8,18.36,-0.47,25.1,35.1,2.14,CC,0.76,3.38,162.7,0.55,0,Psychotic Depression
+47,6.0,Long/Long,Val/Met,High Activity,7.2,16.6,8.54,32.7,46.6,4.92,CT,0.78,2.78,142.0,0.98,16,Atypical Depression
+28,6.1,Short/Long,Met/Met,Low Activity,11.6,9.4,4.67,10.2,30.6,4.19,CT,0.48,2.8,106.1,0.07,25,False
+47,7.6,Short/Short,Met/Met,High Activity,20.6,19.9,3.84,-2.8,63.6,6.05,CT,0.43,1.96,148.9,0.28,12,Psychotic Depression
+48,7.5,Long/Long,Val/Met,High Activity,13.7,9.52,5.63,21.7,50.5,4.69,TT,0.01,2.71,181.3,0.24,13,False
+41,9.0,Long/Long,Met/Met,High Activity,17.6,20.47,4.29,20.9,35.6,7.81,CT,0.93,1.91,109.9,0.25,0,False
+26,4.6,Short/Short,Met/Met,Low Activity,17.9,18.14,1.65,19.1,39.5,6.08,CT,0.6,3.38,107.0,0.38,1,False
+20,4.5,Short/Short,Met/Met,High Activity,21.9,21.79,5.5,20.7,47.9,3.04,CT,0.2,1.99,115.4,0.82,1,Major Depressive Disorder
+68,7.6,Short/Long,Val/Met,High Activity,11.5,15.12,4.7,12.1,37.6,8.0,CT,0.92,2.1,176.4,0.91,6,Atypical Depression
+48,6.9,Long/Long,Val/Val,High Activity,18.7,10.91,1.72,23.9,40.7,2.79,CC,0.91,1.76,172.4,0.2,8,Seasonal Affective Disorder
+57,5.4,Long/Long,Val/Val,High Activity,24.2,8.54,4.58,25.2,51.4,8.71,CC,0.99,2.54,156.5,0.54,23,False
+54,4.4,Short/Short,Val/Met,Low Activity,19.6,9.09,2.52,11.6,63.3,9.45,CC,0.87,2.52,146.8,0.64,3,False
+53,4.4,Long/Long,Val/Val,High Activity,14.8,6.82,3.42,17.5,46.1,4.58,CT,1.0,3.26,188.8,0.52,1,False
+41,8.5,Short/Long,Met/Met,Low Activity,17.6,19.71,4.2,18.0,58.7,9.41,CT,0.24,2.89,176.7,0.43,18,Psychotic Depression
+48,5.0,Long/Long,Val/Val,High Activity,19.8,20.34,5.74,15.3,65.1,8.34,TT,0.84,2.1,181.2,0.19,25,False
+23,5.6,Short/Short,Met/Met,Low Activity,17.2,17.77,1.71,11.9,38.7,9.38,TT,0.82,2.94,181.3,0.49,4,Seasonal Affective Disorder
+19,5.1,Short/Short,Val/Val,Low Activity,5.3,14.83,3.73,20.1,62.3,7.33,TT,0.23,1.88,164.3,0.4,8,Major Depressive Disorder
+37,5.8,Short/Long,Val/Met,High Activity,8.9,25.3,7.03,21.8,60.3,3.89,CT,0.1,2.14,145.8,0.8,23,Persistent Depressive Disorder
+45,4.3,Short/Long,Val/Val,High Activity,21.2,14.51,2.65,15.7,44.3,9.16,CC,0.98,2.56,186.5,0.76,12,Atypical Depression
+28,6.6,Long/Long,Val/Val,Low Activity,10.5,16.1,3.39,12.4,69.6,3.47,CC,0.3,1.93,192.6,0.13,11,False
+21,4.3,Long/Long,Val/Val,High Activity,19.6,14.76,7.03,22.9,40.5,3.7,CC,0.87,3.03,102.4,0.09,18,False
+32,8.0,Short/Short,Val/Met,High Activity,12.4,13.31,4.27,14.6,40.2,4.17,CT,0.0,3.64,105.2,0.91,8,Seasonal Affective Disorder
+23,5.2,Short/Long,Val/Val,High Activity,15.4,18.15,0.05,17.8,60.9,4.43,CC,0.02,2.35,195.9,0.54,9,Persistent Depressive Disorder
+66,6.7,Short/Long,Val/Met,Low Activity,6.4,11.83,1.41,16.9,47.4,6.12,TT,0.47,2.17,127.7,0.86,18,False
+47,8.4,Short/Long,Met/Met,High Activity,8.6,11.5,4.38,28.7,43.2,7.71,TT,0.24,2.44,187.3,0.06,9,False
+55,7.3,Long/Long,Val/Val,High Activity,24.1,18.41,3.85,14.9,37.1,9.41,CC,0.69,2.22,138.9,0.53,11,False
+68,6.7,Short/Long,Val/Met,High Activity,22.8,12.51,3.33,32.1,60.6,2.71,TT,0.57,2.63,111.9,0.54,13,False
+19,5.6,Short/Short,Val/Met,Low Activity,18.0,15.67,7.32,25.3,61.5,9.63,CC,0.08,1.84,108.0,0.86,7,Persistent Depressive Disorder
+32,5.7,Short/Short,Val/Val,High Activity,14.2,13.29,1.77,32.7,52.7,9.37,CC,0.16,2.66,115.7,0.1,15,False
+28,7.3,Long/Long,Met/Met,Low Activity,18.5,14.94,2.85,24.7,68.3,2.43,TT,0.39,3.46,125.0,0.24,16,Atypical Depression
+25,9.0,Long/Long,Val/Met,High Activity,17.4,11.63,-0.93,18.5,42.7,4.88,TT,0.19,1.5,148.9,0.41,19,False
+43,7.3,Short/Long,Val/Val,Low Activity,16.4,11.8,5.32,13.6,38.8,8.51,TT,0.79,1.92,170.1,0.87,3,Atypical Depression
+68,6.8,Long/Long,Met/Met,High Activity,6.2,10.9,1.4,17.5,57.1,6.89,TT,0.42,2.28,198.6,0.94,5,False
+62,7.7,Short/Short,Val/Met,High Activity,17.7,19.22,5.11,30.4,60.3,8.23,CC,0.09,2.77,144.2,0.99,11,Major Depressive Disorder
+61,6.3,Short/Long,Val/Met,Low Activity,20.4,15.86,4.9,19.7,39.0,7.75,TT,0.48,2.95,151.8,0.96,17,Seasonal Affective Disorder
+22,4.3,Short/Short,Met/Met,Low Activity,24.9,19.59,7.7,24.6,33.1,5.97,TT,0.09,2.9,152.2,0.01,6,False
+23,6.8,Short/Long,Met/Met,Low Activity,5.2,20.13,4.3,21.4,62.4,2.33,CT,0.13,1.65,153.9,0.05,4,Atypical Depression
+43,8.8,Long/Long,Val/Val,High Activity,19.6,12.7,2.29,21.7,69.1,6.67,TT,0.24,2.16,151.8,0.15,9,False
+21,4.9,Short/Long,Val/Val,High Activity,16.4,19.41,3.91,22.0,55.8,2.39,TT,0.86,2.05,100.9,0.35,5,False
+36,7.5,Short/Long,Val/Met,High Activity,13.7,14.93,1.48,23.5,41.1,6.83,CC,0.92,2.47,100.2,0.83,26,False
+37,5.0,Short/Short,Met/Met,High Activity,7.6,14.21,3.64,14.3,69.9,8.4,CC,0.83,2.51,109.8,0.89,13,Psychotic Depression
+50,6.7,Short/Short,Met/Met,Low Activity,13.2,21.26,2.6,18.1,65.7,6.68,CT,0.33,1.82,110.2,0.19,5,False
+37,4.5,Short/Long,Met/Met,High Activity,12.1,17.77,2.86,22.2,50.5,9.98,TT,0.27,2.28,170.5,0.62,13,Persistent Depressive Disorder
+66,6.3,Long/Long,Val/Met,High Activity,11.1,13.24,1.2,21.1,63.0,5.65,TT,0.55,2.79,120.5,0.92,11,False
+29,7.8,Long/Long,Met/Met,High Activity,19.6,17.44,3.6,16.8,62.6,7.99,TT,0.72,2.19,189.5,0.46,26,False
+64,5.7,Short/Short,Met/Met,High Activity,19.0,8.67,4.65,22.9,67.4,7.34,TT,0.99,2.4,192.9,0.1,21,False
+18,7.3,Long/Long,Val/Met,High Activity,16.8,16.24,-0.3,14.6,63.6,9.93,TT,0.13,3.35,197.6,0.46,25,False
+43,8.0,Short/Short,Val/Val,High Activity,23.8,7.5,1.62,11.4,55.7,7.71,TT,0.05,3.5,193.9,0.38,11,False
+31,8.6,Long/Long,Val/Val,High Activity,12.0,10.08,3.34,22.1,54.4,3.31,CT,0.69,1.42,127.2,0.58,7,False
+55,5.2,Short/Long,Val/Met,Low Activity,9.9,17.92,-1.69,11.6,48.7,9.64,TT,0.83,2.56,151.0,0.44,9,False
+54,6.0,Short/Short,Met/Met,High Activity,18.1,1.65,6.48,22.0,55.1,7.34,TT,0.85,3.96,117.5,0.02,15,False
+28,4.8,Short/Short,Val/Met,High Activity,9.0,24.01,1.58,6.3,61.8,2.47,TT,0.68,2.74,180.6,0.99,19,Seasonal Affective Disorder
+53,9.0,Short/Long,Val/Val,High Activity,11.3,19.17,1.12,14.9,68.8,7.26,CT,0.95,2.51,188.8,0.54,25,False
+30,8.6,Short/Short,Val/Val,High Activity,9.5,5.81,2.59,17.7,48.7,9.06,TT,0.51,3.16,185.1,0.47,7,Seasonal Affective Disorder
+60,6.7,Long/Long,Val/Met,Low Activity,6.4,26.99,3.27,8.8,52.9,6.62,CT,0.91,2.61,143.3,0.95,8,Persistent Depressive Disorder
+20,8.2,Long/Long,Val/Met,Low Activity,21.5,28.37,1.49,17.4,47.8,4.83,CC,0.97,2.85,175.9,0.16,12,False
+50,6.6,Short/Short,Val/Val,Low Activity,10.1,14.1,4.96,28.3,56.7,8.57,TT,0.85,2.39,109.8,0.19,19,Persistent Depressive Disorder
+23,7.1,Long/Long,Val/Met,Low Activity,14.5,10.37,3.8,11.1,55.2,8.26,CT,0.31,2.6,104.0,0.81,16,False
+67,4.4,Short/Short,Val/Val,Low Activity,5.9,23.43,1.33,17.6,30.7,6.35,CC,0.2,2.71,175.3,0.26,18,Seasonal Affective Disorder
+27,7.8,Short/Long,Val/Met,Low Activity,19.0,13.28,1.96,31.9,51.6,3.23,CT,0.55,2.93,142.5,0.8,16,Seasonal Affective Disorder
+22,4.6,Short/Short,Val/Met,High Activity,11.6,15.81,-0.03,12.6,33.5,4.01,CT,0.45,2.28,199.6,0.27,6,False
+40,8.1,Short/Long,Val/Met,Low Activity,19.9,21.09,0.49,29.8,31.1,7.91,CC,0.88,2.27,109.7,0.03,0,False
+27,7.9,Long/Long,Val/Val,Low Activity,13.2,14.23,3.78,18.0,61.6,8.45,TT,0.1,1.54,185.6,0.52,26,False
+61,7.5,Short/Long,Val/Met,High Activity,8.9,13.79,1.35,20.7,40.3,4.23,TT,0.26,2.31,148.0,0.2,19,False
+19,4.2,Long/Long,Val/Val,Low Activity,15.3,8.64,6.61,29.0,43.6,4.94,CT,0.75,2.98,182.7,0.76,13,Major Depressive Disorder
+30,5.5,Short/Short,Val/Val,High Activity,7.6,11.85,3.14,16.6,32.6,2.62,CC,0.09,2.73,181.7,0.64,16,Persistent Depressive Disorder
+57,5.3,Long/Long,Val/Met,High Activity,13.8,13.7,0.29,24.4,37.2,7.71,TT,0.32,2.0,191.6,0.92,12,Persistent Depressive Disorder
+19,5.8,Short/Short,Val/Met,Low Activity,11.3,8.81,0.71,26.2,60.6,2.03,CT,0.39,1.55,129.8,0.78,1,Major Depressive Disorder
+37,4.4,Short/Short,Val/Val,High Activity,23.2,9.26,5.11,15.4,49.7,2.37,CC,0.62,2.43,195.0,0.18,26,False
+18,8.7,Short/Long,Val/Val,Low Activity,6.2,15.17,2.85,14.7,65.2,2.03,CT,0.16,2.96,115.2,0.8,13,Psychotic Depression
+54,6.8,Short/Long,Met/Met,Low Activity,18.9,5.75,4.98,18.4,45.9,7.16,CC,0.86,2.26,108.2,0.64,0,Psychotic Depression
+26,5.5,Short/Long,Val/Val,High Activity,8.7,10.6,2.27,18.6,40.7,5.34,TT,0.45,1.78,143.2,0.67,4,False
+34,6.0,Short/Long,Met/Met,High Activity,11.4,24.72,1.88,12.4,43.9,4.38,TT,0.92,2.21,182.8,0.83,6,Psychotic Depression
+26,6.2,Long/Long,Met/Met,Low Activity,13.3,13.27,5.24,15.5,58.5,9.3,CT,0.47,2.66,147.3,0.57,18,False
+28,7.0,Long/Long,Met/Met,High Activity,23.2,12.65,1.28,-4.3,52.2,3.54,TT,0.28,3.12,182.9,0.47,13,False
+32,6.6,Long/Long,Val/Met,High Activity,9.9,13.25,3.98,17.7,66.2,5.11,TT,0.14,2.37,173.0,0.64,23,Psychotic Depression
+41,8.6,Short/Short,Val/Met,Low Activity,6.8,13.33,2.58,26.3,54.1,9.52,CC,0.0,3.03,120.9,0.3,13,False
+55,6.5,Long/Long,Val/Val,Low Activity,11.4,17.87,4.76,8.3,49.7,5.42,TT,0.53,2.97,194.9,0.18,14,False
+52,9.0,Long/Long,Met/Met,High Activity,7.1,17.52,6.64,16.8,61.4,6.44,CC,0.11,1.91,106.1,0.62,4,False
+47,8.3,Long/Long,Val/Met,Low Activity,7.6,13.05,2.22,37.1,67.9,2.64,CC,0.39,3.13,189.8,0.23,4,Seasonal Affective Disorder
+48,5.0,Short/Long,Val/Met,Low Activity,16.5,13.93,1.91,19.8,44.2,8.32,CT,0.59,2.65,130.4,0.08,20,Major Depressive Disorder
+66,8.7,Long/Long,Val/Met,Low Activity,6.2,21.56,4.33,29.5,40.0,5.38,CC,0.28,1.9,150.0,0.0,23,Persistent Depressive Disorder
+22,4.6,Short/Short,Val/Met,Low Activity,5.6,7.45,0.84,12.9,54.6,8.4,TT,0.18,3.38,142.2,0.61,1,False
+61,8.1,Short/Long,Val/Met,Low Activity,19.3,14.71,6.23,23.1,50.0,4.03,CC,0.77,2.44,117.2,0.36,17,Atypical Depression
+67,5.9,Short/Short,Met/Met,Low Activity,12.2,15.68,5.89,11.7,69.6,5.38,CC,0.95,1.53,135.8,0.75,23,False
+31,8.4,Long/Long,Met/Met,Low Activity,7.5,11.12,1.0,22.8,48.5,8.29,CT,0.1,2.15,119.3,0.38,8,False
+28,8.3,Short/Long,Met/Met,High Activity,10.1,14.42,-0.17,25.9,33.0,9.79,TT,0.16,2.02,120.4,0.49,26,False
+26,8.0,Short/Short,Met/Met,Low Activity,17.8,10.44,0.68,24.2,69.1,2.48,TT,0.96,2.16,118.7,0.41,9,False
+51,8.0,Long/Long,Val/Val,High Activity,10.5,18.19,0.71,17.6,63.7,8.5,TT,0.04,2.28,148.9,0.65,25,Atypical Depression
+29,5.5,Short/Short,Met/Met,High Activity,14.9,8.31,4.6,21.9,37.1,4.41,CC,0.98,2.37,179.8,0.36,17,Psychotic Depression
+52,4.4,Short/Short,Val/Met,High Activity,7.4,20.31,6.1,22.0,66.2,6.41,TT,0.0,2.35,156.9,0.96,3,Seasonal Affective Disorder
+52,6.0,Short/Short,Met/Met,Low Activity,16.8,14.63,4.58,24.7,43.6,4.32,TT,0.87,2.45,189.3,0.94,7,Psychotic Depression
+18,4.9,Long/Long,Val/Val,Low Activity,11.3,12.76,2.53,19.1,45.1,6.91,CC,0.31,2.79,163.7,0.85,17,False
+57,7.5,Long/Long,Val/Met,High Activity,17.5,9.98,3.68,26.5,66.3,4.83,CT,0.94,2.13,168.9,0.92,19,Psychotic Depression
+39,5.7,Short/Short,Met/Met,Low Activity,21.2,20.15,1.26,30.0,51.2,4.67,CT,0.32,3.09,166.8,0.45,25,Seasonal Affective Disorder
+46,8.9,Short/Long,Met/Met,High Activity,17.2,11.74,5.19,17.8,35.5,2.3,CC,0.65,1.89,144.9,0.54,16,False
+25,7.2,Short/Long,Met/Met,Low Activity,10.9,9.16,3.86,20.3,44.8,3.18,CT,0.08,2.81,168.9,0.74,15,False
+28,8.1,Long/Long,Val/Met,Low Activity,10.1,20.26,4.55,13.7,58.9,9.34,CT,0.24,3.32,107.0,0.7,17,Psychotic Depression
+58,4.7,Long/Long,Val/Met,High Activity,11.5,10.48,1.54,22.4,37.0,9.99,CT,0.77,2.41,186.0,0.89,6,Psychotic Depression
+54,8.3,Long/Long,Val/Val,High Activity,8.3,14.53,2.66,22.4,53.6,8.24,TT,0.53,2.6,177.8,0.72,0,Seasonal Affective Disorder
+31,8.6,Long/Long,Val/Met,High Activity,8.6,19.09,4.45,20.4,57.8,4.29,CT,0.93,2.02,124.5,1.0,0,False
+47,6.4,Long/Long,Val/Met,Low Activity,20.8,15.79,5.89,20.9,43.8,5.22,TT,0.43,2.24,176.8,0.35,17,Atypical Depression
+52,7.0,Short/Long,Met/Met,High Activity,12.7,23.65,1.78,33.5,57.8,7.92,CT,0.87,3.28,101.3,0.83,3,False
+38,7.8,Long/Long,Val/Met,Low Activity,13.7,10.83,4.56,-0.2,65.4,9.75,TT,0.45,2.87,121.7,0.7,22,False
+54,4.9,Short/Short,Met/Met,Low Activity,16.9,13.95,1.58,16.5,48.9,5.64,CC,0.98,2.71,106.5,0.69,19,Major Depressive Disorder
+22,6.5,Short/Short,Met/Met,Low Activity,16.8,14.33,7.23,17.6,45.3,8.64,CC,0.96,1.53,178.0,0.33,20,False
+36,6.0,Short/Long,Val/Met,High Activity,6.3,18.11,2.17,30.2,40.0,9.8,CT,0.33,2.14,175.6,0.79,19,Atypical Depression
+31,4.7,Short/Short,Val/Val,High Activity,21.6,21.44,4.29,23.3,54.2,8.99,TT,0.89,3.37,181.4,0.9,3,False
+43,5.8,Short/Long,Val/Val,High Activity,8.5,15.37,3.33,23.5,65.2,3.82,CC,0.85,2.71,100.4,0.22,24,Major Depressive Disorder
+21,4.3,Short/Long,Val/Met,Low Activity,19.5,14.31,8.21,28.8,43.0,2.06,CC,0.21,2.77,150.1,0.63,5,False
+42,4.1,Short/Short,Val/Val,Low Activity,20.5,7.59,3.46,18.7,45.8,5.94,CC,0.62,2.59,170.5,0.39,2,Major Depressive Disorder
+62,4.7,Long/Long,Met/Met,High Activity,19.3,15.56,1.97,24.6,46.3,6.25,CC,0.07,2.19,115.5,0.99,5,Atypical Depression
+59,8.8,Short/Short,Met/Met,Low Activity,16.6,11.75,4.28,16.3,52.4,3.61,CT,0.84,2.67,165.0,0.48,12,False
+42,6.7,Short/Short,Val/Met,Low Activity,5.3,18.09,4.23,12.6,39.1,4.28,TT,0.17,1.73,108.4,0.23,22,Psychotic Depression
+35,8.8,Short/Long,Val/Val,High Activity,12.2,12.95,2.69,32.6,62.9,8.12,CC,0.07,1.7,118.1,0.38,6,Major Depressive Disorder
+57,6.2,Short/Short,Val/Val,High Activity,17.1,13.8,0.81,22.6,41.8,5.76,CT,0.4,2.13,147.6,0.65,23,Major Depressive Disorder
+25,5.6,Short/Long,Met/Met,High Activity,12.7,7.7,1.94,24.5,58.2,4.54,CC,0.58,2.6,165.4,0.08,3,Psychotic Depression
+56,6.5,Long/Long,Val/Met,Low Activity,22.3,5.94,4.76,12.4,50.5,6.98,CC,0.85,1.72,114.6,0.6,0,False
+57,6.2,Long/Long,Val/Val,Low Activity,11.2,24.3,-0.49,23.6,53.4,7.22,CC,0.97,2.56,118.5,0.93,5,False
+31,4.5,Long/Long,Val/Met,Low Activity,10.9,15.65,2.5,32.4,37.2,8.16,CC,0.44,2.0,120.4,0.85,23,Major Depressive Disorder
+49,7.2,Short/Short,Val/Val,Low Activity,10.3,17.02,4.99,18.1,59.4,3.25,CT,0.06,2.07,123.9,0.07,4,Seasonal Affective Disorder
+68,5.1,Short/Long,Met/Met,Low Activity,11.7,10.44,2.81,11.2,37.5,7.93,TT,0.75,3.15,122.7,0.99,12,False
+55,7.1,Long/Long,Met/Met,High Activity,16.1,19.38,7.35,21.3,34.5,6.8,CT,0.57,2.52,139.5,0.7,18,Atypical Depression
+50,7.3,Short/Long,Val/Met,Low Activity,19.1,18.48,-0.49,12.7,51.9,2.46,CT,0.45,2.05,165.4,0.16,3,False
+40,4.8,Short/Long,Met/Met,Low Activity,18.3,10.99,1.08,9.1,58.4,8.22,CT,0.31,2.59,143.8,0.01,23,False
+32,4.3,Long/Long,Val/Val,Low Activity,21.2,9.7,-1.63,14.9,32.0,5.06,CC,0.5,1.77,177.6,0.17,5,Seasonal Affective Disorder
+50,7.9,Long/Long,Met/Met,High Activity,22.7,11.34,6.99,16.6,32.8,4.64,TT,0.34,2.69,171.9,0.84,12,Seasonal Affective Disorder
+42,6.3,Short/Long,Val/Met,High Activity,21.3,14.86,1.11,13.1,62.1,5.58,CC,0.76,3.05,112.7,0.02,4,False
+34,4.3,Long/Long,Val/Met,High Activity,5.4,15.84,-0.97,29.3,62.4,4.77,CT,0.54,2.83,104.9,0.23,12,Psychotic Depression
+50,9.0,Short/Long,Val/Met,Low Activity,19.7,15.19,1.78,33.2,39.8,4.71,CC,0.88,3.58,187.8,0.76,24,False
+64,4.3,Short/Long,Val/Val,High Activity,9.2,21.49,0.21,24.3,54.6,8.46,TT,0.54,1.53,108.0,0.59,9,False
+19,7.5,Long/Long,Val/Val,High Activity,7.7,11.43,1.79,22.7,47.7,3.0,TT,0.24,2.56,114.8,0.78,2,Major Depressive Disorder
+31,8.9,Short/Short,Val/Val,High Activity,17.8,9.57,3.08,19.0,55.3,9.76,CC,0.85,1.83,102.2,0.75,22,Psychotic Depression
+57,5.2,Long/Long,Val/Val,Low Activity,11.4,15.0,4.61,13.7,64.5,6.44,CT,0.56,2.41,162.8,0.05,24,Major Depressive Disorder
+57,4.7,Short/Short,Val/Val,High Activity,6.1,6.53,2.65,31.2,33.2,3.46,CC,0.21,2.5,158.2,0.89,26,False
+68,4.6,Short/Long,Met/Met,Low Activity,7.8,18.48,3.05,19.6,61.1,3.05,CT,0.62,3.64,198.7,0.23,12,Seasonal Affective Disorder
+56,5.5,Short/Long,Val/Val,Low Activity,5.0,15.49,1.84,16.8,49.7,6.73,TT,0.36,2.47,188.7,0.55,26,Psychotic Depression
+68,4.5,Short/Short,Val/Val,High Activity,23.1,13.31,-0.02,27.1,52.6,7.06,CC,0.84,2.46,141.1,0.64,11,Persistent Depressive Disorder
+23,7.5,Short/Long,Met/Met,Low Activity,5.5,13.03,-0.69,19.5,56.2,2.42,TT,0.45,3.0,137.2,0.17,3,Seasonal Affective Disorder
+23,4.3,Short/Short,Val/Val,High Activity,9.2,19.55,2.27,26.8,66.9,3.94,CT,0.73,2.47,129.7,0.98,9,Persistent Depressive Disorder
+20,6.5,Short/Short,Val/Met,Low Activity,13.3,19.39,3.17,17.1,32.3,8.36,CT,0.1,3.42,115.2,0.49,25,Psychotic Depression
+24,9.0,Short/Long,Val/Val,High Activity,12.1,13.77,2.12,27.1,31.2,2.4,CC,0.4,2.83,113.8,0.06,2,Seasonal Affective Disorder
+68,8.1,Short/Short,Val/Val,High Activity,23.2,17.96,-0.62,26.9,37.1,8.84,CC,0.98,2.91,113.2,0.94,16,Atypical Depression
+25,7.1,Long/Long,Val/Met,High Activity,5.8,19.32,3.4,29.3,69.5,7.27,CC,0.81,1.57,111.4,0.59,8,False
+59,5.5,Long/Long,Val/Met,Low Activity,15.2,16.68,6.26,15.0,58.6,5.48,TT,0.16,3.49,124.1,0.7,0,Major Depressive Disorder
+69,7.1,Short/Long,Val/Met,High Activity,18.6,13.97,2.77,19.4,54.6,4.77,CT,0.28,2.17,130.7,0.53,17,Major Depressive Disorder
+32,6.6,Short/Long,Val/Met,Low Activity,23.6,16.91,1.84,33.6,31.9,2.15,CT,0.33,2.5,196.2,0.83,8,Psychotic Depression
+64,6.1,Short/Short,Val/Val,High Activity,17.4,9.8,2.88,18.3,65.2,8.6,TT,0.65,2.17,157.8,0.03,20,Seasonal Affective Disorder
+46,4.7,Short/Short,Val/Met,Low Activity,21.1,15.36,0.79,25.7,62.5,3.14,CC,0.76,1.99,198.8,0.27,19,Atypical Depression
+50,8.4,Short/Short,Val/Met,Low Activity,6.7,13.83,0.66,36.0,56.6,4.48,CC,0.75,1.9,137.2,0.47,24,False
+69,6.2,Short/Short,Met/Met,High Activity,12.7,13.05,3.9,7.1,43.6,6.55,TT,0.51,2.55,145.8,0.08,8,Persistent Depressive Disorder
+47,5.0,Long/Long,Val/Met,High Activity,12.5,6.37,4.98,18.0,32.8,3.97,CT,0.81,1.52,132.5,0.71,1,Psychotic Depression
+56,5.8,Long/Long,Val/Met,High Activity,22.7,9.86,2.71,20.0,53.2,5.98,CT,0.44,2.38,118.3,0.39,18,Atypical Depression
+44,6.1,Short/Long,Met/Met,High Activity,8.0,12.57,-0.95,7.4,58.8,8.47,CT,0.12,3.03,114.3,0.27,15,False
+53,8.1,Short/Short,Met/Met,High Activity,8.0,19.48,3.71,16.8,33.8,5.76,CT,0.56,2.82,194.5,0.0,2,False
+46,7.7,Short/Short,Val/Val,Low Activity,11.6,16.43,7.13,13.2,55.4,9.59,TT,0.95,2.72,198.7,0.72,15,Atypical Depression
+55,7.8,Short/Long,Met/Met,High Activity,6.1,19.7,2.51,26.0,41.5,8.78,CT,0.79,2.05,104.5,0.83,20,False
+50,4.1,Short/Short,Val/Val,High Activity,8.6,21.21,2.64,7.9,60.6,4.66,TT,0.58,1.71,115.0,0.4,12,False
+54,6.1,Short/Short,Met/Met,Low Activity,24.3,16.65,1.25,33.2,51.6,5.2,CC,0.65,3.02,142.4,0.56,2,False
+44,6.4,Short/Short,Met/Met,High Activity,13.6,15.7,3.96,24.8,35.2,5.39,TT,0.93,2.28,118.6,0.23,9,Persistent Depressive Disorder
+50,4.1,Short/Short,Val/Val,High Activity,17.6,10.14,1.66,12.6,51.1,7.01,CT,0.43,2.46,136.4,0.62,21,False
+21,5.3,Short/Short,Met/Met,Low Activity,19.5,24.93,5.04,27.2,45.8,4.29,CC,0.33,2.4,112.9,0.01,17,False
+39,7.8,Short/Long,Val/Val,High Activity,12.3,7.91,1.68,24.2,37.2,9.75,TT,0.98,2.84,145.7,0.49,5,Seasonal Affective Disorder
+19,4.7,Short/Short,Met/Met,High Activity,7.9,15.59,3.68,19.7,63.7,6.87,TT,0.86,3.42,127.2,0.64,5,Psychotic Depression
+27,6.7,Short/Long,Val/Met,High Activity,9.1,19.16,2.91,14.9,30.4,5.2,TT,0.32,3.23,135.2,0.92,17,Psychotic Depression
+22,5.1,Short/Short,Met/Met,Low Activity,11.3,19.23,6.11,23.8,42.5,7.16,CC,0.46,1.33,109.4,0.38,5,False
+27,4.1,Long/Long,Val/Val,High Activity,17.7,9.22,3.82,20.9,30.5,5.16,TT,0.42,2.35,142.8,0.77,5,False
+50,5.2,Long/Long,Met/Met,Low Activity,13.0,12.9,5.77,15.2,33.8,8.54,CT,0.15,1.83,198.3,0.6,21,Atypical Depression
+55,8.9,Long/Long,Val/Val,High Activity,5.1,11.01,3.22,10.6,41.9,6.54,CC,0.96,2.97,132.9,0.93,12,Psychotic Depression
+30,8.0,Long/Long,Val/Val,Low Activity,15.5,5.1,2.66,14.0,32.2,2.34,CC,0.4,2.5,187.6,0.4,13,Psychotic Depression
+48,8.8,Short/Long,Val/Met,High Activity,23.4,15.65,2.92,16.5,53.9,3.41,TT,0.88,2.8,184.3,0.32,20,Atypical Depression
+64,6.4,Short/Long,Val/Met,Low Activity,21.2,11.41,1.46,28.1,33.5,8.92,CT,0.19,2.3,195.2,0.89,6,Atypical Depression
+53,4.5,Short/Short,Val/Val,Low Activity,21.5,22.53,4.06,26.0,58.1,6.5,CC,0.55,1.98,179.0,0.05,12,Atypical Depression
+62,6.7,Long/Long,Met/Met,Low Activity,20.9,18.08,1.62,16.8,32.1,9.6,TT,0.02,2.07,166.0,0.14,14,False
+41,6.3,Short/Long,Val/Val,Low Activity,11.5,15.21,3.22,17.1,32.4,2.58,CT,0.76,1.73,185.7,0.08,11,False
+69,8.2,Short/Short,Val/Val,Low Activity,20.3,12.64,4.71,26.9,42.2,4.36,TT,0.58,1.87,107.6,0.84,20,Major Depressive Disorder
+32,4.5,Short/Short,Met/Met,Low Activity,7.9,15.58,6.17,21.9,65.9,3.55,TT,0.63,1.76,146.3,0.01,26,False
+46,6.4,Short/Long,Met/Met,High Activity,18.2,13.72,3.33,21.8,55.7,6.43,CC,0.05,1.98,198.9,0.86,0,False
+25,4.8,Long/Long,Met/Met,High Activity,17.8,15.35,4.72,15.1,60.8,5.06,CC,0.21,1.95,177.0,0.45,24,Atypical Depression
+22,5.6,Short/Short,Met/Met,Low Activity,5.5,24.51,4.48,19.1,35.7,3.26,TT,0.07,2.7,196.2,0.0,2,Major Depressive Disorder
+46,7.7,Long/Long,Val/Val,Low Activity,20.8,9.68,2.24,20.0,63.4,7.14,CC,0.29,2.68,178.0,0.4,17,Persistent Depressive Disorder
+64,6.4,Long/Long,Val/Val,Low Activity,23.1,14.16,7.22,19.4,30.3,6.29,CC,0.63,2.7,187.5,0.19,25,Atypical Depression
+21,5.9,Long/Long,Val/Met,Low Activity,10.3,18.53,1.85,25.1,38.5,4.2,CT,0.57,3.09,170.7,0.62,21,Psychotic Depression
+29,6.0,Short/Short,Val/Val,High Activity,21.2,13.0,3.18,25.4,54.6,5.84,CT,0.61,2.46,176.1,0.68,7,False
+62,6.3,Long/Long,Met/Met,Low Activity,6.6,22.9,5.91,13.6,45.0,7.97,TT,0.55,2.11,152.3,0.49,1,False
+19,7.9,Short/Short,Val/Met,High Activity,17.0,18.39,5.86,16.5,69.4,3.64,TT,0.27,3.61,192.4,0.04,3,Major Depressive Disorder
+44,8.5,Long/Long,Met/Met,High Activity,14.7,11.41,3.03,15.2,31.2,4.34,TT,0.24,2.95,182.5,0.66,17,Major Depressive Disorder
+48,8.8,Short/Short,Val/Val,Low Activity,15.9,16.02,4.98,29.7,69.9,4.77,TT,0.14,2.58,184.4,0.84,24,False
+68,7.9,Long/Long,Val/Met,Low Activity,23.5,11.48,2.55,35.8,54.9,7.97,CT,0.85,2.54,167.3,0.72,25,False
+68,5.6,Short/Long,Met/Met,High Activity,22.4,11.02,2.02,16.8,52.3,8.78,CC,0.62,2.64,130.5,0.83,12,False
+53,7.4,Long/Long,Val/Met,High Activity,20.7,14.3,0.57,18.8,32.4,5.01,CT,0.19,2.4,103.6,0.2,14,Major Depressive Disorder
+53,6.2,Long/Long,Val/Met,Low Activity,10.5,21.32,4.45,25.9,40.9,4.37,TT,0.18,2.56,193.6,0.89,1,False
+43,5.3,Short/Short,Val/Val,Low Activity,23.2,18.73,4.66,15.0,67.0,9.12,TT,0.87,2.75,158.6,0.32,9,Persistent Depressive Disorder
+60,8.2,Short/Short,Met/Met,Low Activity,7.0,14.89,1.86,26.1,44.2,9.99,CT,0.74,2.14,129.8,0.01,1,Major Depressive Disorder
+44,4.2,Long/Long,Val/Met,High Activity,22.1,18.91,3.54,19.9,56.5,7.36,CT,0.66,1.68,114.9,0.84,20,Atypical Depression
+22,8.5,Short/Long,Val/Met,High Activity,11.6,16.34,8.3,7.8,70.0,9.92,TT,0.41,1.46,183.0,0.94,11,False
+37,6.3,Short/Long,Met/Met,Low Activity,6.1,9.15,5.29,10.9,40.5,7.28,CC,0.26,2.94,183.7,0.66,4,Persistent Depressive Disorder
+28,7.2,Short/Short,Val/Met,High Activity,18.4,14.27,1.2,17.6,53.0,7.87,TT,0.98,1.71,181.5,0.23,11,False
+27,7.3,Short/Long,Val/Met,High Activity,9.6,14.63,5.0,28.6,57.9,5.11,CT,0.8,2.73,164.5,0.25,22,False
+57,8.5,Long/Long,Val/Met,Low Activity,9.9,18.81,1.21,13.8,36.6,5.46,TT,0.3,1.92,136.6,0.47,0,False
