@@ -5,6 +5,7 @@ NeuroWell Predict is an advanced AI-powered mental health assessment system desi
 ## Video: I have attached the video for your refrence in the current repository
 
 ## Working :
+
 1) Download all the contents or fork these repository
 2) Install all the mentioned frameworks and libraries from requirements.txt file
 3) Run app.py
@@ -74,8 +75,11 @@ NeuroWell Predict is an advanced AI-powered mental health assessment system desi
 ## 🔐 Security and Ethics
 
 - **Data Privacy:** All user and genetic data is stored securely and encrypted.
+  
 - **Consent:** Users must provide explicit consent before analysis.
+  
 - **Hashing:** Passwords are never stored in plain text. A hashing algorithm (e.g., bcrypt) secures user credentials.
+  
 - **Ethics:** The system is designed to respect user privacy and avoid discrimination.
 
 ---
