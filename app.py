@@ -10,25 +10,26 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak
 import os
 from werkzeug.security import generate_password_hash, check_password_hash
 import json
-from bson.objectid import ObjectId
-from pymongo import MongoClient
-import pandas as pd
-import bcrypt
+import uuid
 from datetime import datetime
+import bcrypt
 
 app = Flask(__name__)
 app.secret_key = 'testkey'  # Replace with a strong secret key
 
-# MongoDB Atlas connection
-import certifi
-client = MongoClient(
-    "mongodb+srv://MindGenAI:mindgenai%402025@redrobin.th7bmpb.mongodb.net/mindgenai?retryWrites=true&w=majority",
-    tlsCAFile=certifi.where()
-)
-db = client['mindgenai']
-users_collection = db['users']
+# Local JSON file storage
+USERS_FILE = 'users.json'
+RESULTS_FILE = 'results.json'
 
+def read_json(filename):
+    if os.path.exists(filename):
+        with open(filename, 'r') as f:
+            return json.load(f)
+    return []
 
+def write_json(filename, data):
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=4)
 
 # Load models and metadata at startup
 try:
@@ -63,22 +64,25 @@ def register():
             flash('Passwords do not match', 'danger')
             return redirect(url_for('register'))
             
-        existing_user = users_collection.find_one({'username': username})
+        users = read_json(USERS_FILE)
+        existing_user = next((user for user in users if user['username'] == username), None)
         if existing_user:
             flash('Username already exists', 'danger')
             return redirect(url_for('register'))
             
         hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
         
-        # FIXED: Proper collection reference
-        users_collection.insert_one({
+        users.append({
+            'id': str(uuid.uuid4()),
             'name': name,
             'username': username,
-            'password': hashed_password,
+            'password': hashed_password.decode('utf-8'),
             'security_question': security_question,
             'security_answer': security_answer,
-            'created_at': datetime.utcnow()
+            'created_at': datetime.utcnow().isoformat()
         })
+        
+        write_json(USERS_FILE, users)
         flash('Registration successful! Please log in.', 'success')
         return redirect(url_for('login'))
         
@@ -94,12 +98,12 @@ def login():
             flash('Invalid login attempt.', 'danger')
             return redirect(url_for('login'))
 
-        user = users_collection.find_one({'username': username})
+        users = read_json(USERS_FILE)
+        user = next((user for user in users if user['username'] == username), None)
         if user:
-            # FIXED: Proper bcrypt password check
-            if bcrypt.checkpw(password.encode('utf-8'), user['password']):
+            if bcrypt.checkpw(password.encode('utf-8'), user['password'].encode('utf-8')):
                 session['username'] = username
-                session['user_id'] = str(user['_id'])
+                session['user_id'] = user['id']
                 flash('Login successful!', 'success')
                 return redirect(url_for('dashboard'))
             else:
@@ -121,25 +125,28 @@ def logout():
 def forgotpass():
     if request.method == 'POST':
         username = request.form['username']
-        security_answer = request.form['security_answer'].lower()  # Convert to lowercase
+        security_answer = request.form['security_answer'].lower()
         new_password = request.form['new_password']
-        confirm_password = request.form['confirm_password']  # Add this field in HTML
+        confirm_password = request.form['confirm_password']
 
-        # Check if passwords match
         if new_password != confirm_password:
             flash('Passwords do not match!', 'danger')
             return redirect(url_for('forgotpass'))
             
-        user = db['users'].find_one({'username': username})
+        users = read_json(USERS_FILE)
+        user = next((user for user in users if user['username'] == username), None)
         if user:
-            # Compare security answers (case-insensitive)
             if security_answer == user['security_answer']:
-                # Hash the new password
                 hashed_password = bcrypt.hashpw(new_password.encode('utf-8'), bcrypt.gensalt())
-                db['users'].update_one(
-                    {'username': username},
-                    {'$set': {'password': hashed_password}}
-                )
+                user['password'] = hashed_password.decode('utf-8')
+                
+                # Update user in the list
+                for i, u in enumerate(users):
+                    if u['username'] == username:
+                        users[i] = user
+                        break
+                
+                write_json(USERS_FILE, users)
                 flash('Password updated successfully! Please log in.', 'success')
                 return redirect(url_for('login'))
             else:
@@ -156,7 +163,14 @@ def previous_reports():
         return redirect(url_for('login'))
     
     # Get all reports for current user
-    reports = list(db['results'].find({'username': session['username']}).sort('timestamp', -1))
+    results = read_json(RESULTS_FILE)
+    reports = [r for r in results if r['username'] == session['username']]
+    
+    # Convert timestamp strings to datetime objects for sorting
+    for report in reports:
+        report['timestamp'] = datetime.fromisoformat(report['timestamp'])
+    
+    reports.sort(key=lambda x: x['timestamp'], reverse=True)
     
     return render_template('previous_reports.html', reports=reports)
 
@@ -167,8 +181,8 @@ def view_report(report_id):
         return redirect(url_for('login'))
     
     try:
-        # Convert to ObjectId
-        report = db['results'].find_one({'_id': ObjectId(report_id), 'username': session['username']})
+        results = read_json(RESULTS_FILE)
+        report = next((r for r in results if r['id'] == report_id and r['username'] == session['username']), None)
         
         if not report:
             flash('Report not found or you dont have access', 'danger')
@@ -179,7 +193,7 @@ def view_report(report_id):
             "BipolarDisorder": report['BipolarDisorder'],
             "Anxiety": report['Anxiety'],
             "Report": report['Report'],
-            "timestamp": report['timestamp']
+            "timestamp": datetime.fromisoformat(report['timestamp'])
         }
         
         return render_template('output.html', results=results_data)
@@ -193,7 +207,6 @@ def view_report(report_id):
 def dashboard():
     if 'user_id' not in session:
         return redirect(url_for('login'))
-    # Fetch user's previous tests if needed
     return render_template('dashboard.html')
 
 @app.route('/analyze', methods=['GET', 'POST'])
@@ -256,10 +269,10 @@ def analyze():
                 "Genotype_5HTTLPR": request.form['genotype_5httlpr'],
                 "Genotype_COMT": request.form['genotype_comt'],
                 "Genotype_MAOA": request.form['genotype_maoa'],
-                "Cortisol": shared_inputs["Cortisol"],  # Use numerical cortisol from shared
-                "Alpha_Amylase": float(request.form['alpha_amylase']),  # Fixed field name
+                "Cortisol": shared_inputs["Cortisol"],
+                "Alpha_Amylase": float(request.form['alpha_amylase']),
                 "HRV (Heart Rate Variability)": float(request.form['HRV']),
-                "GABA": float(request.form['gaba']),  # Fixed field name (was 'gba')
+                "GABA": float(request.form['gaba']),
                 "IL6": float(request.form['IL6']), 
                 "TNF_alpha": float(request.form['TNF_alpha']),
                 "Tryptophan": float(request.form['tryptophan']),
@@ -300,22 +313,25 @@ def analyze():
                 "Report": report
             }
 
-            # Save results to MongoDB
-            db['results'].insert_one({
+            # Save results to JSON file
+            results = read_json(RESULTS_FILE)
+            results.append({
+                'id': str(uuid.uuid4()),
                 'username': session['username'],
-                'timestamp': datetime.utcnow(),
+                'timestamp': datetime.utcnow().isoformat(),
                 'Depression': depression_pred,
                 'BipolarDisorder': bipolar_pred,
                 'Anxiety': anxiety_pred,
                 'Report': report
             })
+            write_json(RESULTS_FILE, results)
                         
             return redirect(url_for('results'))
             
         except Exception as e:
             flash(f"Error processing your data: {str(e)}", "error")
             import traceback
-            traceback.print_exc()  # Add this for better error logging
+            traceback.print_exc()
             return redirect(url_for('analyze'))
     
     return render_template('analysis.html')
@@ -325,7 +341,10 @@ def results():
     if 'username' not in session:
         return redirect(url_for('login'))
     
-    user_results = list(db['results'].find({'username': session['username']}).sort('timestamp', -1))
+    results_data = read_json(RESULTS_FILE)
+    user_results = [r for r in results_data if r['username'] == session['username']]
+    user_results.sort(key=lambda x: x['timestamp'], reverse=True)
+    
     if not user_results:
         flash('No available data!', 'info')
         return render_template('output.html', results=None)
@@ -337,7 +356,7 @@ def results():
         "BipolarDisorder": latest_result['BipolarDisorder'],
         "Anxiety": latest_result['Anxiety'],
         "Report": latest_result['Report'],
-        "timestamp": latest_result['timestamp']  # Add timestamp
+        "timestamp": datetime.fromisoformat(latest_result['timestamp'])
     }
 
     return render_template('output.html', results=results_data)
