@@ -317,21 +317,14 @@
               <p><strong>Bipolar Disorder:</strong> {{ report.BipolarDisorder }}</p>
               <p><strong>Anxiety:</strong> {{ report.Anxiety }}</p>
             </div>
-            <a href="{{ url_for('view_report', report_id=report._id) }}" class="btn">
+            <a href="{{ url_for('view_report', report_id=report.id) }}" class="btn">
               View Full Report
             </a>
           </div>
           {% endfor %}
         </div>
       {% else %}
-        <div class="empty-state">
-          <div style="width: 100px; height: 100px; background: linear-gradient(to right, var(--primary), var(--secondary)); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; color: white; font-size: 2.5rem;">
-            <i class="fas fa-file-alt"></i>
-          </div>
-          <h2>No Reports Available</h2>
-          <p>You haven't completed any mental health analyses yet.</p>
-          <a href="{{ url_for('analyze') }}" class="btn">Start New Analysis</a>
-        </div>
+        <!-- ... empty state content ... -->
       {% endif %}
     </div>
   </main>
